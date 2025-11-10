@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, Users, Sparkles } from "lucide-react";
+import { Calendar, Clock, Sparkles } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/new-years-eve-hero.jpg";
 
@@ -49,7 +49,7 @@ const NewYearsEve = () => {
         {/* Event Details */}
         <section className="section-padding bg-mediterranean-cream/90 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="text-center p-6 bg-white/50 rounded-lg shadow-md">
                 <Calendar className="w-12 h-12 mx-auto mb-4 text-cafe-logoRed" />
                 <h3 className="font-playfair text-2xl font-bold text-black mb-2">Date</h3>
@@ -60,12 +60,6 @@ const NewYearsEve = () => {
                 <Clock className="w-12 h-12 mx-auto mb-4 text-cafe-logoRed" />
                 <h3 className="font-playfair text-2xl font-bold text-black mb-2">Time</h3>
                 <p className="text-black text-xl font-semibold">7:00 PM - 1:00 AM</p>
-              </div>
-              
-              <div className="text-center p-6 bg-white/50 rounded-lg shadow-md">
-                <Users className="w-12 h-12 mx-auto mb-4 text-cafe-logoRed" />
-                <h3 className="font-playfair text-2xl font-bold text-black mb-2">Seating</h3>
-                <p className="text-black text-xl font-semibold">Limited Availability</p>
               </div>
             </div>
 
