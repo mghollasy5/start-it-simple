@@ -5,6 +5,7 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, Users, Sparkles } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   const navigate = useNavigate();
@@ -24,8 +25,16 @@ const NewYearsEve = () => {
         <Navbar />
         
         {/* Hero Section */}
-        <section className="section-padding mt-20 bg-cafe-logoRed/95 backdrop-blur-sm">
-          <div className="max-w-7xl mx-auto text-center">
+        <section 
+          className="section-padding mt-20 relative overflow-hidden"
+          style={{
+            backgroundImage: `url(${heroImage})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+          <div className="max-w-7xl mx-auto text-center relative z-10">
             <Sparkles className="w-16 h-16 mx-auto mb-6 text-cafe-gold" />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white mb-6">
               New Year's Eve Celebration
