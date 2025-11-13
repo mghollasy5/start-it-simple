@@ -26,9 +26,9 @@ export const AppetizersTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Appetizers</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Spinash"
-        price="$8.99"
-        description="Traditional Middle Eastern dip made from chickpeas, tahini, lemon juice, and garlic. Served with warm pita bread."
+        name="Spinash and Artichoke Dip"
+        price="$14.99"
+        description="Traditional tangy hot spinach and artichoke cheese dip. Served with house chips."
       />
       
       <MenuItem 
