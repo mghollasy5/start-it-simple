@@ -257,40 +257,116 @@ export const SpecialtiesTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">House Specialties</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Rack of Lamb"
-        price="$42.99"
-        description="New Zealand lamb rack marinated in rosemary and garlic, grilled to perfection. Served with roasted potatoes and seasonal vegetables."
+        name="Moussaka"
+        price="$26.99"
+        description="One of the most famous Mediterranean dishes.
+        Layers of eggplant, seasoned ground beef and potato crowned with our special cream sauce. Sprinkled with parmesan and baked in our Wood Stone oven."
       />
       
+      <MenuItem 
+        name="Souvlaki (Shish Kabab)"
+        price="Beef tenderloin: $25.99 Lamb: $27.99"
+        description="Thick chunks of marinated meat seasoned and broiled over an open fire.
+                      Served with saffron basmati rice and fresh steamed vegetables."
+      />
+      
+      <MenuItem 
+        name="Pappersteak Bourguignon"
+        price="$29.99"
+        description="Marinated beef tenderloin chunks in red wine & herbs. Sautéed & braised with mushrooms, peppers & shallots until tender. Served with our garlic potato purée."
+      />
+      
+      <MenuItem 
+        name="Beef and Lamb Gyro Platter"
+        price="$23.99"
+        description="Sliced seasoned beef and lamb cooked on our rotisserie. Garnished with onions, tomato, kalamata olives and our special cucumber dill sauce. Served with saffron basmati rice and pita bread."
+      />
+      
+      <MenuItem 
+        name="Paella Valenciana"
+        price="$29.99"
+        description="A popular Spanish dish with sautéed chicken, chorizo sausage and a medley of vegetables. Overflows with shrimp, mussels and scallops on a bed of saffron basmati rice."
+      />
+      
+      <MenuItem 
+        name="Osso Bucco"
+        price="MP"
+        description="Slowly roasted veal shank braised with marsala wine and an array of vegetables. Served over risotto milanese and gremolata."
+      />
+
+      <MenuItem 
+        name="New Zealand Rack of Lamb"
+        price="MP"
+        description="Ginger herb and roasted garlic crusted rack of lamb with rosemary-mint vegetables and infused with shiraz demi glaze. Served with sweet potato puree."
+      />
+
+      <MenuItem 
+        name="Lamb Shank"
+        price="MP"
+        description="A whole tender lamb shank braised with red wine and garlic. Served with saffron dill rice."
+      />
+
+      <MenuItem 
+        name="Pork Tomahawk"
+        price="MP"
+        description="Grilled 16 oz pork tomahawk served with potato purée, vegetables and maple bourbon reductio."
+      />
+
+       <MenuItem 
+        name="Moroccan Lamb"
+        price="MP"
+        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
+      />
+
+      <MenuItem 
+        name="Moroccan Tagine"
+        price="Beef: $28.99 Lamb: $29.99 Chicken: $27.99 Shrimp: $31.99"
+        description="A popular Casablanca style stew of selected meat braised with onions, tomatoes, cumin, green olives and ginger.
+        Finished with a saffron harisa sauce reduction over your choice of Moroccan couscous or basmati rice. Garnished with preserved lemons."
+      />
+
+       <MenuItem 
+        name="Curry"
+        price="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Lamb: $27.99 Shrimp: $29.99"
+        description="Special blend of your favorite meat cooked with spices and herbs. Served with basmati rice. Please specify mild or hot."
+      />
+
+      <MenuItem 
+        name="Thai Green Curry"
+        price="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Shrimp: $29.99 Lamb: $27.99"
+        description="Choice of meat or vegetarian with bell peppers, green peas and bamboo shoots in coconut milk. Served with sweet basil leaves and basmati rice."
+      />
+
+      <MenuItem 
+        name="New York Steak"
+        price="MP"
+        description="A thick, center-cut, aged Black Angus steak charbroiled until you say when. Boldly seasoned with fresh cracked pepper and topped with Maitre’d butter.
+        Served with vegetable and parisienne potatoes."
+      />
+
       <MenuItem 
         name="Filet Mignon"
-        price="$44.99"
-        description="8oz center-cut filet grilled to your preference, topped with herb butter. Served with mashed potatoes and asparagus."
+        price="MP"
+        description="This pepper-crusted, 8 oz. thick delicious cut from the heart of tenderloin is cooked to your liking and topped with wild mushroom demi. Served with vegetable and parisienne potatoes."
       />
-      
+
+     <MenuItem 
+        name="Prome Rib"
+        price="MP"
+        description="Our choice of aged Black Angus prime rib is hand-rubbed with the Chef’s seasoning then slowly roasted to perfection. Available Friday and Saturday while it lasts."
+      /> 
+
+        <MenuItem 
+        name="Bone-in Ribeye"
+        price="MP"
+        description="Carefully aged 20 oz Bone-in Ribeye charbroiled to your liking. Served with scalloped potatoes, vegetables and red wine Au jus."
+      /> 
+
       <MenuItem 
-        name="Mediterranean Mixed Grill"
-        price="$38.99"
-        description="A combination of marinated lamb, chicken, and beef kabobs served with saffron rice and grilled vegetables."
-      />
-      
-      <MenuItem 
-        name="Osso Buco"
-        price="$39.99"
-        description="Braised veal shank in rich tomato sauce with vegetables. Served over creamy risotto."
-      />
-      
-      <MenuItem 
-        name="Lobster Tail"
-        price="$49.99"
-        description="Grilled cold water lobster tail with drawn butter, served with rice pilaf and steamed vegetables."
-      />
-      
-      <MenuItem 
-        name="Seafood Paella"
-        price="$36.99"
-        description="Traditional Spanish rice dish with shrimp, mussels, clams, calamari, and saffron."
-      />
+        name="Stuffed Pork Tenderloin"
+        price="MP"
+        description="Center cut tenderloin stuffed with apricots, raisins, baby spinach mascarpone cheese and fresh garlic. Served with sweet potato purée and grilled asparagus."
+      /> 
     </div>
   </TabsContent>
 );
