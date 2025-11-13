@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import DrinksViewer from "@/components/menu/DrinksViewer";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { RedWineTab, WhiteWineTab, CocktailsTab, BeersTab, NonAlcoholicTab } from "@/components/DrinkCategories";
 
 const Drinks = () => {
   return (
@@ -18,9 +20,46 @@ const Drinks = () => {
       <div className="relative z-10">
         <Navbar />
         
-        {/* Interactive Drinks Viewer */}
-        <div className="pt-20">
-          <DrinksViewer />
+        {/* Drinks Menu with Tabs */}
+        <div className="pt-20 section-padding">
+          <div className="max-w-7xl mx-auto">
+            <h1 className="font-playfair text-5xl md:text-6xl font-bold text-center mb-8 text-cafe-maroon">
+              Drinks Menu
+            </h1>
+            
+            <Tabs defaultValue="full-menu" className="w-full">
+              <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
+                <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Full Menu
+                </TabsTrigger>
+                <TabsTrigger value="red-wine" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Red Wine
+                </TabsTrigger>
+                <TabsTrigger value="white-wine" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  White Wine
+                </TabsTrigger>
+                <TabsTrigger value="cocktails" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Cocktails
+                </TabsTrigger>
+                <TabsTrigger value="beers" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Beers
+                </TabsTrigger>
+                <TabsTrigger value="non-alcoholic" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Non-Alcoholic
+                </TabsTrigger>
+              </TabsList>
+
+              <TabsContent value="full-menu">
+                <DrinksViewer />
+              </TabsContent>
+
+              <RedWineTab />
+              <WhiteWineTab />
+              <CocktailsTab />
+              <BeersTab />
+              <NonAlcoholicTab />
+            </Tabs>
+          </div>
         </div>
         
         <Footer />
