@@ -205,45 +205,48 @@ export const SidesTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Sides</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Garlic Mashed Potatoes"
+        name="Grilled Asparagus"
         price="$6.99"
-        description="Creamy mashed potatoes infused with roasted garlic and butter."
       />
       
       <MenuItem 
         name="Saffron Basmati Rice"
-        price="$5.99"
-        description="Aromatic basmati rice delicately flavored with saffron and herbs."
-      />
-      
-      <MenuItem 
-        name="Grilled Vegetables"
         price="$7.99"
-        description="Seasonal vegetables grilled to perfection with olive oil and Mediterranean herbs."
       />
       
       <MenuItem 
-        name="French Fries"
-        price="$5.99"
-        description="Crispy golden fries seasoned with sea salt."
-      />
-      
-      <MenuItem 
-        name="Truffle Fries"
+        name="Mac & Cheese with Bacon"
         price="$8.99"
-        description="Hand-cut fries tossed with truffle oil and parmesan cheese."
       />
       
       <MenuItem 
-        name="Sautéed Spinach"
-        price="$6.99"
-        description="Fresh spinach sautéed with garlic and olive oil."
+        name="Cheesy Risotto"
+        price="$8.99"
       />
       
       <MenuItem 
-        name="Sweet Potato Fries"
+        name="Grilles Salmon Vegetables"
         price="$7.99"
-        description="Crispy sweet potato fries with a touch of cinnamon sugar."
+      />
+      
+      <MenuItem 
+        name="Sautéed Wild Mushrooms"
+        price="$9.99"
+      />
+      
+      <MenuItem 
+        name="Parisienne Potato"
+        price="$6.99"
+      />
+
+       <MenuItem 
+        name="Shrimp Scampi"
+        price="$10.99"
+      />
+
+       <MenuItem 
+        name="Lobster Tail"
+        price="MP"
       />
     </div>
   </TabsContent>
