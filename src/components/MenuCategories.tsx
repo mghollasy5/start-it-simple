@@ -265,9 +265,9 @@ export const SpecialtiesTab = () => (
       
       <MenuItem 
         name="Souvlaki (Shish Kabab)"
-        price="Beef tenderloin: $25.99 Lamb: $27.99"
         description="Thick chunks of marinated meat seasoned and broiled over an open fire.
                       Served with saffron basmati rice and fresh steamed vegetables."
+        options= "Beef tenderloin: $25.99 Lamb: $27.99"
       />
       
       <MenuItem 
