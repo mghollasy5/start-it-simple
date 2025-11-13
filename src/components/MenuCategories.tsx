@@ -32,21 +32,21 @@ export const AppetizersTab = () => (
       />
       
       <MenuItem 
-        name="Baba Ganoush"
-        price="$9.99"
-        description="Roasted eggplant dip blended with tahini, garlic, and lemon. Served with warm pita bread."
-      />
-      
-      <MenuItem 
-        name="Stuffed Grape Leaves"
-        price="$10.99"
-        description="Tender grape leaves filled with seasoned rice, herbs, and spices. Served with tzatziki sauce."
-      />
-      
-      <MenuItem 
-        name="Calamari Fritti"
+        name="Spanakopita"
         price="$13.99"
-        description="Lightly breaded and fried calamari rings served with marinara sauce and lemon wedges."
+        description="Baked phyllo dough stuffed with spinach and feta chesse."
+      />
+      
+      <MenuItem 
+        name="French Asian Crab Cake"
+        price="$15.99"
+        description="Pair of sweet Dungeness crab cakes. Fried and served with roasted red peppers and aioli sauce."
+      />
+      
+      <MenuItem 
+        name="Coquilles Saint Jacques"
+        price="MP"
+        description="Seared diver scallops over a mango chuntey."
       />
       
       <MenuItem 
