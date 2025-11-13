@@ -64,8 +64,8 @@ export const AppetizersTab = () => (
       <MenuItem 
         name="Mediterranean Combo Platter"
         price="$16.99"
-        description="HUMMUS- Puree of chick-peas, lemon, tahini, garlic, cayenne and herbs."
-        "GRAPE LEAF DOLMAS - Filled with rice and herbs."
+        description="HUMMUS- Puree of chick-peas, lemon, tahini, garlic, cayenne and herbs.<br />
+        GRAPE LEAF DOLMAS - Filled with rice and herbs."
       />
       
       <MenuItem 
