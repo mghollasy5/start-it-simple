@@ -320,21 +320,21 @@ export const SpecialtiesTab = () => (
 
       <MenuItem 
         name="Moroccan Tagine"
-        price="Beef: $28.99 Lamb: $29.99 Chicken: $27.99 Shrimp: $31.99"
         description="A popular Casablanca style stew of selected meat braised with onions, tomatoes, cumin, green olives and ginger.
         Finished with a saffron harisa sauce reduction over your choice of Moroccan couscous or basmati rice. Garnished with preserved lemons."
+        options="Beef: $28.99 Lamb: $29.99 Chicken: $27.99 Shrimp: $31.99"
       />
 
        <MenuItem 
         name="Curry"
-        price="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Lamb: $27.99 Shrimp: $29.99"
         description="Special blend of your favorite meat cooked with spices and herbs. Served with basmati rice. Please specify mild or hot."
+         options="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Lamb: $27.99 Shrimp: $29.99"
       />
 
       <MenuItem 
         name="Thai Green Curry"
-        price="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Shrimp: $29.99 Lamb: $27.99"
         description="Choice of meat or vegetarian with bell peppers, green peas and bamboo shoots in coconut milk. Served with sweet basil leaves and basmati rice."
+        options="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Shrimp: $29.99 Lamb: $27.99"
       />
 
       <MenuItem 
