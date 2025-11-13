@@ -79,6 +79,66 @@ export const AppetizersTab = () => (
         price="$15.99"
         description="Ginger herb crusted mini New Zealand lamb served with pountine salad."
       />
+
+      <MenuItem 
+        name="Flaming Saganaki Opa!!!"
+        price="$15.99"
+        description="Imported Greek cheese sauteed in olive oil and garnished with lemon juice and mint herb. Served with our fresh baked bread."
+      />
+
+      <MenuItem 
+        name="Escargot de Bourgogne"
+        price="$17.99"
+        description="Traditional imported French escargots in garlic herb butter. Served with crispy brioche."
+      />
+
+      <MenuItem 
+        name="Caviar"
+        price="MP"
+        description="Caspian Sea golden Osetra caviar One oz. Served with condiments."
+      />
+
+      <MenuItem 
+        name="Tzatziki"
+        price="$13.99"
+        description="A refreshing cucumber yogurt dill sauce, garlic and olive oil. Served with our specialty chips."
+      />
+
+      <MenuItem 
+        name="Seafood Platter"
+        price="MP"
+        description="Party Platter Zise- Calamari, shrimp, scallops, crabcakes and mussels."
+      />
+
+      <MenuItem 
+        name="Curried Shrimp"
+        price="$21.99"
+        description="Marinated Jumbo shrimp served over a bed of vegetables in mild curry cream sauce."
+      />
+
+      <MenuItem 
+        name="Stuffed Shrimp"
+        price="$17.99"
+        description="Jumbo shrimp stuffed with crab, mascapone cheese and herbs. Served with lemon pomegrante reduction."
+      />
+
+      <MenuItem 
+        name="Shrimp Martini"
+        price="$22.99"
+        description="Succulent cold water jumbo praws on a bed of ice. Served with tangy cocktail sauce."
+      />
+
+      <MenuItem 
+        name="Mussels Marinara"
+        price="MP"
+        description="Mussels prepared in our house red sauce with a tauch of fresh garlic. Served mild or spicy."
+      />
+
+      <MenuItem 
+        name="Grilled Mushrooms"
+        price="$17.99"
+        description="Marinated charboiled mushrooms in lemon pomegranate sauce."
+      />
     </div>
   </TabsContent>
 );
