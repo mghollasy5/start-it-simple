@@ -148,46 +148,53 @@ export const SoupsSaladsTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Soups & Salads</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Greek Salad"
-        price="$12.99"
-        description="Fresh romaine lettuce, tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese with our house vinaigrette."
+        name="House Soup"
+        price="$6.99"
+        description="Our specialty vegetable barley soup."
       />
       
       <MenuItem 
-        name="Caesar Salad"
-        price="$11.99"
-        description="Crisp romaine lettuce tossed with creamy Caesar dressing, parmesan cheese, and croutons."
-        options="Add Chicken $4.99, Add Shrimp $6.99"
-      />
-      
-      <MenuItem 
-        name="Caprese Salad"
-        price="$13.99"
-        description="Fresh mozzarella, ripe tomatoes, and basil drizzled with balsamic glaze and extra virgin olive oil."
-      />
-      
-      <MenuItem 
-        name="House Salad"
-        price="$9.99"
-        description="Mixed greens, tomatoes, cucumbers, carrots, and red onions with your choice of dressing."
-      />
-      
-      <MenuItem 
-        name="Lentil Soup"
-        price="$7.99"
-        description="Hearty Mediterranean lentil soup with vegetables, herbs, and spices. Served with warm pita bread."
-      />
-      
-      <MenuItem 
-        name="French Onion Soup"
+        name="Soup du Jour"
         price="$8.99"
-        description="Classic French onion soup topped with melted Gruyère cheese and croutons."
+        description="Chef specialty soup."
+        options="Please ask your server for details"
       />
       
       <MenuItem 
-        name="Soup of the Day"
-        price="$7.99"
-        description="Ask your server about today's chef's special soup creation."
+        name="French Onion"
+        price="$9.99"
+        description="Made from scratch. A blend of fine onions, sweet and flavorful, topped with melted provolone cheese floating on croutons."
+      />
+      
+      <MenuItem 
+        name="Soup & Salad"
+        price="$13.99"
+        description="A bowl of our house soup and a fresh mixed green salad."
+      />
+      
+      <MenuItem 
+        name="Mediterranean Salad"
+        price="$14.99"
+        description="Hearts of romaine lettuce topped with feta cheese, tomatoes, cucumbers and kalamata olives. Tossed with lemon and olive oil dressing."
+        options="Add chicken or beef gyro meal: $3.99"
+      />
+      
+      <MenuItem 
+        name="Classic Caesar Salad"
+        price="$14.99"
+        description="Fresh romaine lettuce, parmesan cheese and croutons tossed with our own garlic caesar dressing."
+        options="Add chicken:$3.99 Add shrimp: $4.00"
+      />
+      
+      <MenuItem 
+        name="Grilled Salmon Salad"
+        price="$21.99"
+        description="Layers of fire roasted salmon served on a nest of continental salad leaves. Topped with walnuts and tossed with our fresh lemon and dill vinaigrette"
+      />
+
+       <MenuItem 
+        name="Housen Salad"
+        price="$5.99"
       />
     </div>
   </TabsContent>
