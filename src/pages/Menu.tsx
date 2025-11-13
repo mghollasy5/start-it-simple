@@ -4,7 +4,20 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MenuViewer from "@/components/menu/MenuViewer";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { PoultryTab, SeafoodTab, PastaTab, PizzaTab, KidsTab, GlutenFreeTab, VegetarianTab } from "@/components/MenuCategories";
+import { 
+  AppetizersTab, 
+  SoupsSaladsTab, 
+  SidesTab, 
+  SpecialtiesTab, 
+  CombinationPlattersTab,
+  PoultryTab, 
+  SeafoodTab, 
+  PastaTab, 
+  PizzaTab, 
+  KidsTab, 
+  GlutenFreeTab, 
+  VegetarianTab 
+} from "@/components/MenuCategories";
 
 const Menu = () => {
   return (
@@ -33,6 +46,18 @@ const Menu = () => {
                 <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Full Menu
                 </TabsTrigger>
+                <TabsTrigger value="appetizers" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Appetizers
+                </TabsTrigger>
+                <TabsTrigger value="soups-salads" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Soups & Salads
+                </TabsTrigger>
+                <TabsTrigger value="specialties" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Specialties
+                </TabsTrigger>
+                <TabsTrigger value="combination-platters" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Combination Platters
+                </TabsTrigger>
                 <TabsTrigger value="poultry" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Poultry
                 </TabsTrigger>
@@ -48,6 +73,9 @@ const Menu = () => {
                 <TabsTrigger value="kids" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Kids
                 </TabsTrigger>
+                <TabsTrigger value="sides" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Sides
+                </TabsTrigger>
                 <TabsTrigger value="gluten-free" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Gluten-Free
                 </TabsTrigger>
@@ -60,6 +88,11 @@ const Menu = () => {
                 <MenuViewer />
               </TabsContent>
 
+              <AppetizersTab />
+              <SoupsSaladsTab />
+              <SidesTab />
+              <SpecialtiesTab />
+              <CombinationPlattersTab />
               <PoultryTab />
               <SeafoodTab />
               <PastaTab />

@@ -21,6 +21,246 @@ const MenuItem = ({ name, price, description, options }: MenuItemProps) => (
   </div>
 );
 
+export const AppetizersTab = () => (
+  <TabsContent value="appetizers" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Appetizers</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <MenuItem 
+        name="Hummus"
+        price="$8.99"
+        description="Traditional Middle Eastern dip made from chickpeas, tahini, lemon juice, and garlic. Served with warm pita bread."
+      />
+      
+      <MenuItem 
+        name="Baba Ganoush"
+        price="$9.99"
+        description="Roasted eggplant dip blended with tahini, garlic, and lemon. Served with warm pita bread."
+      />
+      
+      <MenuItem 
+        name="Stuffed Grape Leaves"
+        price="$10.99"
+        description="Tender grape leaves filled with seasoned rice, herbs, and spices. Served with tzatziki sauce."
+      />
+      
+      <MenuItem 
+        name="Calamari Fritti"
+        price="$13.99"
+        description="Lightly breaded and fried calamari rings served with marinara sauce and lemon wedges."
+      />
+      
+      <MenuItem 
+        name="Bruschetta"
+        price="$10.99"
+        description="Toasted Italian bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil."
+      />
+      
+      <MenuItem 
+        name="Spanakopita"
+        price="$11.99"
+        description="Traditional Greek spinach pie with feta cheese wrapped in flaky phyllo dough."
+      />
+      
+      <MenuItem 
+        name="Mozzarella Sticks"
+        price="$9.99"
+        description="Golden fried mozzarella cheese sticks served with marinara sauce."
+      />
+      
+      <MenuItem 
+        name="Mediterranean Sampler"
+        price="$16.99"
+        description="A combination of hummus, baba ganoush, stuffed grape leaves, falafel, and warm pita bread."
+      />
+    </div>
+  </TabsContent>
+);
+
+export const SoupsSaladsTab = () => (
+  <TabsContent value="soups-salads" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Soups & Salads</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <MenuItem 
+        name="Greek Salad"
+        price="$12.99"
+        description="Fresh romaine lettuce, tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese with our house vinaigrette."
+      />
+      
+      <MenuItem 
+        name="Caesar Salad"
+        price="$11.99"
+        description="Crisp romaine lettuce tossed with creamy Caesar dressing, parmesan cheese, and croutons."
+        options="Add Chicken $4.99, Add Shrimp $6.99"
+      />
+      
+      <MenuItem 
+        name="Caprese Salad"
+        price="$13.99"
+        description="Fresh mozzarella, ripe tomatoes, and basil drizzled with balsamic glaze and extra virgin olive oil."
+      />
+      
+      <MenuItem 
+        name="House Salad"
+        price="$9.99"
+        description="Mixed greens, tomatoes, cucumbers, carrots, and red onions with your choice of dressing."
+      />
+      
+      <MenuItem 
+        name="Lentil Soup"
+        price="$7.99"
+        description="Hearty Mediterranean lentil soup with vegetables, herbs, and spices. Served with warm pita bread."
+      />
+      
+      <MenuItem 
+        name="French Onion Soup"
+        price="$8.99"
+        description="Classic French onion soup topped with melted Gruyère cheese and croutons."
+      />
+      
+      <MenuItem 
+        name="Soup of the Day"
+        price="$7.99"
+        description="Ask your server about today's chef's special soup creation."
+      />
+    </div>
+  </TabsContent>
+);
+
+export const SidesTab = () => (
+  <TabsContent value="sides" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Sides</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <MenuItem 
+        name="Garlic Mashed Potatoes"
+        price="$6.99"
+        description="Creamy mashed potatoes infused with roasted garlic and butter."
+      />
+      
+      <MenuItem 
+        name="Saffron Basmati Rice"
+        price="$5.99"
+        description="Aromatic basmati rice delicately flavored with saffron and herbs."
+      />
+      
+      <MenuItem 
+        name="Grilled Vegetables"
+        price="$7.99"
+        description="Seasonal vegetables grilled to perfection with olive oil and Mediterranean herbs."
+      />
+      
+      <MenuItem 
+        name="French Fries"
+        price="$5.99"
+        description="Crispy golden fries seasoned with sea salt."
+      />
+      
+      <MenuItem 
+        name="Truffle Fries"
+        price="$8.99"
+        description="Hand-cut fries tossed with truffle oil and parmesan cheese."
+      />
+      
+      <MenuItem 
+        name="Sautéed Spinach"
+        price="$6.99"
+        description="Fresh spinach sautéed with garlic and olive oil."
+      />
+      
+      <MenuItem 
+        name="Sweet Potato Fries"
+        price="$7.99"
+        description="Crispy sweet potato fries with a touch of cinnamon sugar."
+      />
+    </div>
+  </TabsContent>
+);
+
+export const SpecialtiesTab = () => (
+  <TabsContent value="specialties" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">House Specialties</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <MenuItem 
+        name="Rack of Lamb"
+        price="$42.99"
+        description="New Zealand lamb rack marinated in rosemary and garlic, grilled to perfection. Served with roasted potatoes and seasonal vegetables."
+      />
+      
+      <MenuItem 
+        name="Filet Mignon"
+        price="$44.99"
+        description="8oz center-cut filet grilled to your preference, topped with herb butter. Served with mashed potatoes and asparagus."
+      />
+      
+      <MenuItem 
+        name="Mediterranean Mixed Grill"
+        price="$38.99"
+        description="A combination of marinated lamb, chicken, and beef kabobs served with saffron rice and grilled vegetables."
+      />
+      
+      <MenuItem 
+        name="Osso Buco"
+        price="$39.99"
+        description="Braised veal shank in rich tomato sauce with vegetables. Served over creamy risotto."
+      />
+      
+      <MenuItem 
+        name="Lobster Tail"
+        price="$49.99"
+        description="Grilled cold water lobster tail with drawn butter, served with rice pilaf and steamed vegetables."
+      />
+      
+      <MenuItem 
+        name="Seafood Paella"
+        price="$36.99"
+        description="Traditional Spanish rice dish with shrimp, mussels, clams, calamari, and saffron."
+      />
+    </div>
+  </TabsContent>
+);
+
+export const CombinationPlattersTab = () => (
+  <TabsContent value="combination-platters" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Combination Platters</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <MenuItem 
+        name="Surf & Turf"
+        price="$45.99"
+        description="6oz filet mignon and grilled jumbo shrimp served with garlic mashed potatoes and seasonal vegetables."
+      />
+      
+      <MenuItem 
+        name="Land & Sea Combo"
+        price="$42.99"
+        description="Grilled chicken breast and pan-seared salmon with lemon butter sauce. Served with rice and vegetables."
+      />
+      
+      <MenuItem 
+        name="Mediterranean Feast"
+        price="$39.99"
+        description="Combination of chicken souvlaki, lamb kabob, and falafel served with hummus, rice, and warm pita bread."
+      />
+      
+      <MenuItem 
+        name="Meat Lovers Platter"
+        price="$44.99"
+        description="Lamb chops, beef kabob, and grilled sausage served with roasted potatoes and grilled vegetables."
+      />
+      
+      <MenuItem 
+        name="Seafood Combination"
+        price="$43.99"
+        description="Grilled salmon, jumbo shrimp, and scallops served with rice pilaf and steamed vegetables."
+      />
+      
+      <MenuItem 
+        name="Family Style Platter"
+        price="$89.99"
+        description="Serves 4. A generous selection of chicken, lamb, beef kabobs, rice, salad, hummus, and pita bread."
+      />
+    </div>
+  </TabsContent>
+);
+
 export const PoultryTab = () => (
   <TabsContent value="poultry" className="space-y-6">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
