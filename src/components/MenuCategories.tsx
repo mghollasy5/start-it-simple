@@ -12,7 +12,7 @@ interface MenuItemProps {
 const MenuItem = ({ name, price, description, options }: MenuItemProps) => (
   <div className="p-4 border border-cafe-gold/30 rounded-lg hover:shadow-lg transition-all bg-white/80 hover:bg-white hover:-translate-y-1 duration-300">
     <div className="flex justify-between items-baseline mb-1.5">
-      <h2 className="font-playfair text-base font-medium text-cafe-maroon">{name}</h2>
+      <h2 className="font-playfair text-base font-large text-cafe-maroon">{name}</h2>
       <span className="text-cafe-gold font-semibold ml-2">{price}</span>
     </div>
     <Separator className="w-full h-px bg-cafe-tan/30 my-1.5" />
