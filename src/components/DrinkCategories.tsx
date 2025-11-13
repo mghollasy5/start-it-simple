@@ -66,6 +66,27 @@ export const RedWineTab = () => (
         description="Fruity and spicy with jammy berry flavors"
         origin="California"
       />
+      
+      <DrinkItem 
+        name="Tempranillo"
+        price="$11 - $75"
+        description="Medium to full-bodied with cherry and leather notes"
+        origin="Spain, Rioja"
+      />
+      
+      <DrinkItem 
+        name="Chianti"
+        price="$10 - $80"
+        description="Medium-bodied with bright cherry and herbal flavors"
+        origin="Tuscany, Italy"
+      />
+      
+      <DrinkItem 
+        name="Red Blend"
+        price="$12 - $90"
+        description="Complex blend of varietals offering balanced flavors"
+        origin="California, France, Australia"
+      />
     </div>
   </TabsContent>
 );
