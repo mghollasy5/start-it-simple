@@ -65,14 +65,19 @@ export const AppetizersTab = () => (
         name="Mediterranean Combo Platter"
         price="$16.99"
         description="HUMMUS- Puree of chick-peas, lemon, tahini, garlic, cayenne and herbs.
-        <br />
         GRAPE LEAF DOLMAS - Filled with rice and herbs."
       />
       
       <MenuItem 
-        name="Mediterranean Sampler"
-        price="$16.99"
-        description="A combination of hummus, baba ganoush, stuffed grape leaves, falafel, and warm pita bread."
+        name="Calamari"
+        price="$17.99"
+        description="Lightly battered steaks fries to a crisp, golden brown. Served with our house marinara sauce."
+      />
+      
+      <MenuItem 
+        name="Lamb Lollipops"
+        price="$15.99"
+        description="Ginger herb crusted mini New Zealand lamb served with pountine salad."
       />
     </div>
   </TabsContent>
