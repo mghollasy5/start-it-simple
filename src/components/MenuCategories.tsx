@@ -193,7 +193,7 @@ export const SoupsSaladsTab = () => (
       />
 
        <MenuItem 
-        name="Housen Salad"
+        name="House Salad"
         price="$5.99"
       />
     </div>
