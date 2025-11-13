@@ -50,21 +50,22 @@ export const AppetizersTab = () => (
       />
       
       <MenuItem 
-        name="Bruschetta"
-        price="$10.99"
-        description="Toasted Italian bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil."
+        name="Smoked Salmon"
+        price="$17.99"
+        description="Smoked Atlantic salmon with mixed greens, capers, chives, extra virgin olive oil and ages balsamic reduction."
       />
       
       <MenuItem 
-        name="Spanakopita"
-        price="$11.99"
-        description="Traditional Greek spinach pie with feta cheese wrapped in flaky phyllo dough."
+        name="Lobstair Tail"
+        price="MP"
+        description="Butter peached cold water lobster tail."
       />
       
       <MenuItem 
-        name="Mozzarella Sticks"
-        price="$9.99"
-        description="Golden fried mozzarella cheese sticks served with marinara sauce."
+        name="Mediterranean Combo Platter"
+        price="$16.99"
+        description="HUMMUS- Puree of chick-peas, lemon, tahini, garlic, cayenne and herbs.
+        GRAPE LEAF DOLMAS - Filled with rice and herbs."
       />
       
       <MenuItem 
