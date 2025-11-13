@@ -376,40 +376,55 @@ export const CombinationPlattersTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Combination Platters</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Surf & Turf"
-        price="$45.99"
-        description="6oz filet mignon and grilled jumbo shrimp served with garlic mashed potatoes and seasonal vegetables."
+        name="Seafood Royal"
+        price="MP"
+        description="Broiled pistachio encrusted Alaskan Bay halibut accompanied with crabmeat, seared scallops and jumbo shrimp.
+        Served over a wild mushroom medley and highlighted with a lemon butter cream reduction."
       />
       
       <MenuItem 
-        name="Land & Sea Combo"
-        price="$42.99"
-        description="Grilled chicken breast and pan-seared salmon with lemon butter sauce. Served with rice and vegetables."
+        name="Steak and Lobster"
+        price="MP"
+        description="Thick center cut aged black angus charbroiled to your liking and cold water lobster tail. Served with steamed vegetables and and parisienne potatoes."
       />
       
       <MenuItem 
-        name="Mediterranean Feast"
-        price="$39.99"
-        description="Combination of chicken souvlaki, lamb kabob, and falafel served with hummus, rice, and warm pita bread."
+        name="The Greek Sampler"
+        price="$29.99"
+        description="Combination of beef and lamb, chicken gyro and moussaka, served with basmati rice and fresh vegetables."
       />
       
       <MenuItem 
-        name="Meat Lovers Platter"
-        price="$44.99"
-        description="Lamb chops, beef kabob, and grilled sausage served with roasted potatoes and grilled vegetables."
+        name="Scallops, Shrimp and Chicken"
+        price="MP"
+        description="Grilled sea scallops, jumbo shrimp and tender chunks of marinated chicken breast. Served with lobster butter cream sauce and steamed vegetables."
       />
       
       <MenuItem 
-        name="Seafood Combination"
-        price="$43.99"
-        description="Grilled salmon, jumbo shrimp, and scallops served with rice pilaf and steamed vegetables."
+        name="Seafood Trio"
+        price="MP"
+        description="8 oz. Maine lobster tail stuffed with blue shrimp, smoked bacon, and lump crab. Served with roasted asparagus and lobster mac & cheese."
       />
       
       <MenuItem 
-        name="Family Style Platter"
-        price="$89.99"
-        description="Serves 4. A generous selection of chicken, lamb, beef kabobs, rice, salad, hummus, and pita bread."
+        name="Chateaubriand Cardinal Filet & Lobster"
+        price="MP"
+        description="Slow roasted black angus tenderloin accompanied by a butter poached cold water lobster tail. Proposed with truffle-port demi glaze. Served with seasonal vegetables and hoice of potato."
       />
+
+      <MenuItem 
+        name="Fire Roasted Platter"
+        price="$29.99"
+        description="Marinated lamb, beef tenderloin and chicken breast. Fire roasted and served with fresh seasonal vegetables and basmati saffron rice."
+      />
+
+ <MenuItem 
+        name="Create Your Own Combo"
+        description="All orders come with steamed vegetables, basmati rice and our house vegetable barley soup.
+   Marinated lamb & beef gyro Marinated chicken gyro Marinated beef souvlaki Marinated lamb souvlaki Marinated chicken souvlaki Garlic shrimp scampi Linguine alfredo Fire roasted salmon."
+   options="Choose any two for $28.99 or any three for $33.99"
+
+      />     
     </div>
   </TabsContent>
 );
