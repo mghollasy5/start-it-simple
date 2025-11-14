@@ -56,10 +56,6 @@ const Menu = () => {
         {/* Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
-            <h1 className="font-playfair text-5xl md:text-6xl font-bold text-center mb-4 text-cafe-maroon">
-              Our Menu
-            </h1>
-            
             <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
             
             <Tabs defaultValue="full-menu" className="w-full">
