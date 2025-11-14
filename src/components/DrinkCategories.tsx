@@ -96,9 +96,32 @@ const wineCategories: WineCategory[] = [
     title: "Zinfandel",
     items: [
       {
-        name: "Ridge Vineyards (Sonoma County)",
+        name: "Kenwood (Yulupa)",
         description:
-          "Bold and spicy with notes of blackberry, pepper, and toasted oak. A classic Zinfandel profile.",
+          "This wine is aged for 18 months in American oak barrels, creating complexity of bouquet and softened tannins. Vibrant wine with blackberry fruit aromas and flavors, with a smooth and supple mouth-feel. Fruity aromas of blackberries and figs, followed by toffee, mocha, and spicy notes.",
+      },
+      {
+        name: "Dry Creek Vineyard (Sonoma County)",
+        description:
+          "A wonderful profile of blueberry, red currants, and silky structure. Layers of black cherry, mixed berries, currants and all spice. The finish lingers on, creating a mouth-watering desire for another sip.",
+      },
+      {
+        name: "Rombauer (Napa Valley",
+        description:
+          "A great Zinfandel. This wine is a unique blend of 62% Amador, 18% Lake, 14% Napa and 6% El Dorado counties.",
+      },
+      {
+    title: "Shiraz",
+    items: [
+      {
+        name: "Jacobs Creek",
+        description:
+          "Black cherry and peppery spice, the finish delivers soft, balanced tannins and a hint of dark cherry fruit.",
+      },
+      {
+        name: "Layer Cake (Australia)",
+        description:
+          "Layers of fruit, mocha and chocolate. Hints of spices make up this rich wine.",
       },
     ],
   },
