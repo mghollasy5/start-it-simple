@@ -24,7 +24,7 @@ const DrinkItem = ({ name, price, description, origin }: DrinkItemProps) => (
 export const RedWineTab = () => (
   <TabsContent value="red-wine" className="space-y-6">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
-    <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Cabernet Sauvignon</h4>
+    <h4 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Cabernet Sauvignon</h4>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <DrinkItem 
         name="J.Lohr (California) "
@@ -66,8 +66,9 @@ export const RedWineTab = () => (
         description="(1 Liter) Offering a Rich and creamy texture with a warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout."
       />
     </div>
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  
        <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Merlot</h4>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       
       <DrinkItem 
         name="J.Lohr  (California)"
@@ -84,8 +85,9 @@ export const RedWineTab = () => (
         description="Deep ruby color with a crimson hue. Cherry and mint aromas support an abundance of mulberry and plum fruit. Hints of blackberry are framed with silky tannins and smooth finish."
       />
     </div>
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-       <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Zinfandel</h4>
+     
+       <h4 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Zinfandel</h4>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     </div>
   </TabsContent>
 );
