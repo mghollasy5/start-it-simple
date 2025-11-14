@@ -494,6 +494,13 @@ export const PoultryTab = () => (
         options="Chicken: $23.99, Shrimp: $29.99"
       />
       
+       <MenuItem 
+        name="Curry"
+        price="$23.99 - $26.99 - $29.99"
+        description="A special blend of your favorite meat cooked with spices and herbs. Served with basmati rice. Please specify mild or hot spices."
+        options=" Vegetarian: $23.99, Chicken: $26.99, Shrimp: $29.99"
+      />
+      
       <MenuItem 
         name="Cashew Chicken"
         price="$29.99"
