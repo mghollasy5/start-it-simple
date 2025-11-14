@@ -26,59 +26,43 @@ export const RedWineTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <DrinkItem 
-        name="Cabernet Sauvignon"
-        price="$10 - $85"
-        description="Full-bodied with dark fruit flavors and firm tannins"
-        origin="California, France, Australia"
+        name="J.Lohr (California) "
+        description="Dense and soft,this wine boasts ripe flavors of black currant and cherry,enhanced by a bouquet of vanilla and spice from year of barrel aging."
       />
       
       <DrinkItem 
-        name="Pinot Noir"
-        price="$12 - $95"
-        description="Light to medium-bodied with red fruit and earthy notes"
-        origin="France, Oregon, California"
+        name="Hendry HRW (Napa Valley)"
+        description="Medium body opens with Smokey dark berriers, offering a palate of tangy black currant, cocoa, and firm tannins."
       />
       
       <DrinkItem 
-        name="Merlot"
-        price="$9 - $75"
-        description="Medium-bodied with plum and cherry flavors"
-        origin="France, California, Washington"
+        name="Terra Valentine (Napa Valley)"
+        description="The nose opens with deep plum, violets, cedar and bittersweet chocolate. Bright cola berry follows with notes of caramel and dried fig and a lingering, dark cocoa finish"
       />
       
       <DrinkItem 
-        name="Malbec"
-        price="$10 - $65"
-        description="Rich and robust with dark berry flavors"
-        origin="Argentina, France"
+        name="Rombauer (Napa Valley)"
+        description="Vibrant purple and black hue with expressive aromas of fresh cherry pie, blackberry and hints of spice. Medium to full - bodied."
       />
       
       <DrinkItem 
-        name="Syrah/Shiraz"
-        price="$11 - $80"
-        description="Bold and spicy with dark fruit characteristics"
-        origin="France, Australia, California"
+        name="Chimney Rock (Stag’s Leap)"
+        description="A deep garnet color with a light purple hue. Dark aromas of blackberry, black currant and dark chocolate with hint of mocha"
       />
       
       <DrinkItem 
-        name="Zinfandel"
-        price="$10 - $70"
-        description="Fruity and spicy with jammy berry flavors"
-        origin="California"
+        name="Silver Oak (Alexander Valley)"
+        description="This full-body 100% Cabernet Sauvignon is rich in color with a nose of cassis liqueur, nutmeg and dark chocolate. Great expression of fruit with spicy finish."
       />
       
       <DrinkItem 
-        name="Tempranillo"
-        price="$11 - $75"
-        description="Medium to full-bodied with cherry and leather notes"
-        origin="Spain, Rioja"
+        name="Cakebread Cellars (Napa Valley)"
+        description="This rare and elegant Cabernet is the prime example of classic Napa Valley quality. Produced from the choice Napa Valley Grape, boasts luxurious blackberry and dark chocolate aromas, rich, concentrated flavors and ripe, supple tannins."
       />
       
       <DrinkItem 
-        name="Chianti"
-        price="$10 - $80"
-        description="Medium-bodied with bright cherry and herbal flavors"
-        origin="Tuscany, Italy"
+        name="Caymus (Napa Valley)"
+        description="(1 Liter) Offering a Rich and creamy texture with a warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout."
       />
       
       <DrinkItem 
