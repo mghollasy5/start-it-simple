@@ -12,12 +12,12 @@ interface DrinkItemProps {
 const DrinkItem = ({ name, price, description, origin }: DrinkItemProps) => (
   <div className="p-4 border border-cafe-gold/30 rounded-lg hover:shadow-lg transition-all bg-white/80 hover:bg-white hover:-translate-y-1 duration-300">
     <div className="flex justify-between items-baseline mb-1.5">
-      <h4 className="font-playfair text-base font-medium text-cafe-maroon">{name}</h4>
-      {price && <span className="text-cafe-gold font-semibold ml-2">{price}</span>}
+      <h4 className="font-playfair text-lg font-bold text-cafe-maroon">{name}</h4>
+      {price && <span className="text-black font-bold ml-2">{price}</span>}
     </div>
     <Separator className="w-full h-px bg-cafe-tan/30 my-1.5" />
-    {description && <p className="text-xs text-cafe-maroon/70 leading-relaxed">{description}</p>}
-    {origin && <p className="text-xs text-cafe-maroon/60 mt-1 italic">{origin}</p>}
+    {description && <p className="text-base text-black leading-relaxed">{description}</p>}
+    {origin && <p className="text-base text-black mt-1 italic">{origin}</p>}
   </div>
 );
 
