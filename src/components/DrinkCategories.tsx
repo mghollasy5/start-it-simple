@@ -70,9 +70,22 @@ export const RedWineTab = () => (
        <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Merlot</h4>
       
       <DrinkItem 
-        name="Caymus (Napa Valley)"
-        description="(1 Liter) Offering a Rich and creamy texture with a warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout."
+        name="J.Lohr  (California)"
+        description="soft red wine with supple texture and black currant signature. Bold juicy flavors of pomegranate, black cherry and dark chocolate are accompanied by a full year of oak barrel aging."
       />
+
+       <DrinkItem 
+        name="Free Mark Abby (Napa Valley)"
+        description="A round and simple merlot with plum, chocolate and olive character. Full to medium body, velvety tannins. Grows on you. Drink and enjoy."
+      />
+
+      <DrinkItem 
+        name="Rombauer (Napa Valley)"
+        description="Deep ruby color with a crimson hue. Cherry and mint aromas support an abundance of mulberry and plum fruit. Hints of blackberry are framed with silky tannins and smooth finish."
+      />
+    </div>
+    <div>
+       <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Zinfandel</h4>
     </div>
   </TabsContent>
 );
