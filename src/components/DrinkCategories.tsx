@@ -110,6 +110,8 @@ const wineCategories: WineCategory[] = [
         description:
           "A great Zinfandel. This wine is a unique blend of 62% Amador, 18% Lake, 14% Napa and 6% El Dorado counties.",
       },
+        ],
+  },
       {
     title: "Shiraz",
     items: [
