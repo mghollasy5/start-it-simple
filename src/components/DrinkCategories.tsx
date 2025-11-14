@@ -127,6 +127,21 @@ const wineCategories: WineCategory[] = [
       },
     ],
   },
+   {
+    title: "Chianti",
+    items: [
+      {
+        name: "Classico Riserva (Tuscany)",
+        description:
+          "This is a Riserva wine, which means the best grapes were chosen for production and the wine undergoes more oak aging than a standard Chianti Classico.",
+      },
+      {
+        name: "Candoni (Italy)",
+        description:
+          "This Chianti has an intense red purple color. It has aromas of dried cherries with a fresh almond and blackberry and a soft, dry taste.",
+      },
+    ],
+  },
 ];
 
 export const RedWineTab = () => (
