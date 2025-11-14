@@ -515,38 +515,38 @@ export const SeafoodTab = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
         name="Lobster Cardinal"
-        price="Market Price"
+        price="MP"
         description="Cold water lobster tail, seared scallops and jumbo shrimp scampi prepared to perfection on a bed of steamed vegetables. Served with clarified drawn butter for an elegant seafood experience."
       />
       
       <MenuItem 
         name="Mahi Mahi"
-        price="Market Price"
+        price="MP"
         description="Fresh crab encrusted Mahi-Mahi filet highlighted with a rich lobster-cognac butter sauce. Served over a bed of sautéed spinach and creamy garlic potato purée."
       />
       
       <MenuItem 
         name="Seafood Risotto"
-        price="Market Price"
-        description="Jumbo shrimp, sea scallops, English peas, and cherry tomatoes in a creamy risotto infused with truffle essence and finished with parmesan cheese."
+        price="MP"
+        description="Jumbo shrimp, sea scallops, English peas, and cherry tomatoes in a creamy risotto infused with truffle essence."
       />
       
       <MenuItem 
         name="Lobster Risotto"
-        price="Market Price"
+        price="MP"
         description="8 oz wild-caught lobster chunks, sautéed with mushrooms, green peas, and cherry tomatoes in white wine and butter cream sauce. Served over golden saffron risotto."
       />
       
       <MenuItem 
         name="Bacon Wrapped Seared Scallops"
-        price="Market Price"
+        price="MP"
         description="Premium sea scallops wrapped in crispy bacon and seared to perfection. Served with homemade mango chutney on a bed of risotto milanese and steamed vegetables."
       />
       
       <MenuItem 
         name="Shrimp Scampi"
         price="$27.99"
-        description="Jumbo prawns sautéed with garlic, white wine, lemon, and fresh herbs in a delicate basil sauce. Served with fresh steamed vegetables and saffron basmati rice."
+        description="Jumbo prawns sautéed with garlic basil sauce. Served with fresh steamed vegetables and saffron basmati rice."
       />
       
       <MenuItem 
@@ -557,8 +557,8 @@ export const SeafoodTab = () => (
       
       <MenuItem 
         name="Cioppino"
-        price="Market Price"
-        description="Traditional Italian seafood stew with pan-seared Alaskan halibut and cold water lobster tail with spinach and fine vegetables in Chardonnay tomatoes saffron reduction."
+        price="MP"
+        description="Pan-seared Alaskan halibut and cold water lobster tail with spinach and fine vegetables in Chardonnay tomatoes saffron reduction."
       />
       
       <MenuItem 
@@ -582,7 +582,7 @@ export const SeafoodTab = () => (
       <MenuItem 
         name="Bouillabaisse de Marseille"
         price="$36.99"
-        description="Traditional French seafood stew with fresh mussels, clams, scallops, tiger shrimp and seasonal fish simmered in aromatic saffron tomato broth with herbs de Provence."
+        description="Traditional French seafood stew with fresh mussels, clams, scallops, tiger shrimp and seasonal fish simmered in aromatic saffron tomato broth broth."
       />
       
       <MenuItem 
@@ -600,7 +600,7 @@ export const SeafoodTab = () => (
       <MenuItem 
         name="Thai Glazed Salmon"
         price="$33.99"
-        description="Pan-seared filet of Canadian salmon glazed in a Thai-coconut cashew sauce with aromatic spices. Served with seasonal vegetables and saffron basmati rice."
+        description="Pan-seared filet of Canadian salmon glazed in a Thai-coconut cashew sauce. Served with seasonal vegetables and saffron basmati rice."
       />
     </div>
   </TabsContent>
