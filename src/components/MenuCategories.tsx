@@ -16,8 +16,8 @@ const MenuItem = ({ name, price, description, options }: MenuItemProps) => (
       {price && <span className="text-black font-bold ml-2">{price}</span>}
     </div>
     <Separator className="w-full h-px bg-cafe-tan/30 my-1.5" />
-    {description && <p className="text-sm font-bold text-black leading-relaxed">{description}</p>}
-    {options && <p className="text-sm font-bold text-black mt-1 italic">{options}</p>}
+    {description && <p className="text-base text-black leading-relaxed">{description}</p>}
+    {options && <p className="text-base text-black mt-1 italic">{options}</p>}
   </div>
 );
 
