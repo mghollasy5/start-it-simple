@@ -21,77 +21,104 @@ const DrinkItem = ({ name, price, description, origin }: DrinkItemProps) => (
   </div>
 );
 
+interface WineCategory {
+  title: string;
+  items: DrinkItemProps[];
+}
+
+const wineCategories: WineCategory[] = [
+  {
+    title: "Cabernet Sauvignon",
+    items: [
+      {
+        name: "J.Lohr (California)",
+        description:
+          "Dense and soft, this wine boasts ripe flavors of black currant and cherry, enhanced by a bouquet of vanilla and spice from a year of barrel aging.",
+      },
+      {
+        name: "Hendry HRW (Napa Valley)",
+        description:
+          "Medium body opens with smoky dark berries, offering a palate of tangy black currant, cocoa, and firm tannins.",
+      },
+      {
+        name: "Terra Valentine (Napa Valley)",
+        description:
+          "The nose opens with deep plum, violets, cedar and bittersweet chocolate. Bright cola berry follows with notes of caramel and dried fig and a lingering, dark cocoa finish.",
+      },
+      {
+        name: "Rombauer (Napa Valley)",
+        description:
+          "Vibrant purple and black hue with expressive aromas of fresh cherry pie, blackberry and hints of spice. Medium to full-bodied.",
+      },
+      {
+        name: "Chimney Rock (Stag’s Leap)",
+        description:
+          "A deep garnet color with a light purple hue. Dark aromas of blackberry, black currant and dark chocolate with a hint of mocha.",
+      },
+      {
+        name: "Silver Oak (Alexander Valley)",
+        description:
+          "This full-bodied 100% Cabernet Sauvignon is rich in color with a nose of cassis liqueur, nutmeg and dark chocolate. Great expression of fruit with spicy finish.",
+      },
+      {
+        name: "Cakebread Cellars (Napa Valley)",
+        description:
+          "This rare and elegant Cabernet is the prime example of classic Napa Valley quality. Boasts luxurious blackberry and dark chocolate aromas, rich, concentrated flavors and ripe, supple tannins.",
+      },
+      {
+        name: "Caymus (Napa Valley)",
+        description:
+          "(1 Liter) Offering a rich and creamy texture with warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout.",
+      },
+    ],
+  },
+  {
+    title: "Merlot",
+    items: [
+      {
+        name: "J.Lohr (California)",
+        description:
+          "Soft red wine with supple texture and black currant signature. Bold juicy flavors of pomegranate, black cherry and dark chocolate are accompanied by a full year of oak barrel aging.",
+      },
+      {
+        name: "Free Mark Abby (Napa Valley)",
+        description:
+          "A round and simple Merlot with plum, chocolate and olive character. Full to medium body, velvety tannins. Grows on you. Drink and enjoy.",
+      },
+      {
+        name: "Rombauer (Napa Valley)",
+        description:
+          "Deep ruby color with a crimson hue. Cherry and mint aromas support an abundance of mulberry and plum fruit. Hints of blackberry are framed with silky tannins and smooth finish.",
+      },
+    ],
+  },
+  {
+    title: "Zinfandel",
+    items: [
+      {
+        name: "Ridge Vineyards (Sonoma County)",
+        description:
+          "Bold and spicy with notes of blackberry, pepper, and toasted oak. A classic Zinfandel profile.",
+      },
+    ],
+  },
+];
+
 export const RedWineTab = () => (
-  <TabsContent value="red-wine" className="space-y-6">
+  <TabsContent value="red-wine" className="space-y-8">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
-    <h4 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Cabernet Sauvignon</h4>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <DrinkItem 
-        name="J.Lohr (California) "
-        description="Dense and soft,this wine boasts ripe flavors of black currant and cherry,enhanced by a bouquet of vanilla and spice from year of barrel aging."
-      />
-      
-      <DrinkItem 
-        name="Hendry HRW (Napa Valley)"
-        description="Medium body opens with Smokey dark berriers, offering a palate of tangy black currant, cocoa, and firm tannins."
-      />
-      
-      <DrinkItem 
-        name="Terra Valentine (Napa Valley)"
-        description="The nose opens with deep plum, violets, cedar and bittersweet chocolate. Bright cola berry follows with notes of caramel and dried fig and a lingering, dark cocoa finish"
-      />
-      
-      <DrinkItem 
-        name="Rombauer (Napa Valley)"
-        description="Vibrant purple and black hue with expressive aromas of fresh cherry pie, blackberry and hints of spice. Medium to full - bodied."
-      />
-      
-      <DrinkItem 
-        name="Chimney Rock (Stag’s Leap)"
-        description="A deep garnet color with a light purple hue. Dark aromas of blackberry, black currant and dark chocolate with hint of mocha"
-      />
-      
-      <DrinkItem 
-        name="Silver Oak (Alexander Valley)"
-        description="This full-body 100% Cabernet Sauvignon is rich in color with a nose of cassis liqueur, nutmeg and dark chocolate. Great expression of fruit with spicy finish."
-      />
-      
-      <DrinkItem 
-        name="Cakebread Cellars (Napa Valley)"
-        description="This rare and elegant Cabernet is the prime example of classic Napa Valley quality. Produced from the choice Napa Valley Grape, boasts luxurious blackberry and dark chocolate aromas, rich, concentrated flavors and ripe, supple tannins."
-      />
-      
-      <DrinkItem 
-        name="Caymus (Napa Valley)"
-        description="(1 Liter) Offering a Rich and creamy texture with a warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout."
-      />
-    </div>
-  
-       <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Merlot</h4>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      
-      <DrinkItem 
-        name="J.Lohr  (California)"
-        description="soft red wine with supple texture and black currant signature. Bold juicy flavors of pomegranate, black cherry and dark chocolate are accompanied by a full year of oak barrel aging."
-      />
-
-       <DrinkItem 
-        name="Free Mark Abby (Napa Valley)"
-        description="A round and simple merlot with plum, chocolate and olive character. Full to medium body, velvety tannins. Grows on you. Drink and enjoy."
-      />
-
-      <DrinkItem 
-        name="Rombauer (Napa Valley)"
-        description="Deep ruby color with a crimson hue. Cherry and mint aromas support an abundance of mulberry and plum fruit. Hints of blackberry are framed with silky tannins and smooth finish."
-      />
-    </div>
-     
-       <h4 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Zinfandel</h4>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-    </div>
+    {wineCategories.map((category) => (
+      <section key={category.title}>
+        <h4 className="font-playfair text-2xl font-bold text-cafe-maroon mb-4">{category.title}</h4>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {category.items.map((item, index) => (
+            <DrinkItem key={`${category.title}-${index}`} {...item} />
+          ))}
+        </div>
+      </section>
+    ))}
   </TabsContent>
 );
-
 export const WhiteWineTab = () => (
   <TabsContent value="white-wine" className="space-y-6">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">White Wines</h2>
