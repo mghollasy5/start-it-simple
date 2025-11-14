@@ -68,6 +68,11 @@ export const RedWineTab = () => (
     </div>
     <div>
        <h4 classname="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Merlot</h4>
+      
+      <DrinkItem 
+        name="Caymus (Napa Valley)"
+        description="(1 Liter) Offering a Rich and creamy texture with a warmed vanilla, plum, and raspberry notes and hints of espresso swirled throughout."
+      />
     </div>
   </TabsContent>
 );
