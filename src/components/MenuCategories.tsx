@@ -612,26 +612,26 @@ export const PastaTab = () => (
       <MenuItem 
         name="Mac & Cheese Au Gratin"
         price="$27.99+"
-        description="Creamy penne pasta baked with Vermont cheddar, Swiss and parmesan cheeses, topped with crispy bacon and golden breadcrumb crust."
+        description="Creamy penne pasta baked with Vermont cheddar, Swiss and parmesan cheeses, topped with crispy bacon."
         options="Add chicken: $29.99, Add scallops and shrimp: $32.99, Add vegetables: $28.99"
       />
       
       <MenuItem 
         name="Linguine Pomodoro"
         price="$26.99"
-        description="Delicate linguine tossed with crushed sweet San Marzano tomatoes, extra virgin olive oil, fresh garlic and aromatic basil chiffonade."
+        description="Delicate linguine tossed with crushed sweet tomatoes, olive oil, fresh garlic and aromatic basil chiffonade."
       />
       
       <MenuItem 
         name="Salmon Piccata"
         price="$28.99"
-        description="Fire roasted salmon topped with a delicate caper lemon butter sauce with white wine and fresh herbs. Served over angel hair pasta with parmesan cheese."
+        description="Fire roasted salmon topped with a delicate caper lemon butter sauce. Served over angel hair pasta."
       />
       
       <MenuItem 
         name="Chicken Penne"
         price="$26.99"
-        description="Grilled chicken breast and sun-dried tomatoes tossed with penne pasta in a light pesto cream sauce with pine nuts and fresh basil."
+        description="Grilled chicken breast and sun-dried tomatoes tossed with penne pasta in a light pesto cream sauce."
       />
       
       <MenuItem 
@@ -644,44 +644,44 @@ export const PastaTab = () => (
       <MenuItem 
         name="Fettuccine Alfredo"
         price="$22.99+"
-        description="Fresh fettuccine pasta tossed with our rich and creamy house-made alfredo sauce, finished with freshly grated parmesan cheese and cracked black pepper."
+        description="Fresh fettuccine pasta tossed with our rich and creamy house-made alfredo sauce, finished with freshly grated parmesan cheese."
         options="With vegetables: $23.99, With chicken: $25.99, With shrimp: $28.99"
       />
       
       <MenuItem 
         name="Tortellini Dé Renaissance"
         price="$29.99"
-        description="Sautéed chicken breast, jumbo shrimp, fresh basil, garlic, and bell peppers in a rich parmesan cream sauce, served over tricolor cheese tortellini."
+        description="Sautéed chicken breast, shrimp, fresh basil, garlic, and bell peppers in a rich parmesan cream sauce, served over tricolor cheese tortellini."
       />
       
       <MenuItem 
         name="Café Shrimp Pasta"
         price="$27.99"
-        description="Sautéed jumbo shrimp, fresh mushrooms and cherry tomatoes tossed with linguine in a delicious basil garlic-lemon cream sauce with white wine."
+        description="Sautéed jumbo shrimp, fresh mushrooms and cherry tomatoes tossed with linguine in a delicious basil garlic-lemon cream sauce."
       />
       
       <MenuItem 
         name="Cappellini Dé Renaissance"
         price="$32.99"
-        description="Jumbo shrimp, calamari, sea scallops and mussels with your choice of vodka cream, tomato cream, garlic olive oil or marinara sauce over angel hair pasta."
+        description="shrimp, calamari, sea scallops and mussels with your choice of vodka cream, tomato cream, garlic olive oil or marinara sauce."
       />
       
       <MenuItem 
         name="Chicken Piccata"
         price="$27.99"
-        description="Sautéed chicken breast and mushrooms served on a bed of farfalle pasta. Drizzled with our light lemon caper sauce with white wine and fresh herbs."
+        description="Sautéed chicken breast and mushrooms served on a bed of farfalle pasta. Drizzled with our light lemon caper sauce."
       />
       
       <MenuItem 
         name="Cajun Jambalaya Pasta"
         price="$28.99"
-        description="Sautéed chicken breast and jumbo shrimp with onions, tomatoes and bell peppers in a very spicy Cajun sauce with andouille sausage over linguine pasta."
+        description="Sautéed chicken breast and jumbo shrimp with onions, tomatoes and bell peppers in a very spicy Cajun sauce over linguine pasta."
       />
       
       <MenuItem 
         name="Steak & Shrimp Curry Linguine"
         price="$32.99"
-        description="Sautéed Gulf shrimp with tender Angus sirloin and seasonal vegetables in a light herb curry emulsion with coconut milk over linguine pasta."
+        description="Sautéed Gulf shrimp with tender Angus sirloin and seasonal vegetables in a light herb curry emulsion over linguine pasta."
       />
     </div>
   </TabsContent>
@@ -693,13 +693,13 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Stromboli"
         price="$28.99"
-        description="Our signature double crust specialty stuffed with seasoned hamburger, Italian sausage, pepperoni, mushrooms, black olives and onions. Served with our house marinara sauce."
+        description="Our signature double crust specialty stuffed with seasoned hamburger, Italian sausage, pepperoni, mushrooms, olives and onions. Served with our house marinara sauce."
       />
       
       <MenuItem 
         name="Meat Lovers"
         price="$27.99"
-        description="A hearty double-crust specialty stuffed with seasoned beef, Italian sausage, pepperoni, mozzarella cheese and our signature marinara sauce."
+        description="A double-crust specialty stuffed with seasoned beef, Italian sausage, pepperoni, mozzarella cheese and our signature marinara sauce."
       />
       
       <MenuItem 
@@ -717,13 +717,13 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Margherita"
         price="$24.99"
-        description="Classic Italian pizza made with fresh mozzarella, ripe tomatoes, extra virgin olive oil and fresh basil leaves on our wood-fired crust."
+        description="Classic Italian pizza made with fresh mozzarella, ripe tomatoes, olive oil and fresh basil."
       />
       
       <MenuItem 
         name="Chicken & Shrimp"
         price="$28.99"
-        description="This specialty pizza is made with fire roasted chicken, sun-dried tomatoes, jumbo shrimp, fresh herbs and our creamy alfredo sauce on artisan crust."
+        description="This specialty pizza is made with fire roasted chicken, sun-dried tomatoes, shrimp, fresh herbs and  alfredo sauce."
       />
       
       <MenuItem 
@@ -735,7 +735,7 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Moroccan"
         price="$27.99"
-        description="Exotic pizza with mozzarella cheese, fresh tomatoes, Moroccan spiced chicken seasoned with coriander, cumin and chili spices on our signature crust."
+        description="Mozzarella cheese, fresh tomatoes, Moroccan spiced chicken seasoned with coriander, cumin and chili seasoning."
       />
       
       <MenuItem 
@@ -765,7 +765,7 @@ export const KidsTab = () => (
       <MenuItem 
         name="Kids Pizza"
         price="$11.99"
-        description="Personal-sized pizza made fresh with our signature dough. Choose from classic cheese or pepperoni with real mozzarella cheese."
+        description="Choose from classic cheese or pepperoni."
       />
     </div>
   </TabsContent>
@@ -776,26 +776,26 @@ export const GlutenFreeTab = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
         name="Shrimp Martini"
-        price="Market Price"
-        description="Succulent cold water jumbo prawns served chilled on a bed of ice with our homemade tangy cocktail sauce and fresh lemon wedges."
+        price="MP"
+        description="Succulent cold water jumbo prawns served chilled on a bed of ice with our homemade tangy cocktail sauce."
       />
       
       <MenuItem 
         name="Mussels Marinara"
         price="$25.99"
-        description="Fresh mussels prepared in our house red marinara sauce with a touch of fresh garlic and herbs. Available mild or spicy to your preference."
+        description="Fresh mussels prepared in our house red sauce with a touch of fresh garlic. Available mild or spicy to your preference."
       />
       
       <MenuItem 
         name="Chicken Torino"
         price="$19.99"
-        description="Grilled chicken breast with capers in a white wine sauce topped with melted mozzarella cheese. Served with vegetables and rice."
+        description="Grilled chicken breast with capers in a white wine sauce topped with  mozzarella cheese."
       />
       
       <MenuItem 
         name="Calamari"
         price="$18.99"
-        description="Fresh calamari rings sautéed with a touch of fresh garlic, lemon juice and extra virgin olive oil. Served with our house lemon pomegranate sauce."
+        description="Fresh calamari rings sautéed with a touch of fresh garlic, lemon juice and olive oil. Served with our house lemon pomegranate sauce."
       />
       
       <MenuItem 
@@ -808,7 +808,7 @@ export const GlutenFreeTab = () => (
       <MenuItem 
         name="Gluten Free Penne Creamy Pesto"
         price="$24.99+"
-        description="Gluten-free penne pasta tossed with sun-dried tomatoes and our house alfredo pesto sauce made with fresh basil and pine nuts."
+        description="Gluten-free penne pasta tossed with sun-dried tomatoes and our house alfredo pesto sauce."
         options="Add vegetables $25.99; Add chicken $26.99; Add shrimp $29.99"
       />
       
@@ -827,13 +827,13 @@ export const GlutenFreeTab = () => (
       <MenuItem 
         name="Vegetarian Curry"
         price="$22.99"
-        description="Special blend of our fresh seasonal vegetables cooked with aromatic spices and herbs in coconut milk. Served with basmati rice. Available mild or hot."
+        description="Special blend of our fresh seasonal vegetables cooked with aromatic spices and herbs. Served with basmati rice. Available mild or hot."
       />
       
       <MenuItem 
         name="Gluten Free Penne Vodka"
         price="$23.99+"
-        description="Imported gluten-free penne tossed with our creamy vodka sauce and fresh seasonal vegetables with herbs and parmesan cheese."
+        description="Imported gluten-free penne tossed with our creamy vodka sauce and fresh seasonal vegetables."
         options="With Chicken $25.99; With Shrimp $29.99"
       />
       
@@ -852,7 +852,7 @@ export const VegetarianTab = () => (
       <MenuItem 
         name="Stuffed Green Pepper"
         price="$19.99"
-        description="A tender sweet green pepper stuffed with seasoned basmati rice and fresh vegetables. Baked in our delicately spiced Mediterranean tomato sauce with herbs."
+        description="A tender sweet green pepper stuffed with basmati rice and fresh vegetables. Baked in our delicately spiced Mediterranean tomato sauce."
       />
       
       <MenuItem 
@@ -870,19 +870,19 @@ export const VegetarianTab = () => (
       <MenuItem 
         name="Thai Green Curry"
         price="$23.99"
-        description="Aromatic Thai curry with bell peppers, green peas and bamboo shoots in coconut milk with lemongrass and kaffir lime. Served with sweet basil leaves and basmati rice."
+        description="Bell peppers, green peas and bamboo shoots in coconut milk. Served with sweet basil leaves and basmati rice."
       />
       
       <MenuItem 
         name="Vegetarian Curry"
         price="$22.99"
-        description="Special blend of our fresh seasonal vegetables cooked with traditional Indian spices and herbs in coconut milk. Served with basmati rice. Available mild or hot."
+        description="Special blend of our fresh seasonal vegetables cooked with traditional Indian spices and herbs. Served with basmati rice. Available mild or hot."
       />
       
       <MenuItem 
         name="Grilled Mushrooms"
         price="$17.99"
-        description="Marinated portobello and button mushrooms charbroiled to perfection in our signature lemon pomegranate sauce with herbs and olive oil."
+        description="Marinated charbroiled  mushrooms lemon pomegranate sauce."
       />
     </div>
   </TabsContent>
