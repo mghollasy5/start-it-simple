@@ -1,8 +1,9 @@
 
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MenuViewer from "@/components/menu/MenuViewer";
+import MenuDownload from "@/components/menu/MenuDownload";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { 
   AppetizersTab, 
@@ -20,6 +21,24 @@ import {
 } from "@/components/MenuCategories";
 
 const Menu = () => {
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const downloadPDF = async () => {
+    setIsDownloading(true);
+    try {
+      const link = document.createElement('a');
+      link.href = '/cafe-renaissance-complete-menu.pdf';
+      link.download = 'Cafe-Renaissance-Complete-Menu.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading PDF:', error);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
   return (
     <div 
       className="min-h-screen relative"
@@ -37,9 +56,11 @@ const Menu = () => {
         {/* Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
-            <h1 className="font-playfair text-5xl md:text-6xl font-bold text-center mb-8 text-cafe-maroon">
+            <h1 className="font-playfair text-5xl md:text-6xl font-bold text-center mb-4 text-cafe-maroon">
               Our Menu
             </h1>
+            
+            <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
             
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
