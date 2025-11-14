@@ -182,6 +182,46 @@ const wineCategories: WineCategory[] = [
       },
     ],
   },
+    {
+    title: "Malbec",
+    items: [
+      {
+        name: "OKO (Argentina)",
+        description:
+          "Made with organically grown grapes. Aromas of Plum, spices, and red fruits with hints of Mocha.",
+      },
+      {
+        name: "Conquista Reserve (Argentina)",
+        description:
+          "Dense flavors of dark plumb and chocolate, layered with toasted oak and a velvety finish that lingers and lingers.",
+      },
+      {
+        name: "Gascon (Argentina)",
+        description:
+          "Intense black fruit and red plum aromas, with flavors of blueberry, plum, dark cherry and a hint of mocha.",
+      },
+    ],
+  },
+   {
+    title: "Red Blend",
+    items: [
+      {
+        name: "Marietta Old Vine Red (California)",
+        description:
+          "A lush, Zinfandel-style wine. Loads of spicy, ripe blackberry fruit dominates the nose and floods the palate. Aged in French and American oak barrels.",
+      },
+      {
+        name: "Jax Y3 Taureau (Napa Valley)",
+        description:
+          "Layers of ripe blackcurrants, black cherries, chocolate, hazelnut, and spice lead to full bodied richness and a balanced finish.",
+      },
+      {
+        name: "Orin Swift, Zinfandel Blend. 8 Years in the Desert",
+        description:
+          "Heady aromas of brambly raspberry, black fig and dark chocolate, and fennel. The palate is lush and opulent with blackberries, dark plums and currants.",
+      },
+    ],
+  },
 ];
 
 export const RedWineTab = () => (
