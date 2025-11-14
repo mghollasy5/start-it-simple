@@ -167,6 +167,21 @@ const wineCategories: WineCategory[] = [
       },
     ],
   },
+   {
+    title: "Tempranillo",
+    items: [
+      {
+        name: "Tempranillo, Manyana (Spain)",
+        description:
+          "Ruby in color, tastes of spice, tobacco, vanilla and strawberry enlivened by oak aging.",
+      },
+      {
+        name: "Campo Viejo Reserva (Spain)",
+        description:
+          "A beautiful Spanish tawny Rioja with hints of oaky spices and a touch of vanilla.",
+      },
+    ],
+  },
 ];
 
 export const RedWineTab = () => (
