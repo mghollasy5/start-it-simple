@@ -142,6 +142,31 @@ const wineCategories: WineCategory[] = [
       },
     ],
   },
+  {
+    title: "Pinot Noir",
+    items: [
+      {
+        name: "J.Lohr (California)",
+        description:
+          "Opulent expression of cool climate . bright color,Falcon’s perch is soft on the palate with notes of strawberry jam and sage,showing a bouquet of spicy vanilla.",
+      },
+      {
+        name: "Underwood Cellars (Oregon)",
+        description:
+          "One of the Oregon’s best. It exhibits aromas of cherries and spice, with subtle hints of vanilla. The palate is loaded with ripe dark fruit, cherry and blueberry, with great balance leading to a long finish.",
+      },
+      {
+        name: "Meiomie (Sonoma County)",
+        description:
+          "Velvety & Smooth. Aromas of bright strawberry and jammy fruit, mocha, and vanilla, Expressive dark cherry and juicy strawberry.",
+      },
+      {
+        name: "Ken Wright (Willamette Valley)",
+        description:
+          "Elegant flavors of generous red cherry, raspberry, and plum with subtle notes of vanilla cream.",
+      },
+    ],
+  },
 ];
 
 export const RedWineTab = () => (
