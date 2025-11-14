@@ -13,11 +13,11 @@ const MenuItem = ({ name, price, description, options }: MenuItemProps) => (
   <div className="p-4 border border-cafe-gold/30 rounded-lg hover:shadow-lg transition-all bg-white/80 hover:bg-white hover:-translate-y-1 duration-300">
     <div className="flex justify-between items-baseline mb-1.5">
       <h2 className="font-playfair text-lg font-bold text-cafe-maroon">{name}</h2>
-      {price && <span className="text-cafe-gold font-semibold ml-2">{price}</span>}
+      {price && <span className="text-black font-bold ml-2">{price}</span>}
     </div>
     <Separator className="w-full h-px bg-cafe-tan/30 my-1.5" />
-    {description && <p className="text-xs text-cafe-maroon/70 leading-relaxed">{description}</p>}
-    {options && <p className="text-xs text-cafe-maroon/70 mt-1 italic">{options}</p>}
+    {description && <p className="text-sm font-bold text-black leading-relaxed">{description}</p>}
+    {options && <p className="text-sm font-bold text-black mt-1 italic">{options}</p>}
   </div>
 );
 
