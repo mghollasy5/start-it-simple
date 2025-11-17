@@ -23,10 +23,6 @@ const Drinks = () => {
         {/* Drinks Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
-            <h1 className="font-playfair text-5xl md:text-6xl font-bold text-center mb-8 text-cafe-maroon">
-              Drinks Menu
-            </h1>
-            
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
                 <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
