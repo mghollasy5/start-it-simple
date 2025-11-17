@@ -242,22 +242,28 @@ export const RedWineTab = () => (
 
 
 export const WhiteWineTab = () => (
-  <TabsContent value="white-wine" className="space-y-6">
+  <TabsContent value="white-wine" className="space-y-8">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Signature Cocktails</h2>
 
-    {/* Category: Sparkling Cocktails */}
+    {/* Category: Chardonnay */}
     <div>
       <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Sparkling Cocktails</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <DrinkItem
-          name="Mediterranean Sunset"
-          price="$12"
-          description="Aperol, prosecco, orange juice, and soda"
+          name="J.Lohr (California)"
+          description="Rich and flavorful,but balanced by fresh acidity, with topical and stone fruit flavor and a toasted vanillabouquet from fermentation and maturation in oak barrel aging."
         />
         <DrinkItem
-          name="Bellini Bliss"
-          price="$11"
-          description="Peach purée and sparkling wine"
+          name="Kendall-Jackson Vintner’s Reserve (California)"
+          description="Crisp medium-bodied, notes of crushed minerals, lemon custard, orange skins and tropical fruits."
+        />
+        <DrinkItem
+          name="Rombauer (NAPA Valley)"
+          description="A rich wine with layers of tropical fruit, peaches and pears. The fruit opens into a creamy texture of apples and pears that glide across the palate. Hints of citrus and light oak tones highlight the wine’s lingering finish."
+        />
+        <DrinkItem
+          name="Cakebread Cellars (NAPA Valley)"
+          description="- A rich, complex NAPA Valley Chardonnay with vibrant melon, apple and pear aromas, impressively concentrated. Varietal flavors and a lingering, citrus - tinged finish. Barrel aging this wine for 8 months."
         />
       </div>
     </div>
