@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MenuDownload from "@/components/menu/MenuDownload";
 import DrinksViewer from "@/components/menu/DrinksViewer";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { RedWineTab, WhiteWineTab, CocktailsTab, BeersTab, NonAlcoholicTab } from "@/components/DrinkCategories";
 
 const Drinks = () => {
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const downloadPDF = async () => {
+    setIsDownloading(true);
+    try {
+      const link = document.createElement('a');
+      link.href = '/Wine Menu-color.pdf';
+      link.download = 'Cafe-Renaissance-Wine-Menu.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading PDF:', error);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
   return (
     <div 
       className="min-h-screen relative"
@@ -23,6 +42,8 @@ const Drinks = () => {
         {/* Drinks Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
+            <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
+            
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
                 <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
