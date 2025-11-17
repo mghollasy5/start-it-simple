@@ -243,11 +243,11 @@ export const RedWineTab = () => (
 
 export const WhiteWineTab = () => (
   <TabsContent value="white-wine" className="space-y-8">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Chardonnay</h2>
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
 
     {/* Category: Chardonnay */}
     <div>
-      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Sparkling Cocktails</h3>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Chardonnay</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <DrinkItem
           name="J.Lohr (California)"
