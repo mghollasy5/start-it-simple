@@ -42,7 +42,7 @@ const Drinks = () => {
         {/* Drinks Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
-            <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
+            <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} buttonText="Download Drink Menu" />
             
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
