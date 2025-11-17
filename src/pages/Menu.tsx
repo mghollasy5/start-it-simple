@@ -60,43 +60,43 @@ const Menu = () => {
             
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
-                <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="full-menu" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Full Menu
                 </TabsTrigger>
-                <TabsTrigger value="appetizers" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="appetizers" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Appetizers
                 </TabsTrigger>
-                <TabsTrigger value="soups-salads" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="soups-salads" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Soups & Salads
                 </TabsTrigger>
-                <TabsTrigger value="specialties" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="specialties" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Specialties
                 </TabsTrigger>
-                <TabsTrigger value="combination-platters" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="combination-platters" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Combination Platters
                 </TabsTrigger>
-                <TabsTrigger value="poultry" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="poultry" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Poultry
                 </TabsTrigger>
-                <TabsTrigger value="seafood" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="seafood" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Seafood
                 </TabsTrigger>
-                <TabsTrigger value="pasta" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="pasta" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Pasta
                 </TabsTrigger>
-                <TabsTrigger value="pizza" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="pizza" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Pizza
                 </TabsTrigger>
-                <TabsTrigger value="kids" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="kids" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Kids
                 </TabsTrigger>
-                <TabsTrigger value="sides" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="sides" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Sides
                 </TabsTrigger>
-                <TabsTrigger value="gluten-free" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="gluten-free" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Gluten-Free
                 </TabsTrigger>
-                <TabsTrigger value="vegetarian" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="vegetarian" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Vegetarian
                 </TabsTrigger>
               </TabsList>
