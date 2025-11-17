@@ -6,9 +6,10 @@ import { Download, RefreshCw } from "lucide-react";
 interface MenuDownloadProps {
   downloadPDF: () => Promise<void>;
   isDownloading: boolean;
+  buttonText?: string;
 }
 
-const MenuDownload = ({ downloadPDF, isDownloading }: MenuDownloadProps) => {
+const MenuDownload = ({ downloadPDF, isDownloading, buttonText = "Download Complete Menu" }: MenuDownloadProps) => {
   return (
     <section className="py-8 bg-cafe-cream/30">
       <div className="max-w-4xl mx-auto px-6 text-center">
@@ -25,7 +26,7 @@ const MenuDownload = ({ downloadPDF, isDownloading }: MenuDownloadProps) => {
           ) : (
             <>
               <Download className="w-4 h-4 mr-2" />
-              Download Complete Menu
+              {buttonText}
             </>
           )}
         </Button>
