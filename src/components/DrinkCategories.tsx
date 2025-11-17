@@ -241,7 +241,7 @@ export const RedWineTab = () => (
 );
 
 
-export const WhiteWIneTab = () => (
+export const WhiteWineTab = () => (
   <TabsContent value="white-wine" className="space-y-6">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Signature Cocktails</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
