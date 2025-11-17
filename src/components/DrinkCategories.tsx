@@ -31,7 +31,7 @@ const wineCategories: WineCategory[] = [
     title: "Cabernet Sauvignon",
     items: [
       {
-        name: "J.Lohrn (California)",
+        name: "J.Lohr (California)",
         description:
           "Dense and soft, this wine boasts ripe flavors of black currant and cherry, enhanced by a bouquet of vanilla and spice from a year of barrel aging.",
       },
