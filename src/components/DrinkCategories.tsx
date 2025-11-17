@@ -241,8 +241,6 @@ export const RedWineTab = () => (
 );
 
 
-
-
 export const WhiteWineTab = () => (
   <TabsContent value="white-wine" className="space-y-8">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Signature Cocktails</h2>
