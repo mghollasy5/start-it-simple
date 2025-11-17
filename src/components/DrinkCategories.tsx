@@ -229,7 +229,7 @@ export const RedWineTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
     {wineCategories.map((category) => (
       <section key={category.title}>
-        <h3 className="font-playfair text-2xl font-bold text-cafe-maroon mb-2">{category.title}</h3>
+        <h3 className="font-semibold text-xl font-bold text-cafe-maroon mb-2">{category.title}</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {category.items.map((item, index) => (
             <DrinkItem key={`${category.title}-${index}`} {...item} />
@@ -243,7 +243,7 @@ export const RedWineTab = () => (
 
 export const WhiteWineTab = () => (
   <TabsContent value="white-wine" className="space-y-8">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">White Wines</h2>
 
     {/* Category: Chardonnay */}
     <div>
