@@ -305,6 +305,79 @@ export const WhiteWineTab = () => (
         />
        </div>
     </div>
+
+     {/* Category: Riesling */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Riesling</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="Starling Castle Reserve Limited (Germany)"
+          description="Fine rich aroma of apricot and honey, crisp clean acidity with a fine lingering aftertaste."
+        />
+        <DrinkItem
+          name="Chateau Ste. Michelle (Washington) "
+          description="Crisp and lively medium-dry, floral aromas, flavors of juicy peach, ripe apricot and citrus."
+        />
+       </div>
+    </div>
+
+     {/* Category: Moscato */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Moscato</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="Movendo Moscato (Italy)"
+          description="Delightful flavors of ripe pear and honey with a hint of orange blossom and enhanced fruit dessert and pastries."
+        />
+        <DrinkItem
+          name="Risata Moscato D’Asti (Italy) "
+          description="This tongue-tingling Italian treat is sensually sweet. Fresh fruit and flower aromas. Flavors of peaches, apricots with a hint of lime."
+        />
+       </div>
+    </div>
+
+     {/* Category: White Zinfandel */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">White Zinfandel</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          description="Fresh strawberries and cream with hints of watermelon and peaches."
+       </div>
+    </div>
+
+    {/* Category: Sparkling Wine/Champagne */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Moscato</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="Sokol Blosser Bluebird Cuvee (Oregon)"
+          description="Bright aromas of apple blossom and peach, followed by pear and lime zest with a lasting crisp minerality on the tongue."
+        />
+        <DrinkItem
+          name="Moet & Chandon White Star (France) "
+          description="Moet is a balanced blend of three wine varieties, Chardonnay, Pinot Noir and Pino Meunier. Soft second nature aroma of flowers, hazelnuts, biscuits, with a fruity finish."
+        />
+        <DrinkItem
+          name="Dom Perignon (France)  "
+          description="Rich creamy mousse, fine bubbles; a spirited, crisp opening, leading into a broad palate of aromas and tastes."
+        />
+       </div>
+    </div>
+
+    {/* Category: Rose, Prosecco, Sweet Red */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Rose, Prosecco, Sweet Red</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="Champs de Provence Rose "
+          description="Champs de ProvenceTM is a classic dry rosé with vibrant notes of red berries, citrus and orange blossom with a medium-body, flavorful hints of raspberry and a zesty mineral finish."
+        />
+        <DrinkItem
+          name="Stella Rosa Red  "
+          description="Dangerously delicious semi-sweet, semi-sparkling Luxury Collection red wine that will bring out your inner femme-fatale. Find her, embrace her."
+        />
+       </div>
+    </div>
   </TabsContent>
 );
 
