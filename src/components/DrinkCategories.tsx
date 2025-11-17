@@ -248,7 +248,7 @@ interface WineCategory {
 
 const wineCategories: WineCategory[] = [
   {
-    title: "Cabernet Sauvignon",
+    title: "Cabernet kkkkSauvignon",
     items: [
       {
         name: "J.Lohr (California)",
