@@ -240,6 +240,49 @@ export const RedWineTab = () => (
   </TabsContent>
 );
 
+export const WhiteWineTab = () => (
+  <TabsContent value="white-wine" className="space-y-6">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Signature Cocktails</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <DrinkItem 
+        name="Mediterranean Sunset"
+        price="$12"
+        description="Aperol, prosecco, orange juice, and soda"
+      />
+      
+      <DrinkItem 
+        name="Classic Martini"
+        price="$14"
+        description="Gin or vodka with dry vermouth and olive"
+      />
+      
+      <DrinkItem 
+        name="Old Fashioned"
+        price="$13"
+        description="Bourbon, sugar, bitters, and orange peel"
+      />
+      
+      <DrinkItem 
+        name="Mojito"
+        price="$11"
+        description="White rum, mint, lime, sugar, and soda"
+      />
+      
+      <DrinkItem 
+        name="Margarita"
+        price="$12"
+        description="Tequila, triple sec, and fresh lime juice"
+      />
+      
+      <DrinkItem 
+        name="Negroni"
+        price="$13"
+        description="Gin, Campari, and sweet vermouth"
+      />
+    </div>
+  </TabsContent>
+);
+
 export const CocktailsTab = () => (
   <TabsContent value="cocktails" className="space-y-6">
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Signature Cocktails</h2>
