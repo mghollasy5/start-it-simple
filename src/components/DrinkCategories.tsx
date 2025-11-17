@@ -254,7 +254,7 @@ export const WhiteWineTab = () => (
       />
       
       <DrinkItem 
-        name="Classic Martini"
+        name="Classic Martiniiiiii"
         price="$14"
         description="Gin or vodka with dry vermouth and olive"
       />
