@@ -383,7 +383,7 @@ export const NonAlcoholicTab = () => (
       />
       
       <DrinkItem 
-        name="Soft Drinks"
+        name="Soft soft Drinks"
         price="$3"
         description="Coca-Cola products, lemonade, iced tea"
       />
