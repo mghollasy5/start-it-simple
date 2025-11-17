@@ -46,22 +46,22 @@ const Drinks = () => {
             
             <Tabs defaultValue="full-menu" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
-                <TabsTrigger value="full-menu" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="full-menu" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Full Menu
                 </TabsTrigger>
-                <TabsTrigger value="red-wine" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="red-wine" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Red Wine
                 </TabsTrigger>
-                <TabsTrigger value="white-wine" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="white-wine" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   White Wine
                 </TabsTrigger>
-                <TabsTrigger value="cocktails" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="cocktails" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Cocktails
                 </TabsTrigger>
-                <TabsTrigger value="beers" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="beers" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Beers
                 </TabsTrigger>
-                <TabsTrigger value="non-alcoholic" className="data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                <TabsTrigger value="non-alcoholic" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Non-Alcoholic
                 </TabsTrigger>
               </TabsList>
