@@ -268,19 +268,21 @@ export const WhiteWineTab = () => (
       </div>
     </div>
 
-    {/* Category: Classic Cocktails */}
+    {/* Category: Pinot Grigio */}
     <div>
-      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Classic Cocktails</h3>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Pinot Grigio</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <DrinkItem
-          name="Classic Martini"
-          price="$14"
-          description="Gin or vodka with dry vermouth and olive"
+          name="OKO (Italy)"
+          description="Produced from organically farmed vineyards in Veneto, Italy. It boasts aromas of fresh fruit, bright flavors of citrus and crisp acidity."
         />
         <DrinkItem
-          name="Old Fashioned"
-          price="$13"
-          description="Bourbon, bitters, sugar, and orange twist"
+          name="Ecco Domani (Italy) "
+          description="Pleasant floral and tropical fruit aromas; Light, crisp, clean and refreshing flavor."
+        />
+        <DrinkItem
+          name="Santa Margherita (Italy) "
+          description="Clean Intense aroma and dry flavor with pleasant Golden apple aftertaste."
         />
       </div>
     </div>
