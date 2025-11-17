@@ -229,7 +229,7 @@ export const RedWineTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Red Wines</h2>
     {wineCategories.map((category) => (
       <section key={category.title}>
-        <h4 className="font-playfair text-2xl font-bold text-cafe-maroon mb-4">{category.title}</h4>
+        <h3 className="font-playfair text-2xl font-bold text-cafe-maroon mb-2">{category.title}</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {category.items.map((item, index) => (
             <DrinkItem key={`${category.title}-${index}`} {...item} />
@@ -285,6 +285,25 @@ export const WhiteWineTab = () => (
           description="Clean Intense aroma and dry flavor with pleasant Golden apple aftertaste."
         />
       </div>
+    </div>
+
+     {/* Category: Sauvignon Blanc */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Sauvignon Blanc</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="J.Lohr (California)"
+          description="A crisp well balanced with key lime, grapefruit, and sweet herbs, with a lively acidity and textured finish."
+        />
+        <DrinkItem
+          name="Angeline (Russian River) "
+          description="Aromas of white peach and nectarine, green apple and lemon, wine is balanced by subtle mineraility and fresh green notes. Crisp and clean on the palate with a lingering ripened fruit finish."
+        />
+        <DrinkItem
+          name="White Haven (New Zealand, Marlborough)"
+          description="Powerful, lifted notes of gooseberry fruit flavors and grapefruit with fresh and bursting with mouth watering gooseberry, tropical fruit and nettle flavors."
+        />
+       </div>
     </div>
   </TabsContent>
 );
