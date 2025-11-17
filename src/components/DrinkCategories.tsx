@@ -31,7 +31,7 @@ const wineCategories: WineCategory[] = [
     title: "Cabernet Sauvignon",
     items: [
       {
-        name: "J.Lohr  (California)",
+        name: "J.Lohr (California)",
         description:
           "Dense and soft, this wine boasts ripe flavors of black currant and cherry, enhanced by a bouquet of vanilla and spice from a year of barrel aging.",
       },
@@ -106,7 +106,7 @@ const wineCategories: WineCategory[] = [
           "A wonderful profile of blueberry, red currants, and silky structure. Layers of black cherry, mixed berries, currants and all spice. The finish lingers on, creating a mouth-watering desire for another sip.",
       },
       {
-        name: "Rombauer (Napa Valley",
+        name: "Rombauer (Napa Valley)",
         description:
           "A great Zinfandel. This wine is a unique blend of 62% Amador, 18% Lake, 14% Napa and 6% El Dorado counties.",
       },
