@@ -342,6 +342,7 @@ export const WhiteWineTab = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <DrinkItem
           description="Fresh strawberries and cream with hints of watermelon and peaches."
+          />
        </div>
     </div>
 
