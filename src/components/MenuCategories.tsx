@@ -167,9 +167,9 @@ export const SoupsSaladsTab = () => (
       />
       
       <MenuItem 
-        name="Soup & Salad"
-        price="$13.99"
-        description="A bowl of our house soup and a fresh mixed green salad."
+        name="Grilled Salmon Salad"
+        price="$21.99"
+        description="Layers of fire roasted salmon served on a nest of continental salad leaves. Topped with walnuts and tossed with our fresh lemon and dill vinaigrette"
       />
       
       <MenuItem 
@@ -187,9 +187,9 @@ export const SoupsSaladsTab = () => (
       />
       
       <MenuItem 
-        name="Grilled Salmon Salad"
-        price="$21.99"
-        description="Layers of fire roasted salmon served on a nest of continental salad leaves. Topped with walnuts and tossed with our fresh lemon and dill vinaigrette"
+        name="Soup & Salad"
+        price="$13.99"
+        description="A bowl of our house soup and a fresh mixed green salad."
       />
 
        <MenuItem 
