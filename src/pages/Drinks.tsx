@@ -12,12 +12,16 @@ const Drinks = () => {
   const downloadPDF = async () => {
     setIsDownloading(true);
     try {
+      const response = await fetch('/Wine%20Menu-color.pdf');
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = '/Wine Menu-color.pdf';
+      link.href = url;
       link.download = 'Cafe-Renaissance-Wine-Menu.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error('Error downloading PDF:', error);
     } finally {

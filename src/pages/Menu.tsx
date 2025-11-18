@@ -26,12 +26,16 @@ const Menu = () => {
   const downloadPDF = async () => {
     setIsDownloading(true);
     try {
+      const response = await fetch('/cafe-renaissance-complete-menu.pdf');
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.href = '/cafe-renaissance-complete-menu.pdf';
+      link.href = url;
       link.download = 'Cafe-Renaissance-Complete-Menu.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
     } catch (error) {
       console.error('Error downloading PDF:', error);
     } finally {
