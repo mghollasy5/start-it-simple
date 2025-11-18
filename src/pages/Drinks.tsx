@@ -44,11 +44,8 @@ const Drinks = () => {
           <div className="max-w-7xl mx-auto">
             <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} buttonText="Download Drink Menu" />
             
-            <Tabs defaultValue="full-menu" className="w-full">
+            <Tabs defaultValue="red-wine" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
-                <TabsTrigger value="full-menu" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Full Menu
-                </TabsTrigger>
                 <TabsTrigger value="red-wine" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Red Wine
                 </TabsTrigger>
@@ -56,10 +53,6 @@ const Drinks = () => {
                   White Wine
                 </TabsTrigger>
                 </TabsList>
-
-              <TabsContent value="full-menu">
-                <DrinksViewer />
-              </TabsContent>
 
               <RedWineTab />
               <WhiteWineTab />

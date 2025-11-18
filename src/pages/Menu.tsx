@@ -58,11 +58,8 @@ const Menu = () => {
           <div className="max-w-7xl mx-auto">
             <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
             
-            <Tabs defaultValue="full-menu" className="w-full">
+            <Tabs defaultValue="appetizers" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
-                <TabsTrigger value="full-menu" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Full Menu
-                </TabsTrigger>
                 <TabsTrigger value="appetizers" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Appetizers
                 </TabsTrigger>
@@ -87,11 +84,11 @@ const Menu = () => {
                 <TabsTrigger value="pizza" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Pizza
                 </TabsTrigger>
-                <TabsTrigger value="kids" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Kids
-                </TabsTrigger>
                 <TabsTrigger value="sides" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Sides
+                </TabsTrigger>
+                <TabsTrigger value="kids" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
+                  Kids
                 </TabsTrigger>
                 <TabsTrigger value="gluten-free" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   Gluten-Free
@@ -100,10 +97,6 @@ const Menu = () => {
                   Vegetarian
                 </TabsTrigger>
               </TabsList>
-
-              <TabsContent value="full-menu">
-                <MenuViewer />
-              </TabsContent>
 
               <AppetizersTab />
               <SoupsSaladsTab />
