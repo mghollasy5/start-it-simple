@@ -26,9 +26,9 @@ export const AppetizersTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Appetizers</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-        name="Spinash and Artichoke Dip"
-        price="$14.99"
-        description="Traditional tangy hot spinach and artichoke cheese dip. Served with house chips."
+        name="Coquilles Saint Jacques"
+        price="MP"
+        description="Seared diver scallops over a mango chuntey."
       />
       
       <MenuItem 
@@ -44,9 +44,9 @@ export const AppetizersTab = () => (
       />
       
       <MenuItem 
-        name="Coquilles Saint Jacques"
-        price="MP"
-        description="Seared diver scallops over a mango chuntey."
+        name="Spinash and Artichoke Dip"
+        price="$14.99"
+        description="Traditional tangy hot spinach and artichoke cheese dip. Served with house chips."
       />
       
       <MenuItem 
