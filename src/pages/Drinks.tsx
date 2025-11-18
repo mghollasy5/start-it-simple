@@ -55,16 +55,7 @@ const Drinks = () => {
                 <TabsTrigger value="white-wine" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
                   White Wine
                 </TabsTrigger>
-                <TabsTrigger value="cocktails" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Cocktails
-                </TabsTrigger>
-                <TabsTrigger value="beers" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Beers
-                </TabsTrigger>
-                <TabsTrigger value="non-alcoholic" className="text-black text-lg font-semibold px-6 py-3 data-[state=active]:bg-cafe-logoRed data-[state=active]:text-white">
-                  Non-Alcoholic
-                </TabsTrigger>
-              </TabsList>
+                </TabsList>
 
               <TabsContent value="full-menu">
                 <DrinksViewer />
@@ -72,9 +63,6 @@ const Drinks = () => {
 
               <RedWineTab />
               <WhiteWineTab />
-              <CocktailsTab />
-              <BeersTab />
-              <NonAlcoholicTab />
             </Tabs>
           </div>
         </div>
