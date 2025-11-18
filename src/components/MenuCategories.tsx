@@ -295,9 +295,9 @@ export const SpecialtiesTab = () => (
       />
 
       <MenuItem 
-        name="New Zealand Rack of Lamb"
+        name="Moroccan Lamb"
         price="MP"
-        description="Ginger herb and roasted garlic crusted rack of lamb with rosemary-mint vegetables and infused with shiraz demi glaze. Served with sweet potato puree."
+        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
       />
 
       <MenuItem 
@@ -313,9 +313,9 @@ export const SpecialtiesTab = () => (
       />
 
        <MenuItem 
-        name="Moroccan Lamb"
+         name="New Zealand Rack of Lamb"
         price="MP"
-        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
+        description="Ginger herb and roasted garlic crusted rack of lamb with rosemary-mint vegetables and infused with shiraz demi glaze. Served with sweet potato puree."
       />
 
       <MenuItem 
