@@ -340,6 +340,7 @@ export const WhiteWineTab = () => (
       <h3 className="text-xl font-semibold text-cafe-maroon mb-2">White Zinfandel</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <DrinkItem
+          name="White Zinfandel"
           description="Fresh strawberries and cream with hints of watermelon and peaches."
           />
        </div>
