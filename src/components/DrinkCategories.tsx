@@ -240,7 +240,72 @@ export const RedWineTab = () => (
   </TabsContent>
 );
 
+export const WhiteWineTab = () => (
+  <TabsContent value="white-wine" className="space-y-8">
+    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">White Wines</h2>
 
+    {/* Category: Chardonnay */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Chardonnay</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="J.Lohr (California)"
+          description="Rich and flavorful,but balanced by fresh acidity, with topical and stone fruit flavor and a toasted vanillabouquet from fermentation and maturation in oak barrel aging."
+        />
+        <DrinkItem
+          name="Kendall-Jackson Vintner’s Reserve (California)"
+          description="Crisp medium-bodied, notes of crushed minerals, lemon custard, orange skins and tropical fruits."
+        />
+        <DrinkItem
+          name="Rombauer (NAPA Valley)"
+          description="A rich wine with layers of tropical fruit, peaches and pears. The fruit opens into a creamy texture of apples and pears that glide across the palate. Hints of citrus and light oak tones highlight the wine’s lingering finish."
+        />
+        <DrinkItem
+          name="Cakebread Cellars (NAPA Valley)"
+          description="- A rich, complex NAPA Valley Chardonnay with vibrant melon, apple and pear aromas, impressively concentrated. Varietal flavors and a lingering, citrus - tinged finish. Barrel aging this wine for 8 months."
+        />
+      </div>
+    </div>
+
+    {/* Category: Pinot Grigio */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Pinot Grigio</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="OKO (Italy)"
+          description="Produced from organically farmed vineyards in Veneto, Italy. It boasts aromas of fresh fruit, bright flavors of citrus and crisp acidity."
+        />
+        <DrinkItem
+          name="Ecco Domani (Italy) "
+          description="Pleasant floral and tropical fruit aromas; Light, crisp, clean and refreshing flavor."
+        />
+        <DrinkItem
+          name="Santa Margherita (Italy) "
+          description="Clean Intense aroma and dry flavor with pleasant Golden apple aftertaste."
+        />
+      </div>
+    </div>
+
+     {/* Category: Sauvignon Blanc */}
+    <div>
+      <h3 className="text-xl font-semibold text-cafe-maroon mb-2">Sauvignon Blanc</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DrinkItem
+          name="J.Lohr (California)"
+          description="A crisp well balanced with key lime, grapefruit, and sweet herbs, with a lively acidity and textured finish."
+        />
+        <DrinkItem
+          name="Angeline (Russian River) "
+          description="Aromas of white peach and nectarine, green apple and lemon, wine is balanced by subtle mineraility and fresh green notes. Crisp and clean on the palate with a lingering ripened fruit finish."
+        />
+        <DrinkItem
+          name="White Haven (New Zealand, Marlborough)"
+          description="Powerful, lifted notes of gooseberry fruit flavors and grapefruit with fresh and bursting with mouth watering gooseberry, tropical fruit and nettle flavors."
+        />
+       </div>
+    </div>
+  </TabsContent>
+);
 
 export const CocktailsTab = () => (
   <TabsContent value="cocktails" className="space-y-6">
