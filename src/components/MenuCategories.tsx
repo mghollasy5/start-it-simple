@@ -161,9 +161,9 @@ export const SoupsSaladsTab = () => (
       />
       
       <MenuItem 
-        name="French Onion"
-        price="$9.99"
-        description="Made from scratch. A blend of fine onions, sweet and flavorful, topped with melted provolone cheese floating on croutons."
+     name="Soup & Salad"
+        price="$13.99"
+        description="A bowl of our house soup and a fresh mixed green salad."
       />
       
       <MenuItem 
@@ -187,9 +187,9 @@ export const SoupsSaladsTab = () => (
       />
       
       <MenuItem 
-        name="Soup & Salad"
-        price="$13.99"
-        description="A bowl of our house soup and a fresh mixed green salad."
+        name="French Onion"
+        price="$9.99"
+        description="Made from scratch. A blend of fine onions, sweet and flavorful, topped with melted provolone cheese floating on croutons."
       />
 
        <MenuItem 
