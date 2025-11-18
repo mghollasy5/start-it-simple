@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import MenuDownload from "@/components/menu/MenuDownload";
 import DrinksViewer from "@/components/menu/DrinksViewer";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { RedWineTab, WhiteWineTab, CocktailsTab, BeersTab, NonAlcoholicTab } from "@/components/DrinkCategories";
+import { RedWineTab, WhiteWineTab } from "@/components/DrinkCategories";
 
 const Drinks = () => {
   const [isDownloading, setIsDownloading] = useState(false);
