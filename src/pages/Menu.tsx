@@ -60,7 +60,14 @@ const Menu = () => {
         {/* Menu with Tabs */}
         <div className="pt-20 section-padding">
           <div className="max-w-7xl mx-auto">
-            <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
+            {/* Main Heading */}
+            <div className="text-center mb-8">
+              <h1 className="font-playfair text-5xl md:text-6xl font-bold text-cafe-maroon mb-4 animate-fade-in">
+                Our Menu
+              </h1>
+              <p className="text-lg text-cafe-maroon/80 mb-6">Explore our culinary offerings</p>
+              <MenuDownload downloadPDF={downloadPDF} isDownloading={isDownloading} />
+            </div>
             
             <Tabs defaultValue="appetizers" className="w-full">
               <TabsList className="w-full flex flex-wrap justify-center gap-2 bg-cafe-cream/50 p-2 mb-8 h-auto">
