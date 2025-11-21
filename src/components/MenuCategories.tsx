@@ -257,9 +257,10 @@ export const SpecialtiesTab = () => (
     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">House Specialties</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
-          name="Moroccan Lamb"
-        price="MP"
-        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
+        name="Moussaka"
+        price="$26.99"
+        description="One of the most famous Mediterranean dishes.
+        Layers of eggplant, seasoned ground beef and potato crowned with our special cream sauce. Sprinkled with parmesan and baked in our Wood Stone oven."
       />
       
       <MenuItem 
@@ -294,10 +295,9 @@ export const SpecialtiesTab = () => (
       />
 
       <MenuItem 
-        name="Moussaka"
-        price="$26.99"
-        description="One of the most famous Mediterranean dishes.
-        Layers of eggplant, seasoned ground beef and potato crowned with our special cream sauce. Sprinkled with parmesan and baked in our Wood Stone oven."
+        name="Moroccan Lamb"
+        price="MP"
+        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
       />
 
       <MenuItem 
