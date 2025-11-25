@@ -97,6 +97,12 @@ const galleryImages = [
     caption: "Tender braised lamb shank with seasonal vegetables and wine"
   },
   {
+    id: 31,
+    src: "/lovable-uploads/e983d0ce-2974-49ee-9689-7ff958783857.png",
+    alt: "Braised lamb shank with wine pairing",
+    caption: "Braised lamb shank with wine pairing"
+  },
+  {
     id: 16,
     src: "/lovable-uploads/aa9def4a-dd8d-4885-8f08-9c3cce74e7e5.png",
     alt: "Surf and turf premium plate",
