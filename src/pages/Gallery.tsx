@@ -91,12 +91,6 @@ const galleryImages = [
     caption: "Perfectly grilled lamb chop with seasonal vegetables"
   },
   {
-    id: 15,
-    src: "/lovable-uploads/1212d88c-163c-48fd-8157-d29a73452e66.png",
-    alt: "Braised lamb shank with wine pairing",
-    caption: "Tender braised lamb shank with seasonal vegetables and wine"
-  },
-  {
     id: 31,
     src: "/lovable-uploads/e983d0ce-2974-49ee-9689-7ff958783857.png",
     alt: "Braised lamb shank with wine pairing",
