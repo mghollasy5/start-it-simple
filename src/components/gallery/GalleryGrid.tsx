@@ -57,22 +57,20 @@ const GalleryGrid = ({ images, activeImageIndex, onImageClick }: GalleryGridProp
         }
       }}
     >
-      <AnimatePresence>
-        {images.map((image, index) => {
-          const isActive = index === activeImageIndex;
-          const animation = getRandomAnimation();
-          
-          return (
-            <GalleryGridItem
-              key={image.id}
-              image={image}
-              isActive={isActive}
-              animation={animation}
-              onClick={onImageClick}
-            />
-          );
-        })}
-      </AnimatePresence>
+      {images.map((image, index) => {
+        const isActive = index === activeImageIndex;
+        const animation = getRandomAnimation();
+        
+        return (
+          <GalleryGridItem
+            key={image.id}
+            image={image}
+            isActive={isActive}
+            animation={animation}
+            onClick={onImageClick}
+          />
+        );
+      })}
     </motion.div>
   );
 };
