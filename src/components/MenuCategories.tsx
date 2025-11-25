@@ -4,436 +4,27 @@ import { Separator } from "@/components/ui/separator";
 
 interface MenuItemProps {
   name: string;
-  price?: string;
-  description?: string;
+  price: string;
+  description: string;
   options?: string;
 }
 
 const MenuItem = ({ name, price, description, options }: MenuItemProps) => (
   <div className="p-4 border border-cafe-gold/30 rounded-lg hover:shadow-lg transition-all bg-white/80 hover:bg-white hover:-translate-y-1 duration-300">
     <div className="flex justify-between items-baseline mb-1.5">
-      <h2 className="font-playfair text-lg font-bold text-cafe-maroon">{name}</h2>
-      {price && <span className="text-black font-bold ml-2">{price}</span>}
+      <h4 className="font-playfair text-base font-medium text-cafe-maroon">{name}</h4>
+      <span className="text-cafe-gold font-semibold ml-2">{price}</span>
     </div>
     <Separator className="w-full h-px bg-cafe-tan/30 my-1.5" />
-    {description && <p className="text-base text-black leading-relaxed">{description}</p>}
-    {options && <p className="text-base text-black mt-1 italic">{options}</p>}
+    <p className="text-xs text-cafe-maroon/70 leading-relaxed">{description}</p>
+    {options && <p className="text-xs text-cafe-maroon/70 mt-1 italic">{options}</p>}
   </div>
-);
-
-export const AppetizersTab = () => (
-  <TabsContent value="appetizers" className="space-y-6">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Appetizers</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <MenuItem 
-        name="Coquilles Saint Jacques"
-        price="MP"
-        description="Seared diver scallops over a mango chuntey."
-      />
-      
-      <MenuItem 
-        name="Spanakopita"
-        price="$13.99"
-        description="Baked phyllo dough stuffed with spinach and feta chesse."
-      />
-      
-      <MenuItem 
-        name="French Asian Crab Cake"
-        price="$15.99"
-        description="Pair of sweet Dungeness crab cakes. Fried and served with roasted red peppers and aioli sauce."
-      />
-      
-      <MenuItem 
-        name="Spinash and Artichoke Dip"
-        price="$14.99"
-        description="Traditional tangy hot spinach and artichoke cheese dip. Served with house chips."
-      />
-      
-      <MenuItem 
-        name="Smoked Salmon"
-        price="$17.99"
-        description="Smoked Atlantic salmon with mixed greens, capers, chives, extra virgin olive oil and ages balsamic reduction."
-      />
-      
-      <MenuItem 
-        name="Lobstair Tail"
-        price="MP"
-        description="Butter peached cold water lobster tail."
-      />
-      
-      <MenuItem 
-        name="Mediterranean Combo Platter"
-        price="$16.99"
-        description="HUMMUS- Puree of chick-peas, lemon, tahini, garlic, cayenne and herbs.
-        GRAPE LEAF DOLMAS - Filled with rice and herbs."
-      />
-      
-      <MenuItem 
-        name="Calamari"
-        price="$17.99"
-        description="Lightly battered steaks fries to a crisp, golden brown. Served with our house marinara sauce."
-      />
-      
-      <MenuItem 
-        name="Lamb Lollipops"
-        price="$15.99"
-        description="Ginger herb crusted mini New Zealand lamb served with pountine salad."
-      />
-
-      <MenuItem 
-        name="Flaming Saganaki Opa!!!"
-        price="$15.99"
-        description="Imported Greek cheese sauteed in olive oil and garnished with lemon juice and mint herb. Served with our fresh baked bread."
-      />
-
-      <MenuItem 
-        name="Escargot de Bourgogne"
-        price="$17.99"
-        description="Traditional imported French escargots in garlic herb butter. Served with crispy brioche."
-      />
-
-      <MenuItem 
-        name="Caviar"
-        price="MP"
-        description="Caspian Sea golden Osetra caviar One oz. Served with condiments."
-      />
-
-      <MenuItem 
-        name="Tzatziki"
-        price="$13.99"
-        description="A refreshing cucumber yogurt dill sauce, garlic and olive oil. Served with our specialty chips."
-      />
-
-      <MenuItem 
-        name="Seafood Platter"
-        price="MP"
-        description="Party Platter Zise- Calamari, shrimp, scallops, crabcakes and mussels."
-      />
-
-      <MenuItem 
-        name="Curried Shrimp"
-        price="$21.99"
-        description="Marinated Jumbo shrimp served over a bed of vegetables in mild curry cream sauce."
-      />
-
-      <MenuItem 
-        name="Stuffed Shrimp"
-        price="$17.99"
-        description="Jumbo shrimp stuffed with crab, mascapone cheese and herbs. Served with lemon pomegrante reduction."
-      />
-
-      <MenuItem 
-        name="Shrimp Martini"
-        price="$22.99"
-        description="Succulent cold water jumbo praws on a bed of ice. Served with tangy cocktail sauce."
-      />
-
-      <MenuItem 
-        name="Mussels Marinara"
-        price="MP"
-        description="Mussels prepared in our house red sauce with a tauch of fresh garlic. Served mild or spicy."
-      />
-
-      <MenuItem 
-        name="Grilled Mushrooms"
-        price="$17.99"
-        description="Marinated charboiled mushrooms in lemon pomegranate sauce."
-      />
-    </div>
-  </TabsContent>
-);
-
-export const SoupsSaladsTab = () => (
-  <TabsContent value="soups-salads" className="space-y-6">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Soups & Salads</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <MenuItem 
-        name="House Soup"
-        price="$6.99"
-        description="Our specialty vegetable barley soup."
-      />
-      
-      <MenuItem 
-        name="Soup du Jour"
-        price="$8.99"
-        description="Chef specialty soup."
-        options="Please ask your server for details"
-      />
-      
-      <MenuItem 
-     name="Soup & Salad"
-        price="$13.99"
-        description="A bowl of our house soup and a fresh mixed green salad."
-      />
-      
-      <MenuItem 
-        name="Grilled Salmon Salad"
-        price="$21.99"
-        description="Layers of fire roasted salmon served on a nest of continental salad leaves. Topped with walnuts and tossed with our fresh lemon and dill vinaigrette"
-      />
-      
-      <MenuItem 
-        name="Mediterranean Salad"
-        price="$14.99"
-        description="Hearts of romaine lettuce topped with feta cheese, tomatoes, cucumbers and kalamata olives. Tossed with lemon and olive oil dressing."
-        options="Add chicken or beef gyro meal: $3.99"
-      />
-      
-      <MenuItem 
-        name="Classic Caesar Salad"
-        price="$14.99"
-        description="Fresh romaine lettuce, parmesan cheese and croutons tossed with our own garlic caesar dressing."
-        options="Add chicken:$3.99 Add shrimp: $4.00"
-      />
-      
-      <MenuItem 
-        name="French Onion"
-        price="$9.99"
-        description="Made from scratch. A blend of fine onions, sweet and flavorful, topped with melted provolone cheese floating on croutons."
-      />
-
-       <MenuItem 
-        name="House Salad"
-        price="$5.99"
-      />
-    </div>
-  </TabsContent>
-);
-
-export const SidesTab = () => (
-  <TabsContent value="sides" className="space-y-6">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Sides</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <MenuItem 
-        name="Grilled Asparagus"
-        price="$6.99"
-      />
-      
-      <MenuItem 
-        name="Saffron Basmati Rice"
-        price="$7.99"
-      />
-      
-      <MenuItem 
-        name="Mac & Cheese with Bacon"
-        price="$8.99"
-      />
-      
-      <MenuItem 
-        name="Cheesy Risotto"
-        price="$8.99"
-      />
-      
-      <MenuItem 
-        name="Grilles Salmon Vegetables"
-        price="$7.99"
-      />
-      
-      <MenuItem 
-        name="Sautéed Wild Mushrooms"
-        price="$9.99"
-      />
-      
-      <MenuItem 
-        name="Parisienne Potato"
-        price="$6.99"
-      />
-
-       <MenuItem 
-        name="Shrimp Scampi"
-        price="$10.99"
-      />
-
-       <MenuItem 
-        name="Lobster Tail"
-        price="MP"
-      />
-    </div>
-  </TabsContent>
-);
-
-export const SpecialtiesTab = () => (
-  <TabsContent value="specialties" className="space-y-6">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">House Specialties</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <MenuItem 
-        name="Moussaka"
-        price="$26.99"
-        description="One of the most famous Mediterranean dishes.
-        Layers of eggplant, seasoned ground beef and potato crowned with our special cream sauce. Sprinkled with parmesan and baked in our Wood Stone oven."
-      />
-      
-      <MenuItem 
-        name="Souvlaki (Shish Kabab)"
-        description="Thick chunks of marinated meat seasoned and broiled over an open fire.
-                      Served with saffron basmati rice and fresh steamed vegetables."
-        options= "Beef tenderloin: $25.99 Lamb: $27.99"
-      />
-      
-      <MenuItem 
-        name="Pappersteak Bourguignon"
-        price="$29.99"
-        description="Marinated beef tenderloin chunks in red wine & herbs. Sautéed & braised with mushrooms, peppers & shallots until tender. Served with our garlic potato purée."
-      />
-      
-      <MenuItem 
-        name="Beef and Lamb Gyro Platter"
-        price="$23.99"
-        description="Sliced seasoned beef and lamb cooked on our rotisserie. Garnished with onions, tomato, kalamata olives and our special cucumber dill sauce. Served with saffron basmati rice and pita bread."
-      />
-      
-      <MenuItem 
-        name="Paella Valenciana"
-        price="$29.99"
-        description="A popular Spanish dish with sautéed chicken, chorizo sausage and a medley of vegetables. Overflows with shrimp, mussels and scallops on a bed of saffron basmati rice."
-      />
-      
-      <MenuItem 
-        name="Osso Bucco"
-        price="MP"
-        description="Slowly roasted veal shank braised with marsala wine and an array of vegetables. Served over risotto milanese and gremolata."
-      />
-
-      <MenuItem 
-        name="Moroccan Lamb"
-        price="MP"
-        description="Cumin and roasted garlic crusted rack of lamb cooked in port reduction served with mushroom risotto."
-      />
-
-      <MenuItem 
-        name="Lamb Shank"
-        price="MP"
-        description="A whole tender lamb shank braised with red wine and garlic. Served with saffron dill rice."
-      />
-
-      <MenuItem 
-        name="Pork Tomahawk"
-        price="MP"
-        description="Grilled 16 oz pork tomahawk served with potato purée, vegetables and maple bourbon reductio."
-      />
-
-       <MenuItem 
-         name="New Zealand Rack of Lamb"
-        price="MP"
-        description="Ginger herb and roasted garlic crusted rack of lamb with rosemary-mint vegetables and infused with shiraz demi glaze. Served with sweet potato puree."
-      />
-
-      <MenuItem 
-        name="Moroccan Tagine"
-        description="A popular Casablanca style stew of selected meat braised with onions, tomatoes, cumin, green olives and ginger.
-        Finished with a saffron harisa sauce reduction over your choice of Moroccan couscous or basmati rice. Garnished with preserved lemons."
-        options="Beef: $28.99 Lamb: $29.99 Chicken: $27.99 Shrimp: $31.99"
-      />
-
-       <MenuItem 
-        name="Curry"
-        description="Special blend of your favorite meat cooked with spices and herbs. Served with basmati rice. Please specify mild or hot."
-         options="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Lamb: $27.99 Shrimp: $29.99"
-      />
-
-      <MenuItem 
-        name="Thai Green Curry"
-        description="Choice of meat or vegetarian with bell peppers, green peas and bamboo shoots in coconut milk. Served with sweet basil leaves and basmati rice."
-        options="Vegetarian: $23.99 Chicken: $25.99 Beef: $26.99 Shrimp: $29.99 Lamb: $27.99"
-      />
-
-      <MenuItem 
-        name="New York Steak"
-        price="MP"
-        description="A thick, center-cut, aged Black Angus steak charbroiled until you say when. Boldly seasoned with fresh cracked pepper and topped with Maitre’d butter.
-        Served with vegetable and parisienne potatoes."
-      />
-
-      <MenuItem 
-        name="Filet Mignon"
-        price="MP"
-        description="This pepper-crusted, 8 oz. thick delicious cut from the heart of tenderloin is cooked to your liking and topped with wild mushroom demi. Served with vegetable and parisienne potatoes."
-      />
-
-     <MenuItem 
-        name="Prome Rib"
-        price="MP"
-        description="Our choice of aged Black Angus prime rib is hand-rubbed with the Chef’s seasoning then slowly roasted to perfection. Available Friday and Saturday while it lasts."
-      /> 
-
-        <MenuItem 
-        name="Bone-in Ribeye"
-        price="MP"
-        description="Carefully aged 20 oz Bone-in Ribeye charbroiled to your liking. Served with scalloped potatoes, vegetables and red wine Au jus."
-      /> 
-
-      <MenuItem 
-        name="Stuffed Pork Tenderloin"
-        price="MP"
-        description="Center cut tenderloin stuffed with apricots, raisins, baby spinach mascarpone cheese and fresh garlic. Served with sweet potato purée and grilled asparagus."
-      /> 
-    </div>
-  </TabsContent>
-);
-
-export const CombinationPlattersTab = () => (
-  <TabsContent value="combination-platters" className="space-y-6">
-    <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Combination Platters</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <MenuItem 
-        name="Seafood Royal"
-        price="MP"
-        description="Broiled pistachio encrusted Alaskan Bay halibut accompanied with crabmeat, seared scallops and jumbo shrimp.
-        Served over a wild mushroom medley and highlighted with a lemon butter cream reduction."
-      />
-      
-      <MenuItem 
-        name="Steak and Lobster"
-        price="MP"
-        description="Thick center cut aged black angus charbroiled to your liking and cold water lobster tail. Served with steamed vegetables and and parisienne potatoes."
-      />
-      
-      <MenuItem 
-        name="The Greek Sampler"
-        price="$29.99"
-        description="Combination of beef and lamb, chicken gyro and moussaka, served with basmati rice and fresh vegetables."
-      />
-      
-      <MenuItem 
-        name="Scallops, Shrimp and Chicken"
-        price="MP"
-        description="Grilled sea scallops, jumbo shrimp and tender chunks of marinated chicken breast. Served with lobster butter cream sauce and steamed vegetables."
-      />
-      
-      <MenuItem 
-        name="Seafood Trio"
-        price="MP"
-        description="8 oz. Maine lobster tail stuffed with blue shrimp, smoked bacon, and lump crab. Served with roasted asparagus and lobster mac & cheese."
-      />
-      
-      <MenuItem 
-        name="Chateaubriand Cardinal Filet & Lobster"
-        price="MP"
-        description="Slow roasted black angus tenderloin accompanied by a butter poached cold water lobster tail. Proposed with truffle-port demi glaze. Served with seasonal vegetables and hoice of potato."
-      />
-
-      <MenuItem 
-        name="Fire Roasted Platter"
-        price="$29.99"
-        description="Marinated lamb, beef tenderloin and chicken breast. Fire roasted and served with fresh seasonal vegetables and basmati saffron rice."
-      />
-
- <MenuItem 
-        name="Create Your Own Combo"
-        description="All orders come with steamed vegetables, basmati rice and our house vegetable barley soup.
-   Marinated lamb & beef gyro Marinated chicken gyro Marinated beef souvlaki Marinated lamb souvlaki Marinated chicken souvlaki Garlic shrimp scampi Linguine alfredo Fire roasted salmon."
-   options="Choose any two for $28.99 or any three for $33.99"
-
-      />     
-    </div>
-  </TabsContent>
 );
 
 export const PoultryTab = () => (
   <TabsContent value="poultry" className="space-y-6">
-     <h2 className="font-playfair text-3xl font-bold text-cafe-maroon mb-4">Poultry</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <MenuItem 
+      <MenuItem 
         name="Pomegranate Chicken"
         price="$27.99"
         description="Pan-seared chicken breast infused with lemon pomegranate sauce. Served with garlic potato purée and fresh steamed vegetables for a Mediterranean-inspired dining experience."
@@ -494,13 +85,6 @@ export const PoultryTab = () => (
         options="Chicken: $23.99, Shrimp: $29.99"
       />
       
-       <MenuItem 
-        name="Curry"
-        price="$23.99 - $26.99 - $29.99"
-        description="A special blend of your favorite meat cooked with spices and herbs. Served with basmati rice. Please specify mild or hot spices."
-        options=" Vegetarian: $23.99, Chicken: $26.99, Shrimp: $29.99"
-      />
-      
       <MenuItem 
         name="Cashew Chicken"
         price="$29.99"
@@ -515,38 +99,38 @@ export const SeafoodTab = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
         name="Lobster Cardinal"
-        price="MP"
+        price="Market Price"
         description="Cold water lobster tail, seared scallops and jumbo shrimp scampi prepared to perfection on a bed of steamed vegetables. Served with clarified drawn butter for an elegant seafood experience."
       />
       
       <MenuItem 
         name="Mahi Mahi"
-        price="MP"
+        price="Market Price"
         description="Fresh crab encrusted Mahi-Mahi filet highlighted with a rich lobster-cognac butter sauce. Served over a bed of sautéed spinach and creamy garlic potato purée."
       />
       
       <MenuItem 
         name="Seafood Risotto"
-        price="MP"
-        description="Jumbo shrimp, sea scallops, English peas, and cherry tomatoes in a creamy risotto infused with truffle essence."
+        price="Market Price"
+        description="Jumbo shrimp, sea scallops, English peas, and cherry tomatoes in a creamy risotto infused with truffle essence and finished with parmesan cheese."
       />
       
       <MenuItem 
         name="Lobster Risotto"
-        price="MP"
+        price="Market Price"
         description="8 oz wild-caught lobster chunks, sautéed with mushrooms, green peas, and cherry tomatoes in white wine and butter cream sauce. Served over golden saffron risotto."
       />
       
       <MenuItem 
         name="Bacon Wrapped Seared Scallops"
-        price="MP"
+        price="Market Price"
         description="Premium sea scallops wrapped in crispy bacon and seared to perfection. Served with homemade mango chutney on a bed of risotto milanese and steamed vegetables."
       />
       
       <MenuItem 
         name="Shrimp Scampi"
         price="$27.99"
-        description="Jumbo prawns sautéed with garlic basil sauce. Served with fresh steamed vegetables and saffron basmati rice."
+        description="Jumbo prawns sautéed with garlic, white wine, lemon, and fresh herbs in a delicate basil sauce. Served with fresh steamed vegetables and saffron basmati rice."
       />
       
       <MenuItem 
@@ -557,8 +141,8 @@ export const SeafoodTab = () => (
       
       <MenuItem 
         name="Cioppino"
-        price="MP"
-        description="Pan-seared Alaskan halibut and cold water lobster tail with spinach and fine vegetables in Chardonnay tomatoes saffron reduction."
+        price="Market Price"
+        description="Traditional Italian seafood stew with pan-seared Alaskan halibut and cold water lobster tail with spinach and fine vegetables in Chardonnay tomatoes saffron reduction."
       />
       
       <MenuItem 
@@ -582,7 +166,7 @@ export const SeafoodTab = () => (
       <MenuItem 
         name="Bouillabaisse de Marseille"
         price="$36.99"
-        description="Traditional French seafood stew with fresh mussels, clams, scallops, tiger shrimp and seasonal fish simmered in aromatic saffron tomato broth broth."
+        description="Traditional French seafood stew with fresh mussels, clams, scallops, tiger shrimp and seasonal fish simmered in aromatic saffron tomato broth with herbs de Provence."
       />
       
       <MenuItem 
@@ -600,7 +184,7 @@ export const SeafoodTab = () => (
       <MenuItem 
         name="Thai Glazed Salmon"
         price="$33.99"
-        description="Pan-seared filet of Canadian salmon glazed in a Thai-coconut cashew sauce. Served with seasonal vegetables and saffron basmati rice."
+        description="Pan-seared filet of Canadian salmon glazed in a Thai-coconut cashew sauce with aromatic spices. Served with seasonal vegetables and saffron basmati rice."
       />
     </div>
   </TabsContent>
@@ -612,26 +196,26 @@ export const PastaTab = () => (
       <MenuItem 
         name="Mac & Cheese Au Gratin"
         price="$27.99+"
-        description="Creamy penne pasta baked with Vermont cheddar, Swiss and parmesan cheeses, topped with crispy bacon."
+        description="Creamy penne pasta baked with Vermont cheddar, Swiss and parmesan cheeses, topped with crispy bacon and golden breadcrumb crust."
         options="Add chicken: $29.99, Add scallops and shrimp: $32.99, Add vegetables: $28.99"
       />
       
       <MenuItem 
         name="Linguine Pomodoro"
         price="$26.99"
-        description="Delicate linguine tossed with crushed sweet tomatoes, olive oil, fresh garlic and aromatic basil chiffonade."
+        description="Delicate linguine tossed with crushed sweet San Marzano tomatoes, extra virgin olive oil, fresh garlic and aromatic basil chiffonade."
       />
       
       <MenuItem 
         name="Salmon Piccata"
         price="$28.99"
-        description="Fire roasted salmon topped with a delicate caper lemon butter sauce. Served over angel hair pasta."
+        description="Fire roasted salmon topped with a delicate caper lemon butter sauce with white wine and fresh herbs. Served over angel hair pasta with parmesan cheese."
       />
       
       <MenuItem 
         name="Chicken Penne"
         price="$26.99"
-        description="Grilled chicken breast and sun-dried tomatoes tossed with penne pasta in a light pesto cream sauce."
+        description="Grilled chicken breast and sun-dried tomatoes tossed with penne pasta in a light pesto cream sauce with pine nuts and fresh basil."
       />
       
       <MenuItem 
@@ -644,44 +228,44 @@ export const PastaTab = () => (
       <MenuItem 
         name="Fettuccine Alfredo"
         price="$22.99+"
-        description="Fresh fettuccine pasta tossed with our rich and creamy house-made alfredo sauce, finished with freshly grated parmesan cheese."
+        description="Fresh fettuccine pasta tossed with our rich and creamy house-made alfredo sauce, finished with freshly grated parmesan cheese and cracked black pepper."
         options="With vegetables: $23.99, With chicken: $25.99, With shrimp: $28.99"
       />
       
       <MenuItem 
         name="Tortellini Dé Renaissance"
         price="$29.99"
-        description="Sautéed chicken breast, shrimp, fresh basil, garlic, and bell peppers in a rich parmesan cream sauce, served over tricolor cheese tortellini."
+        description="Sautéed chicken breast, jumbo shrimp, fresh basil, garlic, and bell peppers in a rich parmesan cream sauce, served over tricolor cheese tortellini."
       />
       
       <MenuItem 
         name="Café Shrimp Pasta"
         price="$27.99"
-        description="Sautéed jumbo shrimp, fresh mushrooms and cherry tomatoes tossed with linguine in a delicious basil garlic-lemon cream sauce."
+        description="Sautéed jumbo shrimp, fresh mushrooms and cherry tomatoes tossed with linguine in a delicious basil garlic-lemon cream sauce with white wine."
       />
       
       <MenuItem 
         name="Cappellini Dé Renaissance"
         price="$32.99"
-        description="shrimp, calamari, sea scallops and mussels with your choice of vodka cream, tomato cream, garlic olive oil or marinara sauce."
+        description="Jumbo shrimp, calamari, sea scallops and mussels with your choice of vodka cream, tomato cream, garlic olive oil or marinara sauce over angel hair pasta."
       />
       
       <MenuItem 
         name="Chicken Piccata"
         price="$27.99"
-        description="Sautéed chicken breast and mushrooms served on a bed of farfalle pasta. Drizzled with our light lemon caper sauce."
+        description="Sautéed chicken breast and mushrooms served on a bed of farfalle pasta. Drizzled with our light lemon caper sauce with white wine and fresh herbs."
       />
       
       <MenuItem 
         name="Cajun Jambalaya Pasta"
         price="$28.99"
-        description="Sautéed chicken breast and jumbo shrimp with onions, tomatoes and bell peppers in a very spicy Cajun sauce over linguine pasta."
+        description="Sautéed chicken breast and jumbo shrimp with onions, tomatoes and bell peppers in a very spicy Cajun sauce with andouille sausage over linguine pasta."
       />
       
       <MenuItem 
         name="Steak & Shrimp Curry Linguine"
         price="$32.99"
-        description="Sautéed Gulf shrimp with tender Angus sirloin and seasonal vegetables in a light herb curry emulsion over linguine pasta."
+        description="Sautéed Gulf shrimp with tender Angus sirloin and seasonal vegetables in a light herb curry emulsion with coconut milk over linguine pasta."
       />
     </div>
   </TabsContent>
@@ -693,13 +277,13 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Stromboli"
         price="$28.99"
-        description="Our signature double crust specialty stuffed with seasoned hamburger, Italian sausage, pepperoni, mushrooms, olives and onions. Served with our house marinara sauce."
+        description="Our signature double crust specialty stuffed with seasoned hamburger, Italian sausage, pepperoni, mushrooms, black olives and onions. Served with our house marinara sauce."
       />
       
       <MenuItem 
         name="Meat Lovers"
         price="$27.99"
-        description="A double-crust specialty stuffed with seasoned beef, Italian sausage, pepperoni, mozzarella cheese and our signature marinara sauce."
+        description="A hearty double-crust specialty stuffed with seasoned beef, Italian sausage, pepperoni, mozzarella cheese and our signature marinara sauce."
       />
       
       <MenuItem 
@@ -717,13 +301,13 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Margherita"
         price="$24.99"
-        description="Classic Italian pizza made with fresh mozzarella, ripe tomatoes, olive oil and fresh basil."
+        description="Classic Italian pizza made with fresh mozzarella, ripe tomatoes, extra virgin olive oil and fresh basil leaves on our wood-fired crust."
       />
       
       <MenuItem 
         name="Chicken & Shrimp"
         price="$28.99"
-        description="This specialty pizza is made with fire roasted chicken, sun-dried tomatoes, shrimp, fresh herbs and  alfredo sauce."
+        description="This specialty pizza is made with fire roasted chicken, sun-dried tomatoes, jumbo shrimp, fresh herbs and our creamy alfredo sauce on artisan crust."
       />
       
       <MenuItem 
@@ -735,7 +319,7 @@ export const PizzaTab = () => (
       <MenuItem 
         name="Moroccan"
         price="$27.99"
-        description="Mozzarella cheese, fresh tomatoes, Moroccan spiced chicken seasoned with coriander, cumin and chili seasoning."
+        description="Exotic pizza with mozzarella cheese, fresh tomatoes, Moroccan spiced chicken seasoned with coriander, cumin and chili spices on our signature crust."
       />
       
       <MenuItem 
@@ -765,7 +349,7 @@ export const KidsTab = () => (
       <MenuItem 
         name="Kids Pizza"
         price="$11.99"
-        description="Choose from classic cheese or pepperoni."
+        description="Personal-sized pizza made fresh with our signature dough. Choose from classic cheese or pepperoni with real mozzarella cheese."
       />
     </div>
   </TabsContent>
@@ -776,26 +360,26 @@ export const GlutenFreeTab = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <MenuItem 
         name="Shrimp Martini"
-        price="MP"
-        description="Succulent cold water jumbo prawns served chilled on a bed of ice with our homemade tangy cocktail sauce."
+        price="Market Price"
+        description="Succulent cold water jumbo prawns served chilled on a bed of ice with our homemade tangy cocktail sauce and fresh lemon wedges."
       />
       
       <MenuItem 
         name="Mussels Marinara"
         price="$25.99"
-        description="Fresh mussels prepared in our house red sauce with a touch of fresh garlic. Available mild or spicy to your preference."
+        description="Fresh mussels prepared in our house red marinara sauce with a touch of fresh garlic and herbs. Available mild or spicy to your preference."
       />
       
       <MenuItem 
         name="Chicken Torino"
         price="$19.99"
-        description="Grilled chicken breast with capers in a white wine sauce topped with  mozzarella cheese."
+        description="Grilled chicken breast with capers in a white wine sauce topped with melted mozzarella cheese. Served with vegetables and rice."
       />
       
       <MenuItem 
         name="Calamari"
         price="$18.99"
-        description="Fresh calamari rings sautéed with a touch of fresh garlic, lemon juice and olive oil. Served with our house lemon pomegranate sauce."
+        description="Fresh calamari rings sautéed with a touch of fresh garlic, lemon juice and extra virgin olive oil. Served with our house lemon pomegranate sauce."
       />
       
       <MenuItem 
@@ -808,7 +392,7 @@ export const GlutenFreeTab = () => (
       <MenuItem 
         name="Gluten Free Penne Creamy Pesto"
         price="$24.99+"
-        description="Gluten-free penne pasta tossed with sun-dried tomatoes and our house alfredo pesto sauce."
+        description="Gluten-free penne pasta tossed with sun-dried tomatoes and our house alfredo pesto sauce made with fresh basil and pine nuts."
         options="Add vegetables $25.99; Add chicken $26.99; Add shrimp $29.99"
       />
       
@@ -827,13 +411,13 @@ export const GlutenFreeTab = () => (
       <MenuItem 
         name="Vegetarian Curry"
         price="$22.99"
-        description="Special blend of our fresh seasonal vegetables cooked with aromatic spices and herbs. Served with basmati rice. Available mild or hot."
+        description="Special blend of our fresh seasonal vegetables cooked with aromatic spices and herbs in coconut milk. Served with basmati rice. Available mild or hot."
       />
       
       <MenuItem 
         name="Gluten Free Penne Vodka"
         price="$23.99+"
-        description="Imported gluten-free penne tossed with our creamy vodka sauce and fresh seasonal vegetables."
+        description="Imported gluten-free penne tossed with our creamy vodka sauce and fresh seasonal vegetables with herbs and parmesan cheese."
         options="With Chicken $25.99; With Shrimp $29.99"
       />
       
@@ -852,7 +436,7 @@ export const VegetarianTab = () => (
       <MenuItem 
         name="Stuffed Green Pepper"
         price="$19.99"
-        description="A tender sweet green pepper stuffed with basmati rice and fresh vegetables. Baked in our delicately spiced Mediterranean tomato sauce."
+        description="A tender sweet green pepper stuffed with seasoned basmati rice and fresh vegetables. Baked in our delicately spiced Mediterranean tomato sauce with herbs."
       />
       
       <MenuItem 
@@ -870,19 +454,19 @@ export const VegetarianTab = () => (
       <MenuItem 
         name="Thai Green Curry"
         price="$23.99"
-        description="Bell peppers, green peas and bamboo shoots in coconut milk. Served with sweet basil leaves and basmati rice."
+        description="Aromatic Thai curry with bell peppers, green peas and bamboo shoots in coconut milk with lemongrass and kaffir lime. Served with sweet basil leaves and basmati rice."
       />
       
       <MenuItem 
         name="Vegetarian Curry"
         price="$22.99"
-        description="Special blend of our fresh seasonal vegetables cooked with traditional Indian spices and herbs. Served with basmati rice. Available mild or hot."
+        description="Special blend of our fresh seasonal vegetables cooked with traditional Indian spices and herbs in coconut milk. Served with basmati rice. Available mild or hot."
       />
       
       <MenuItem 
         name="Grilled Mushrooms"
         price="$17.99"
-        description="Marinated charbroiled  mushrooms lemon pomegranate sauce."
+        description="Marinated portobello and button mushrooms charbroiled to perfection in our signature lemon pomegranate sauce with herbs and olive oil."
       />
     </div>
   </TabsContent>

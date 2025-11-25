@@ -40,6 +40,7 @@ const Navbar = () => {
     { name: "Menu", href: "/menu" },
     { name: "Drinks", href: "/drinks" },
     { name: "Reservations", href: "/reservations" },
+    { name: "New Year's Eve", href: "/new-years-eve" },
     { name: "Reviews", href: "/reviews" },
     { name: "Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },
