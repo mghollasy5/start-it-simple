@@ -28,7 +28,7 @@ const galleryImages = [
   },
   {
     id: 23,
-    src: "/lovable-uploads/921b1d62-90ab-42c8-bbba-548ba4216148.png",
+    src: "/lovable-uploads/921b1d62-90ab-42c8-bbba-548ba4216148.png?v=2",
     alt: "Winter wine table setting",
     caption: "Intimate table setting with premium wine selection"
   },
