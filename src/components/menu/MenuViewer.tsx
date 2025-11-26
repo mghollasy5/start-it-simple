@@ -7,11 +7,11 @@ const MenuViewer = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const menuImages = [
-    '/lovable-uploads/8362fa52-192b-4831-a664-c955a5e86fcc.png',
-    '/lovable-uploads/52cf9e40-92bc-4c40-8683-85195b1174b9.png',
-    '/lovable-uploads/9dd04517-dc56-42a3-8d39-8b81ec3cad84.png',
-    '/lovable-uploads/d2b53dd6-e44b-404d-8b8c-569e3c155e7d.png',
-    '/lovable-uploads/32191e01-0acc-46df-a8cd-97bfdfa318aa.png'
+    '/lovable-uploads/menu-page-1-appetizers.jpg',
+    '/lovable-uploads/menu-page-2-specialties.jpg',
+    '/lovable-uploads/menu-page-3-seafood-poultry.jpg',
+    '/lovable-uploads/menu-page-4-pasta-pizza.jpg',
+    '/lovable-uploads/menu-page-5-gluten-free.jpg'
   ];
 
   const handleZoomIn = () => {
