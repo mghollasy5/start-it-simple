@@ -8,8 +8,10 @@ const DrinksViewer = () => {
 
   // Wine/Drinks menu images
   const wineMenuImages = [
-    '/lovable-uploads/5a9f8822-95f9-431c-8d7c-1bb6fcd6b6d8.png', // Red Wine List
-    '/lovable-uploads/ede10eb9-8486-412e-9761-cf792caf3d93.png'  // White Wine List
+    '/lovable-uploads/drinks-page-1-red-wine.jpg',        // Red Wine List
+    '/lovable-uploads/drinks-page-2-white-wine.jpg',      // White Wine List
+    '/lovable-uploads/drinks-page-3-mocktails.jpg',       // Renaissance Mocktails
+    '/lovable-uploads/drinks-page-4-bourbon-whiskeys.jpg' // Bourbon & Whiskeys
   ];
 
   const handleZoomIn = () => {
