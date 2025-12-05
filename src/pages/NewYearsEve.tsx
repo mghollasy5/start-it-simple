@@ -9,7 +9,7 @@ import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#1e1e36] via-[#2e2e56] to-[#1e1e36]">
+    <div className="min-h-screen bg-gradient-to-b from-[#b8860b] via-[#d4a017] to-[#b8860b]">
       <Navbar />
       
       {/* Hero Section */}
@@ -21,7 +21,7 @@ const NewYearsEve = () => {
             alt="New Year's Eve Celebration" 
             className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#1e1e36]/60 via-transparent to-[#1e1e36]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#b8860b]/60 via-transparent to-[#b8860b]" />
         </div>
         
         {/* Animated background stars */}
@@ -84,7 +84,7 @@ const NewYearsEve = () => {
 
         {/* Decorative elements */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#1e1e36] to-transparent"
+          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#b8860b] to-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
