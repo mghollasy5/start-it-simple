@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Calendar, Clock, MapPin, Phone, Sparkles } from "lucide-react";
+import { Calendar, Clock, Phone, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/new-years-eve-hero.jpg";
 
@@ -194,10 +194,6 @@ const NewYearsEve = () => {
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-2 text-gray-400">
-            <MapPin className="w-5 h-5 text-yellow-400" />
-            <span>691 Broadway, Everett, MA</span>
-          </div>
         </motion.div>
       </section>
 
