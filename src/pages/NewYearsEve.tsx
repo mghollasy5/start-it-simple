@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, Phone, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   return (
@@ -13,8 +14,18 @@ const NewYearsEve = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-20">
-        {/* Animated background stars */}
+        {/* Hero background image */}
         <div className="absolute inset-0">
+          <img 
+            src={heroImage} 
+            alt="New Year's Eve Celebration" 
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a1a]/60 via-transparent to-[#0a0a1a]" />
+        </div>
+        
+        {/* Animated background stars */}
+        <div className="absolute inset-0 pointer-events-none">
           {[...Array(50)].map((_, i) => (
             <motion.div
               key={i}
