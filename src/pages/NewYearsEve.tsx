@@ -158,38 +158,6 @@ const NewYearsEve = () => {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-16 px-4 bg-gradient-to-b from-transparent via-yellow-400/5 to-transparent">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-8">
-              Pricing
-            </h2>
-            
-            <div className="grid md:grid-cols-2 gap-6 mb-12">
-              <div className="bg-white/10 backdrop-blur-sm border border-yellow-400/30 rounded-2xl p-8">
-                <h3 className="text-2xl font-playfair text-yellow-400 mb-2">Adults</h3>
-                <p className="text-5xl font-bold text-white mb-4">$125</p>
-                <p className="text-gray-400">Per person, all-inclusive</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm border border-yellow-400/30 rounded-2xl p-8">
-                <h3 className="text-2xl font-playfair text-yellow-400 mb-2">Children</h3>
-                <p className="text-5xl font-bold text-white mb-4">$55</p>
-                <p className="text-gray-400">Ages 12 and under</p>
-              </div>
-            </div>
-
-            <p className="text-gray-400 mb-8">
-              Tax and gratuity not included. Limited seating available.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Reservation CTA */}
       <section className="py-16 px-4">
         <motion.div
