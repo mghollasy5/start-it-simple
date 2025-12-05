@@ -15,7 +15,7 @@ const Reservations = () => {
         backgroundAttachment: 'fixed'
       }}
     >
-      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="absolute inset-0 bg-white/30"></div>
       <div className="relative z-10">
         <Navbar />
         
