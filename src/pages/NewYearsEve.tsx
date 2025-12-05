@@ -92,8 +92,16 @@ const NewYearsEve = () => {
       </section>
 
       {/* Event Details */}
-      <section className="py-16 px-4">
-        <div className="max-w-6xl mx-auto">
+      <section 
+        className="py-16 px-4 relative"
+        style={{
+          backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="max-w-6xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
