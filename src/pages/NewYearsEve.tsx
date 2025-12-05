@@ -9,7 +9,7 @@ import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0a0a1a] via-[#1a1a2e] to-[#0a0a1a]">
+    <div className="min-h-screen bg-gradient-to-b from-[#1a1a2e] via-[#2a2a4e] to-[#1a1a2e]">
       <Navbar />
       
       {/* Hero Section */}
@@ -21,7 +21,7 @@ const NewYearsEve = () => {
             alt="New Year's Eve Celebration" 
             className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a1a]/60 via-transparent to-[#0a0a1a]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a2e]/60 via-transparent to-[#1a1a2e]" />
         </div>
         
         {/* Animated background stars */}
@@ -84,7 +84,7 @@ const NewYearsEve = () => {
 
         {/* Decorative elements */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0a1a] to-transparent"
+          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#1a1a2e] to-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -100,7 +100,7 @@ const NewYearsEve = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/50" />
         <div className="max-w-6xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -175,7 +175,7 @@ const NewYearsEve = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/50" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
