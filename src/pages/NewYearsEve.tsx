@@ -65,21 +65,6 @@ const NewYearsEve = () => {
             </p>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex flex-wrap justify-center gap-4 text-black"
-          >
-            <div className="flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Calendar className="w-5 h-5 text-cafe-logoRed" />
-              <span>December 31, 2024</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Clock className="w-5 h-5 text-cafe-logoRed" />
-              <span>3:00 PM - 9:00 PM</span>
-            </div>
-          </motion.div>
         </div>
 
         {/* Decorative elements */}
