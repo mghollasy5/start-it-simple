@@ -9,7 +9,7 @@ import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#2a2a4e] via-[#3a3a6e] to-[#2a2a4e]">
+    <div className="min-h-screen bg-mediterranean-cream">
       <Navbar />
       
       {/* Hero Section */}
@@ -19,23 +19,23 @@ const NewYearsEve = () => {
           <img 
             src={heroImage} 
             alt="New Year's Eve Celebration" 
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-60"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#2a2a4e]/60 via-transparent to-[#2a2a4e]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-mediterranean-cream/60 via-transparent to-mediterranean-cream" />
         </div>
         
-        {/* Animated background stars */}
+        {/* Animated background sparkles */}
         <div className="absolute inset-0 pointer-events-none">
-          {[...Array(50)].map((_, i) => (
+          {[...Array(30)].map((_, i) => (
             <motion.div
               key={i}
-              className="absolute w-1 h-1 bg-yellow-300 rounded-full"
+              className="absolute w-1 h-1 bg-cafe-gold rounded-full"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
               }}
               animate={{
-                opacity: [0.2, 1, 0.2],
+                opacity: [0.2, 0.8, 0.2],
                 scale: [0.5, 1, 0.5],
               }}
               transition={{
@@ -53,14 +53,14 @@ const NewYearsEve = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Sparkles className="w-16 h-16 text-yellow-400 mx-auto mb-6" />
-            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-4">
+            <Sparkles className="w-16 h-16 text-cafe-logoRed mx-auto mb-6" />
+            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-black mb-4">
               New Year's Eve
             </h1>
-            <p className="text-2xl md:text-3xl font-playfair text-yellow-400 mb-2">
+            <p className="text-2xl md:text-3xl font-playfair text-cafe-logoRed mb-2">
               2025 Celebration
             </p>
-            <p className="text-xl text-gray-300 mb-8">
+            <p className="text-xl text-black/70 mb-8">
               Ring in the New Year at Cafe Renaissance
             </p>
           </motion.div>
@@ -69,14 +69,14 @@ const NewYearsEve = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex flex-wrap justify-center gap-4 text-gray-200"
+            className="flex flex-wrap justify-center gap-4 text-black"
           >
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Calendar className="w-5 h-5 text-yellow-400" />
+            <div className="flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+              <Calendar className="w-5 h-5 text-cafe-logoRed" />
               <span>December 31, 2024</span>
             </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Clock className="w-5 h-5 text-yellow-400" />
+            <div className="flex items-center gap-2 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+              <Clock className="w-5 h-5 text-cafe-logoRed" />
               <span>3:00 PM - 9:00 PM</span>
             </div>
           </motion.div>
@@ -84,7 +84,7 @@ const NewYearsEve = () => {
 
         {/* Decorative elements */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#2a2a4e] to-transparent"
+          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-mediterranean-cream to-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -108,10 +108,10 @@ const NewYearsEve = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-black mb-4">
               An Unforgettable Evening
             </h2>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto rounded-full" />
+            <div className="w-24 h-1 bg-cafe-logoRed mx-auto rounded-full" />
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -153,13 +153,13 @@ const NewYearsEve = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-all duration-300"
+                className="bg-white/30 backdrop-blur-sm border border-cafe-logoRed/20 rounded-2xl p-6 text-center hover:bg-white/50 transition-all duration-300"
               >
                 <span className="text-4xl mb-4 block">{item.icon}</span>
-                <h3 className="text-xl font-playfair font-bold text-white mb-2">
+                <h3 className="text-xl font-playfair font-bold text-black mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-400">{item.description}</p>
+                <p className="text-black/70">{item.description}</p>
               </motion.div>
             ))}
           </div>
@@ -167,7 +167,7 @@ const NewYearsEve = () => {
       </section>
 
       {/* Hours Section */}
-      <section className="py-12 px-4 bg-[#3a3a6e]">
+      <section className="py-12 px-4 bg-cafe-logoRed/10">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -176,17 +176,17 @@ const NewYearsEve = () => {
             className="text-center"
           >
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Clock className="w-8 h-8 text-yellow-400" />
-              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-white">
+              <Clock className="w-8 h-8 text-cafe-logoRed" />
+              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-black">
                 New Year's Eve Hours
               </h2>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 inline-block">
-              <p className="text-xl md:text-2xl text-white mb-2 font-playfair font-semibold">
-                Open from <span className="text-yellow-400 font-bold">3:00 PM</span>
+            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 inline-block">
+              <p className="text-xl md:text-2xl text-black mb-2 font-playfair font-semibold">
+                Open from <span className="text-cafe-logoRed font-bold">3:00 PM</span>
               </p>
-              <p className="text-lg md:text-xl text-gray-300 font-playfair font-semibold">
-                Last seating at <span className="text-yellow-400 font-bold">9:00 PM</span>
+              <p className="text-lg md:text-xl text-black/70 font-playfair font-semibold">
+                Last seating at <span className="text-cafe-logoRed font-bold">9:00 PM</span>
               </p>
             </div>
           </motion.div>
@@ -209,10 +209,10 @@ const NewYearsEve = () => {
           viewport={{ once: true }}
           className="max-w-2xl mx-auto text-center relative z-10"
         >
-          <h2 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-playfair font-bold text-black mb-6">
             Reserve Your Table
           </h2>
-          <p className="text-gray-300 mb-8">
+          <p className="text-black/70 mb-8">
             Seating is limited. Reserve early to secure your spot for this magical evening.
           </p>
           
@@ -220,7 +220,7 @@ const NewYearsEve = () => {
             <Link to="/reservations">
               <Button 
                 size="lg" 
-                className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8"
+                className="bg-cafe-logoRed hover:bg-cafe-logoRed/90 text-white font-semibold px-8"
               >
                 Make a Reservation
               </Button>
@@ -229,7 +229,7 @@ const NewYearsEve = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10"
+                className="border-cafe-logoRed text-cafe-logoRed hover:bg-cafe-logoRed/10"
               >
                 <Phone className="w-4 h-4 mr-2" />
                 Call Us
