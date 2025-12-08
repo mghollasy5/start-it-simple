@@ -100,7 +100,7 @@ const NewYearsEve = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-[#E8DCC8]/80" />
+        <div className="absolute inset-0 bg-[#E8DCC8]/50" />
         <div className="max-w-6xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -210,7 +210,7 @@ const NewYearsEve = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-[#E8DCC8]/80" />
+        <div className="absolute inset-0 bg-[#E8DCC8]/50" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
