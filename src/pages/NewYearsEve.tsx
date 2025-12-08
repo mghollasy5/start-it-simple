@@ -91,33 +91,6 @@ const NewYearsEve = () => {
         />
       </section>
 
-      {/* Hours Section */}
-      <section className="py-12 px-4 bg-gradient-to-r from-yellow-400/10 via-yellow-500/20 to-yellow-400/10">
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center"
-          >
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Clock className="w-8 h-8 text-yellow-400" />
-              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-white">
-                New Year's Eve Hours
-              </h2>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 inline-block">
-              <p className="text-xl md:text-2xl text-white mb-2">
-                Open from <span className="text-yellow-400 font-semibold">3:00 PM</span>
-              </p>
-              <p className="text-lg md:text-xl text-gray-300">
-                Last seating at <span className="text-yellow-400 font-semibold">9:00 PM</span>
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Event Details */}
       <section 
         className="py-16 px-4 relative"
@@ -190,6 +163,33 @@ const NewYearsEve = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Hours Section */}
+      <section className="py-12 px-4 bg-gradient-to-r from-yellow-400/10 via-yellow-500/20 to-yellow-400/10">
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Clock className="w-8 h-8 text-yellow-400" />
+              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-white">
+                New Year's Eve Hours
+              </h2>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 inline-block">
+              <p className="text-xl md:text-2xl text-white mb-2">
+                Open from <span className="text-yellow-400 font-semibold">3:00 PM</span>
+              </p>
+              <p className="text-lg md:text-xl text-gray-300">
+                Last seating at <span className="text-yellow-400 font-semibold">9:00 PM</span>
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
 
