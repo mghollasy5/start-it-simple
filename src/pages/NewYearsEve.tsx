@@ -167,7 +167,7 @@ const NewYearsEve = () => {
       </section>
 
       {/* Hours Section */}
-      <section className="py-12 px-4 bg-mediterranean-cream/30">
+      <section className="py-12 px-4 bg-[#3a3a6e]">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -176,17 +176,17 @@ const NewYearsEve = () => {
             className="text-center"
           >
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Clock className="w-8 h-8 text-cafe-logoRed" />
-              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-black">
+              <Clock className="w-8 h-8 text-yellow-400" />
+              <h2 className="text-2xl md:text-3xl font-playfair font-bold text-white">
                 New Year's Eve Hours
               </h2>
             </div>
-            <div className="bg-white/50 backdrop-blur-sm rounded-xl p-6 inline-block">
-              <p className="text-xl md:text-2xl text-black mb-2 font-playfair font-semibold">
-                Open from <span className="text-cafe-logoRed font-bold">3:00 PM</span>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 inline-block">
+              <p className="text-xl md:text-2xl text-white mb-2 font-playfair font-semibold">
+                Open from <span className="text-yellow-400 font-bold">3:00 PM</span>
               </p>
-              <p className="text-lg md:text-xl text-black font-playfair font-semibold">
-                Last seating at <span className="text-cafe-logoRed font-bold">9:00 PM</span>
+              <p className="text-lg md:text-xl text-gray-300 font-playfair font-semibold">
+                Last seating at <span className="text-yellow-400 font-bold">9:00 PM</span>
               </p>
             </div>
           </motion.div>
