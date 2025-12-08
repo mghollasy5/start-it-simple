@@ -63,7 +63,7 @@ const NewYearsEve = () => {
             <p className="text-xl text-black/70 mb-8 font-bold">
               Ring in the New Year at Cafe Renaissance
             </p>
-            <p className="text-lg md:text-xl text-cafe-logoRed max-w-2xl mx-auto font-playfair leading-relaxed">
+            <p className="text-lg md:text-xl text-cafe-logoRed max-w-2xl mx-auto font-playfair leading-relaxed font-bold">
               Greetings from all of us at the Cafe Renaissance. Wishing you all happy and healthy Holidays. We thank you for the opportunity you have given us throughout the years to serve you and wish to be of service to you in years to come.
             </p>
           </motion.div>
