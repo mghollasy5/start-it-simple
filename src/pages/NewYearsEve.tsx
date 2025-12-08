@@ -167,8 +167,16 @@ const NewYearsEve = () => {
       </section>
 
       {/* Hours Section */}
-      <section className="py-12 px-4 bg-gradient-to-r from-yellow-400/10 via-yellow-500/20 to-yellow-400/10">
-        <div className="max-w-4xl mx-auto">
+      <section 
+        className="py-12 px-4 relative"
+        style={{
+          backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black/35" />
+        <div className="max-w-4xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
