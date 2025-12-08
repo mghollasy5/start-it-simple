@@ -175,7 +175,7 @@ const NewYearsEve = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-black/10" />
+        <div className="absolute inset-0 bg-[#E8DCC8]/50" />
         <div className="max-w-4xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
