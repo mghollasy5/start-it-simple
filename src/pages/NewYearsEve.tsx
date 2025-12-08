@@ -9,7 +9,7 @@ import heroImage from "@/assets/new-years-eve-hero.jpg";
 
 const NewYearsEve = () => {
   return (
-    <div className="min-h-screen bg-mediterranean-cream">
+    <div className="min-h-screen bg-[#E8DCC8]">
       <Navbar />
       
       {/* Hero Section */}
@@ -21,7 +21,7 @@ const NewYearsEve = () => {
             alt="New Year's Eve Celebration" 
             className="w-full h-full object-cover opacity-60"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-mediterranean-cream/60 via-transparent to-mediterranean-cream" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#E8DCC8]/60 via-transparent to-[#E8DCC8]" />
         </div>
         
         {/* Animated background sparkles */}
@@ -84,7 +84,7 @@ const NewYearsEve = () => {
 
         {/* Decorative elements */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-mediterranean-cream to-transparent"
+          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#E8DCC8] to-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
