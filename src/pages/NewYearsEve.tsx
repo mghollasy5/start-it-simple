@@ -92,8 +92,16 @@ const NewYearsEve = () => {
       </section>
 
       {/* Event Details */}
-      <section className="py-16 px-4 bg-[#E8DCC8]">
-        <div className="max-w-6xl mx-auto">
+      <section 
+        className="py-16 px-4 relative"
+        style={{
+          backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-[#E8DCC8]/80" />
+        <div className="max-w-6xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -194,12 +202,20 @@ const NewYearsEve = () => {
       </section>
 
       {/* Reservation CTA */}
-      <section className="py-16 px-4 bg-[#E8DCC8]">
+      <section 
+        className="py-16 px-4 relative"
+        style={{
+          backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-[#E8DCC8]/80" />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="max-w-2xl mx-auto text-center"
+          className="max-w-2xl mx-auto text-center relative z-10"
         >
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-black mb-6">
             Reserve Your Table
