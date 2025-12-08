@@ -57,10 +57,10 @@ const NewYearsEve = () => {
             <h1 className="text-5xl md:text-7xl font-playfair font-bold text-black mb-4">
               New Year's Eve
             </h1>
-            <p className="text-2xl md:text-3xl font-playfair text-cafe-logoRed mb-2">
+            <p className="text-2xl md:text-3xl font-playfair text-cafe-logoRed mb-2 font-bold">
               2025 Celebration
             </p>
-            <p className="text-xl text-black/70 mb-8">
+            <p className="text-xl text-black/70 mb-8 font-bold">
               Ring in the New Year at Cafe Renaissance
             </p>
           </motion.div>
