@@ -19,7 +19,7 @@ const Employment = lazy(() => import("./pages/Employment"));
 const Reviews = lazy(() => import("./pages/Reviews"));
 const Reservations = lazy(() => import("./pages/Reservations"));
 const Coupons = lazy(() => import("./pages/Coupons"));
-const NewYearsEve = lazy(() => import("./pages/NewYearsEve"));
+const NYE = lazy(() => import("./pages/NYE"));
 
 // Create a ScrollToTop component
 const ScrollToTop = () => {
@@ -70,7 +70,7 @@ const App = () => (
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/coupons" element={<Coupons />} />
-            <Route path="/new-years-eve" element={<NewYearsEve />} />
+            <Route path="/nye" element={<NYE />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
