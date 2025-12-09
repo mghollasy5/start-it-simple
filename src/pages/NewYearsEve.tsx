@@ -1,88 +1,132 @@
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const NewYearsEve = () => {
+  const firstCourse = [
+    { name: "Smoked Lobster Chowder", description: "Chunks of lobster meat, roasted fine vegetables, brandy cream", price: "$9.99" },
+    { name: "Maple Butternut Squash Soup", description: "Ginger, and raspberry whipped cream", price: "$8.99" },
+    { name: "Mediterranean Salad", description: "Heart of romaine, tossed with lemon and olive oil topped with feta, cucumber, tomato and kalamata olive", price: "$8.99" },
+  ];
+
+  const secondCourse = [
+    { name: "Kobe Meatballs", description: "Two jumbo Kobe beef meatballs, served in Bourbon tomato basil sauce", price: "$18.99" },
+    { name: "Caviar", description: "Caspian Sea golden Osetra caviar, served with condiments", price: "$185.00" },
+    { name: "Calamari", description: "Lightly battered steaks, fried to a tender crisp, golden brown, served with the house marinara sauce, garnished with lemon juice and mint herb", price: "$22.99" },
+    { name: "Stuffed Shrimp", description: "Jumbo shrimp stuffed with crab, mascarpone cheese and herbs served with brandy lemon cream", price: "$22.99" },
+  ];
+
+  const mainCourse = [
+    { name: "Filet Mignon", description: "This pepper-crusted, 8 oz. thick delicious cut from the heart of tenderloin is cooked to your liking and proposed with truffle port demi glaze. Served with seasonal vegetables and Yukon potato.", price: "$69.99", addon: "Add Lobster tail $45.00" },
+    { name: "New Zealand Rack of Lamb", description: "Ginger herb and roasted garlic crusted rack of lamb with rosemary-mint vegetables and infused with Shiraz demi glaze. Served with sweet potato puree.", price: "$49.99" },
+    { name: "Bone-in Ribeye", description: "Carefully aged 20 oz Bone-in Ribeye charbroiled to your liking. Served with scalloped potatoes, vegetables and red wine Au jus.", price: "$69.99" },
+    { name: "Stuffed Atlantic Salmon", description: "8 oz filet of fresh Atlantic salmon stuffed with spinach, artichoke, garlic, and Mascarpone cheese. Served with vegetables, apricot and wild cherries chutney, and finished with Chardonnay reduction.", price: "$39.99" },
+    { name: "Moroccan Tagine", description: "A popular Casablanca style stew of selected meat, braised with onion, tomato, cumin, green olives and ginger. Finished with saffron harisa sauce reduction over a bed of basmati rice. Choice of chicken or vegetables. Garnished with preserved lemons.", price: "$33.99" },
+    { name: "Tortellini De Renaissance", description: "Sautéed chicken breast, shrimp, fresh basil, garlic, bell peppers in parmesan cream sauce, over tricolor cheese tortellini.", price: "$29.99" },
+    { name: "Lobster Mac", description: "Butter-bathed lobster sautéed with bacon, garlic, penne noodles in sharp cheddar and parmesan cream sauce.", price: "$52.99" },
+    { name: "Chicken Ballotine", description: "Stuffed chicken breast with spinach, artichoke, cheese blend and garlic. Served with potato puree and fresh steamed vegetables.", price: "$29.99" },
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-cafe-cream to-white">
       <Navbar />
       
-      {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center pt-32 pb-16">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40 z-10" />
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: "url('/lovable-uploads/e928198b-e369-40a2-8343-c00a11df7ad1.png')"
-          }}
-        />
-        
+      {/* Header */}
+      <section className="pt-32 pb-8 px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="relative z-20 text-center px-4 max-w-4xl mx-auto"
+          className="text-center max-w-4xl mx-auto"
         >
-          <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-6 drop-shadow-lg">
-            New Year's Eve 2025
+          <h1 className="text-4xl md:text-6xl font-playfair font-bold text-cafe-logoRed mb-4">
+            Happy New Year
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-            Celebrate the New Year in Style at Cafe Renaissance
+          <h2 className="text-3xl md:text-4xl font-playfair font-semibold text-black mb-6">
+            Chef Featured Menu
+          </h2>
+          <p className="text-lg text-black/70 italic">
+            Entrees are accompanied by our freshly baked focaccia bread, and complimentary champagne toast
           </p>
         </motion.div>
       </section>
 
-      {/* Content Section */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
+      {/* Menu Content */}
+      <section className="py-8 px-4">
+        <div className="max-w-4xl mx-auto space-y-12">
+          
+          {/* First Course */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-12"
           >
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-cafe-logoRed mb-6">
-              Join Us for an Unforgettable Evening
-            </h2>
-            <p className="text-lg text-black/70 leading-relaxed">
-              Ring in 2025 with an elegant dining experience featuring our special New Year's Eve menu, 
-              live entertainment, and a champagne toast at midnight.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-lg p-8 mb-12"
-          >
-            <h3 className="text-2xl font-playfair font-bold text-cafe-logoRed mb-4 text-center">
-              Event Details
+            <h3 className="text-2xl md:text-3xl font-playfair font-bold text-cafe-logoRed mb-6 text-center border-b-2 border-cafe-gold pb-3">
+              First Course
             </h3>
-            <div className="space-y-4 text-center">
-              <p className="text-lg"><strong>Date:</strong> December 31st, 2024</p>
-              <p className="text-lg"><strong>Time:</strong> 7:00 PM - 1:00 AM</p>
-              <p className="text-lg"><strong>Location:</strong> Cafe Renaissance</p>
+            <div className="space-y-6">
+              {firstCourse.map((item, index) => (
+                <div key={index} className="flex justify-between items-start gap-4">
+                  <div className="flex-1">
+                    <h4 className="text-xl font-playfair font-semibold text-black">{item.name}</h4>
+                    <p className="text-black/70 mt-1">{item.description}</p>
+                  </div>
+                  <span className="text-lg font-semibold text-cafe-logoRed whitespace-nowrap">{item.price}</span>
+                </div>
+              ))}
             </div>
           </motion.div>
 
+          {/* Second Course */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-center"
+            transition={{ duration: 0.6 }}
           >
-            <Link to="/reservations">
-              <Button className="bg-cafe-logoRed hover:bg-cafe-logoRed/90 text-white px-8 py-6 text-lg">
-                Make a Reservation
-              </Button>
-            </Link>
+            <h3 className="text-2xl md:text-3xl font-playfair font-bold text-cafe-logoRed mb-6 text-center border-b-2 border-cafe-gold pb-3">
+              Second Course
+            </h3>
+            <div className="space-y-6">
+              {secondCourse.map((item, index) => (
+                <div key={index} className="flex justify-between items-start gap-4">
+                  <div className="flex-1">
+                    <h4 className="text-xl font-playfair font-semibold text-black">{item.name}</h4>
+                    <p className="text-black/70 mt-1">{item.description}</p>
+                  </div>
+                  <span className="text-lg font-semibold text-cafe-logoRed whitespace-nowrap">{item.price}</span>
+                </div>
+              ))}
+            </div>
           </motion.div>
+
+          {/* Main Course */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h3 className="text-2xl md:text-3xl font-playfair font-bold text-cafe-logoRed mb-6 text-center border-b-2 border-cafe-gold pb-3">
+              Main Course
+            </h3>
+            <div className="space-y-6">
+              {mainCourse.map((item, index) => (
+                <div key={index} className="flex justify-between items-start gap-4">
+                  <div className="flex-1">
+                    <h4 className="text-xl font-playfair font-semibold text-black">{item.name}</h4>
+                    <p className="text-black/70 mt-1">{item.description}</p>
+                    {item.addon && (
+                      <p className="text-cafe-gold mt-1 italic">{item.addon}</p>
+                    )}
+                  </div>
+                  <span className="text-lg font-semibold text-cafe-logoRed whitespace-nowrap">{item.price}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
         </div>
       </section>
 
