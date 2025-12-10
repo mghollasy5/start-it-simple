@@ -72,7 +72,7 @@ const NewYearsEve = () => {
 
         {/* Decorative elements */}
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#E8DCC8] to-transparent"
+          className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#E8DCC8] to-transparent"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -81,7 +81,7 @@ const NewYearsEve = () => {
 
       {/* Event Details */}
       <section 
-        className="pt-8 pb-16 px-4 relative"
+        className="pt-0 pb-16 px-4 relative"
         style={{
           backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
           backgroundSize: 'cover',
