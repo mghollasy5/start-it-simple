@@ -168,9 +168,15 @@ const NewYearsEve = () => {
               <p className="text-xl md:text-2xl text-black mb-2 font-playfair font-semibold">
                 Open from <span className="text-cafe-logoRed font-bold">3:00 PM</span>
               </p>
-              <p className="text-lg md:text-xl text-black/70 font-playfair font-semibold">
+              <p className="text-lg md:text-xl text-black/70 font-playfair font-semibold mb-4">
                 Last seating at <span className="text-cafe-logoRed font-bold">9:00 PM</span>
               </p>
+              <p className="text-lg md:text-xl text-black font-playfair font-bold">
+                Please Call to Reserve Your Table
+              </p>
+              <a href="tel:320-253-9300" className="text-xl md:text-2xl text-cafe-logoRed font-playfair font-bold hover:underline">
+                320-253-9300
+              </a>
             </div>
           </motion.div>
         </div>
