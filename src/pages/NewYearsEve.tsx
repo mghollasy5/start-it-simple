@@ -133,6 +133,9 @@ const NewYearsEve = () => {
               >
                 Click here for the menu
               </a>
+              <p className="mt-4 text-lg md:text-xl text-black font-playfair font-bold">
+                The regular menu will not be offered this evening
+              </p>
             </div>
           </motion.div>
         </div>
