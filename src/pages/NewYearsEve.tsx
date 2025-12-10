@@ -129,7 +129,7 @@ const NewYearsEve = () => {
                 href="/new-years-eve-menu-2025.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="mt-6 inline-block text-lg md:text-xl text-cafe-logoRed font-playfair font-bold underline hover:text-cafe-logoRed/80 transition-colors"
+                className="mt-6 inline-block text-2xl md:text-3xl text-cafe-logoRed font-playfair font-bold underline hover:text-cafe-logoRed/80 transition-colors"
               >
                 Click here for the menu
               </a>
