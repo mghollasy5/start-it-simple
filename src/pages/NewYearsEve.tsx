@@ -118,8 +118,8 @@ const NewYearsEve = () => {
                   <span>Fresh seafood, flavorful entrees, all-natural meats</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-yellow-500">•</span>
-                  <span className="text-yellow-500">Complimentary champagne toast</span>
+                  <span className="text-cafe-logoRed">•</span>
+                  <span className="text-cafe-logoRed">Complimentary champagne toast</span>
                 </li>
               </ul>
               <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair font-bold">
