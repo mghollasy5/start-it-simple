@@ -143,7 +143,7 @@ const NewYearsEve = () => {
 
       {/* Hours Section */}
       <section 
-        className="py-12 px-4 relative"
+        className="pt-4 pb-12 px-4 relative"
         style={{
           backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
           backgroundSize: 'cover',
