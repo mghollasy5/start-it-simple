@@ -60,7 +60,7 @@ const NewYearsEve = () => {
             <p className="text-2xl md:text-3xl font-playfair text-cafe-logoRed mb-2 font-bold">
               2025 Celebration
             </p>
-            <p className="text-xl text-black/70 mb-8 font-bold">
+            <p className="text-2xl md:text-3xl text-black/70 mb-8 font-bold">
               Ring in the New Year at Cafe Renaissance
             </p>
             <p className="text-xl md:text-2xl text-amber-900 max-w-2xl mx-auto font-playfair leading-relaxed font-bold">
