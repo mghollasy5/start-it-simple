@@ -89,68 +89,40 @@ const NewYearsEve = () => {
         }}
       >
         <div className="absolute inset-0 bg-[#E8DCC8]/50" />
-        <div className="max-w-6xl mx-auto relative z-10">
+        <div className="max-w-4xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
+            className="text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold text-black mb-4">
-              An Unforgettable Evening
-            </h2>
-            <div className="w-24 h-1 bg-cafe-logoRed mx-auto rounded-full" />
+            <div className="bg-white/30 backdrop-blur-sm border border-cafe-logoRed/20 rounded-2xl p-8 md:p-12">
+              <p className="text-lg md:text-xl text-black leading-relaxed font-playfair">
+                Join us for a fabulous cuisine and let our staff suggest the perfect dining to celebrate the New Year.
+              </p>
+              <ul className="mt-6 space-y-3 text-lg md:text-xl text-black font-playfair text-left max-w-2xl mx-auto">
+                <li className="flex items-start gap-3">
+                  <span className="text-cafe-logoRed">•</span>
+                  <span>Enjoy the beautiful live background piano music</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cafe-logoRed">•</span>
+                  <span>A delectable variety of Renaissance Dining options</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cafe-logoRed">•</span>
+                  <span>Well-crafted flavor combinations and wine pairings</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-cafe-logoRed">•</span>
+                  <span>Fresh seafood, flavorful entrees, all-natural meats</span>
+                </li>
+              </ul>
+              <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair">
+                ...and an amazing selection of multi-course dinner of your favorite specialties. Fresh seafood, choice aged beef, lamb, poultry and more.
+              </p>
+            </div>
           </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Five-Course Dinner",
-                description: "Exquisite Italian cuisine featuring our chef's special holiday menu with premium ingredients",
-                icon: "🍽️"
-              },
-              {
-                title: "Live Entertainment",
-                description: "Enjoy live music and entertainment throughout the evening",
-                icon: "🎵"
-              },
-              {
-                title: "Champagne Toast",
-                description: "Welcome 2025 with a complimentary champagne toast at midnight",
-                icon: "🥂"
-              },
-              {
-                title: "Party Favors",
-                description: "Festive hats, noisemakers, and party accessories for all guests",
-                icon: "🎉"
-              },
-              {
-                title: "Midnight Countdown",
-                description: "Join us for the exciting countdown to the New Year",
-                icon: "⏰"
-              },
-              {
-                title: "Photo Opportunities",
-                description: "Capture memories at our elegant New Year's photo backdrop",
-                icon: "📸"
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white/30 backdrop-blur-sm border border-cafe-logoRed/20 rounded-2xl p-6 text-center hover:bg-white/50 transition-all duration-300"
-              >
-                <span className="text-4xl mb-4 block">{item.icon}</span>
-                <h3 className="text-xl font-playfair font-bold text-black mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-black/70">{item.description}</p>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </section>
 
