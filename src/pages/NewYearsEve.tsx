@@ -182,53 +182,6 @@ const NewYearsEve = () => {
         </div>
       </section>
 
-      {/* Reservation CTA */}
-      <section 
-        className="py-16 px-4 relative"
-        style={{
-          backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="absolute inset-0 bg-[#E8DCC8]/50" />
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-2xl mx-auto text-center relative z-10"
-        >
-          <h2 className="text-3xl md:text-4xl font-playfair font-bold text-black mb-6">
-            Reserve Your Table
-          </h2>
-          <p className="text-black/70 mb-8">
-            Seating is limited. Reserve early to secure your spot for this magical evening.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Link to="/reservations">
-              <Button 
-                size="lg" 
-                className="bg-cafe-logoRed hover:bg-cafe-logoRed/90 text-white font-semibold px-8"
-              >
-                Make a Reservation
-              </Button>
-            </Link>
-            <a href="tel:+17816531255">
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-cafe-logoRed text-cafe-logoRed hover:bg-cafe-logoRed/10"
-              >
-                <Phone className="w-4 h-4 mr-2" />
-                Call Us
-              </Button>
-            </a>
-          </div>
-
-        </motion.div>
-      </section>
-
       <Footer />
     </div>
   );
