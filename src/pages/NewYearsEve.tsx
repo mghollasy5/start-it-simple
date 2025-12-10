@@ -168,7 +168,7 @@ const NewYearsEve = () => {
               <p className="text-xl md:text-2xl text-black mb-2 font-playfair font-semibold">
                 Open from <span className="text-cafe-logoRed font-bold">3:00 PM</span>
               </p>
-              <p className="text-lg md:text-xl text-black/70 font-playfair font-semibold mb-4">
+              <p className="text-xl md:text-2xl text-black font-playfair font-semibold mb-4">
                 Last seating at <span className="text-cafe-logoRed font-bold">9:00 PM</span>
               </p>
               <p className="text-lg md:text-xl text-black font-playfair font-bold">
