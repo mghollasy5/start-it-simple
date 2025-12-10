@@ -125,6 +125,14 @@ const NewYearsEve = () => {
               <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair font-bold">
                 ...and an amazing selection of multi-course dinner of your favorite specialties. Fresh seafood, choice aged beef, lamb, poultry and more.
               </p>
+              <a 
+                href="/new-years-eve-menu-2025.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="mt-6 inline-block text-lg md:text-xl text-cafe-logoRed font-playfair font-bold underline hover:text-cafe-logoRed/80 transition-colors"
+              >
+                Click here for the menu
+              </a>
             </div>
           </motion.div>
         </div>
