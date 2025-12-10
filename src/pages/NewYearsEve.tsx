@@ -97,10 +97,10 @@ const NewYearsEve = () => {
             className="text-center"
           >
             <div className="bg-white/30 backdrop-blur-sm border border-cafe-logoRed/20 rounded-2xl p-8 md:p-12">
-              <p className="text-lg md:text-xl text-black leading-relaxed font-playfair">
+              <p className="text-lg md:text-xl text-black leading-relaxed font-playfair font-bold">
                 Join us for a fabulous cuisine and let our staff suggest the perfect dining to celebrate the New Year.
               </p>
-              <ul className="mt-6 space-y-3 text-lg md:text-xl text-black font-playfair text-left max-w-2xl mx-auto">
+              <ul className="mt-6 space-y-3 text-lg md:text-xl text-black font-playfair text-left max-w-2xl mx-auto font-bold">
                 <li className="flex items-start gap-3">
                   <span className="text-cafe-logoRed">•</span>
                   <span>Enjoy the beautiful live background piano music</span>
@@ -118,7 +118,7 @@ const NewYearsEve = () => {
                   <span>Fresh seafood, flavorful entrees, all-natural meats</span>
                 </li>
               </ul>
-              <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair">
+              <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair font-bold">
                 ...and an amazing selection of multi-course dinner of your favorite specialties. Fresh seafood, choice aged beef, lamb, poultry and more.
               </p>
             </div>
