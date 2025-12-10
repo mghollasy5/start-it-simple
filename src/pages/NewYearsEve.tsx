@@ -117,6 +117,10 @@ const NewYearsEve = () => {
                   <span className="text-cafe-logoRed">•</span>
                   <span>Fresh seafood, flavorful entrees, all-natural meats</span>
                 </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-yellow-500">•</span>
+                  <span className="text-yellow-500">Complimentary champagne toast</span>
+                </li>
               </ul>
               <p className="mt-6 text-lg md:text-xl text-black leading-relaxed font-playfair font-bold">
                 ...and an amazing selection of multi-course dinner of your favorite specialties. Fresh seafood, choice aged beef, lamb, poultry and more.
