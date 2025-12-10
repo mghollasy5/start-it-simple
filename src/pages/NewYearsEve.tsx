@@ -57,7 +57,7 @@ const NewYearsEve = () => {
             <h1 className="text-5xl md:text-7xl font-playfair font-bold text-black mb-4">
               New Year's Eve
             </h1>
-            <p className="text-2xl md:text-3xl font-playfair text-cafe-logoRed mb-2 font-bold">
+            <p className="text-3xl md:text-4xl font-playfair text-cafe-logoRed mb-2 font-bold">
               2025 Celebration
             </p>
             <p className="text-2xl md:text-3xl text-black/70 mb-8 font-bold">
