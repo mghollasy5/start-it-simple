@@ -54,7 +54,7 @@ const Footer = () => {
                 <p>Christmas Day</p>
                 <p>Easter</p>
                 <p>Labor Day</p>
-                <p>4th of July</p>
+                <p>4<sup>th</sup> of July</p>
               </div>
             </div>
           </div>
