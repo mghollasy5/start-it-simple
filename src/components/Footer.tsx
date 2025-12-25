@@ -32,12 +32,31 @@ const Footer = () => {
                   (320) 253-9300
                 </a>
               </p>
-              <div className="mt-2">
-                <h4 className="font-semibold mb-1">Hours:</h4>
-                <p>Monday-Saturday: 3:00 PM - 9:00 PM</p>
-                <p>Sunday: Closed</p>
-              </div>
             </address>
+          </div>
+          
+          {/* Hours section */}
+          <div className="text-center">
+            <h3 className="font-playfair text-xl font-semibold mb-3">Hours</h3>
+            <div className="text-white text-base font-medium space-y-2">
+              <div>
+                <h4 className="font-semibold text-cafe-gold">Open:</h4>
+                <p>Monday-Saturday 3 PM - 9 PM (last seating)</p>
+                <p>New Year's Eve</p>
+                <p>Valentine's Day</p>
+                <p>Mother's Day</p>
+              </div>
+              <div className="mt-3">
+                <h4 className="font-semibold text-cafe-gold">Closed:</h4>
+                <p>Sundays</p>
+                <p>Thanksgiving</p>
+                <p>Christmas Eve</p>
+                <p>Christmas Day</p>
+                <p>Easter</p>
+                <p>Labor Day</p>
+                <p>4th of July</p>
+              </div>
+            </div>
           </div>
           
           <div className="flex flex-col items-center lg:items-end gap-3">
