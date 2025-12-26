@@ -38,25 +38,31 @@ const Footer = () => {
           {/* Hours section */}
           <div className="text-center">
             <h3 className="font-playfair text-xl font-semibold mb-3">Hours</h3>
-            <div className="text-white text-base font-medium space-y-2">
-              <div>
+            <div className="text-white text-base font-medium grid grid-cols-2 gap-x-6 gap-y-1">
+              {/* Left column - Open */}
+              <div className="text-right">
                 <h4 className="font-semibold text-cafe-gold">Open:</h4>
                 <p>Monday-Saturday</p>
-                <p></p>
+              </div>
+              {/* Right column - Open details */}
+              <div className="text-left">
+                <p>&nbsp;</p>
                 <p>3 PM - 9 PM (last seating)</p>
                 <p>New Year's Eve</p>
                 <p>Valentine's Day</p>
                 <p>Mother's Day</p>
               </div>
-              <div className="mt-3">
+              {/* Left column - Closed */}
+              <div className="text-right mt-2">
                 <h4 className="font-semibold text-cafe-gold">Closed:</h4>
                 <p>Sundays</p>
-                <p>Thanksgiving</p>
-                <p>Christmas Eve</p>
-                <p>Christmas Day</p>
-                <p>Easter</p>
-                <p>Labor Day</p>
-                <p>4<sup>th</sup> of July</p>
+              </div>
+              {/* Right column - Closed details */}
+              <div className="text-left mt-2">
+                <p>&nbsp;</p>
+                <p>Thanksgiving, Christmas Eve</p>
+                <p>Christmas Day, Easter</p>
+                <p>Labor Day, 4<sup>th</sup> of July</p>
               </div>
             </div>
           </div>
