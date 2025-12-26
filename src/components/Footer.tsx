@@ -44,7 +44,7 @@ const Footer = () => {
                 <p>Monday-Saturday</p>
                 <p></p>
                 <p>3 PM - 9 PM (last seating)</p>
-                <p className="text-blue-400">New Year's Eve</p>
+                <p>New Year's Eve</p>
                 <p>Valentine's Day</p>
                 <p>Mother's Day</p>
               </div>
