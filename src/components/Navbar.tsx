@@ -81,7 +81,8 @@ const Navbar = () => {
                 onClick={() => handleNavigation(link.href)}
                 className={cn(
                   "text-white hover:text-cafe-gold transition-colors text-lg font-playfair font-medium tracking-wide uppercase hover:scale-105 transform transition-transform px-2 py-1 whitespace-nowrap",
-                  location.pathname === link.href && "text-cafe-gold font-semibold"
+                  location.pathname === link.href && "text-cafe-gold font-semibold",
+                  link.name === "New Year's Eve" && "text-blue-400 hover:text-blue-300"
                 )}
               >
                 {link.name}
@@ -119,7 +120,8 @@ const Navbar = () => {
                 onClick={() => handleNavigation(link.href)}
                 className={cn(
                   "text-white hover:text-cafe-gold py-2 transition-colors text-left text-lg font-playfair font-medium tracking-wide uppercase px-2",
-                  location.pathname === link.href && "text-cafe-gold font-semibold"
+                  location.pathname === link.href && "text-cafe-gold font-semibold",
+                  link.name === "New Year's Eve" && "text-blue-400 hover:text-blue-300"
                 )}
               >
                 {link.name}
