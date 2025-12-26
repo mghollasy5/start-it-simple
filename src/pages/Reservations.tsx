@@ -45,9 +45,12 @@ const Reservations = () => {
                   
                   <div>
                     <h4 className="font-playfair text-xl font-bold text-cafe-logoRed mb-3">Hours</h4>
-                    <div className="space-y-2 font-playfair text-base font-semibold">
+                    <div className="space-y-3 font-playfair text-base font-semibold">
                       <p className="text-black">
                         Monday-Saturday 3pm to 9pm (last seating), New Year's Eve, Mother's Day, Valentine's Day
+                      </p>
+                      <p className="text-black">
+                        <span className="font-bold">Closed:</span> Sundays, Thanksgiving, Christmas Eve, Christmas Day, Easter, Labor Day, 4th of July
                       </p>
                     </div>
                   </div>
