@@ -43,11 +43,11 @@ const Footer = () => {
               <div className="text-right">
                 <h4 className="font-semibold text-cafe-gold">Open:</h4>
                 <p>Monday-Saturday</p>
+                <p>3 PM - 9 PM (last seating)</p>
               </div>
               {/* Right column - Open details */}
               <div className="text-left">
                 <p>&nbsp;</p>
-                <p>3 PM - 9 PM (last seating)</p>
                 <p>New Year's Eve</p>
                 <p>Valentine's Day</p>
                 <p>Mother's Day</p>
