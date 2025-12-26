@@ -38,7 +38,7 @@ const About = () => {
                         The Mediterranean diet is extremely healthy being lower in processed foods and animal fats, and is often based on local produce, wheat products, such as bread, pastry and pasta, fresh fruit and vegetables, fish and olive oil. The menu will include our complimentary house soup, variety of vegetarian, seafood, chicken, beef, lamb, and assortment of luscious in house specialties and desserts.
                       </p>
                       <p className="mb-4 leading-relaxed text-justify">
-                        The median price range is $9.00 to $29.00 to meet every taste and budget. We offer a wide selection of Vegetarian and Gluten Free menu sections. The Café Renaissance is a favorite site for engagement parties, wedding, corporate events, office catering, product launches and fundraisers, or any special event.
+                        The median price range is $15.00 to $49.00 to meet every taste and budget. We offer a wide selection of Vegetarian and Gluten Free menu sections. The Café Renaissance is a favorite site for engagement parties, wedding, corporate events, office catering, product launches and fundraisers, or any special event.
                       </p>
                       <p className="mb-4 leading-relaxed text-justify">
                         We offer the ambiance, food quality and selection, a global menu, and service that is unmatched in upper Midwest. The restaurant house a full service coffee shop with wireless internet service. Top off the evening with one of the signature coffees or a shot of Espresso, or enjoy a cocktail served from our full bar menu, along with an extensive wine list to compliment your dining experience.
