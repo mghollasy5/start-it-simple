@@ -46,17 +46,9 @@ const Reservations = () => {
                   <div>
                     <h4 className="font-playfair text-xl font-bold text-cafe-logoRed mb-3">Hours</h4>
                     <div className="space-y-2 font-playfair text-base font-semibold">
-                      <div className="flex justify-between">
-                        <span className="font-bold text-black">Monday - Saturday</span>
-                        <span className="text-black">3:00pm - 9:00pm</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-bold text-black">Sunday</span>
-                        <span className="text-black">Closed</span>
-                      </div>
-                      <div className="text-sm mt-2 text-black/80 font-semibold">
-                        <span>Open on Valentine's Day, Mother's Day and New Year's Eve</span>
-                      </div>
+                      <p className="text-black">
+                        Monday-Saturday 3pm to 9pm (last seating), New Year's Eve, Mother's Day, Valentine's Day
+                      </p>
                     </div>
                   </div>
                   
