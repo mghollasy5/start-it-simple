@@ -39,7 +39,8 @@ const Footer = () => {
           <div className="text-center">
             <h3 className="font-playfair text-xl font-semibold mb-3">Hours</h3>
             <div className="text-white text-base font-medium">
-              {/* Open row */}
+              {/* Open section */}
+              <h4 className="font-semibold text-cafe-gold mb-1">Open:</h4>
               <div className="grid grid-cols-2 gap-x-4">
                 <p className="text-right">Monday-Saturday</p>
                 <p className="text-left">3 PM - 9 PM (last seating)</p>
