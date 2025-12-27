@@ -38,32 +38,34 @@ const Footer = () => {
           {/* Hours section */}
           <div className="text-center">
             <h3 className="font-playfair text-xl font-semibold mb-3">Hours</h3>
-            <div className="text-white text-base font-medium grid grid-cols-2 gap-x-6 gap-y-1">
-              {/* Left column - Open */}
-              <div className="text-right">
-                <h4 className="font-semibold text-cafe-gold">Open:</h4>
-                <p>Monday-Saturday</p>
-                <p>3 PM - 9 PM</p>
-                <p>(last seating)</p>
+            <div className="text-white text-base font-medium">
+              {/* Open row */}
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">Monday-Saturday</p>
+                <p className="text-left">3 PM - 9 PM (last seating)</p>
               </div>
-              {/* Right column - Open details */}
-              <div className="text-left">
-                <p>&nbsp;</p>
-                <p>New Year's Eve</p>
-                <p>Valentine's Day</p>
-                <p>Mother's Day</p>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">New Year's Eve</p>
+                <p className="text-left">Valentine's Day</p>
               </div>
-              {/* Left column - Closed */}
-              <div className="text-right mt-2">
-                <h4 className="font-semibold text-cafe-gold">Closed:</h4>
-                <p>Sundays</p>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">Mother's Day</p>
+                <p className="text-left">&nbsp;</p>
               </div>
-              {/* Right column - Closed details */}
-              <div className="text-left mt-2">
-                <p>&nbsp;</p>
-                <p>Thanksgiving, Christmas Eve</p>
-                <p>Christmas Day, Easter</p>
-                <p>Labor Day, 4<sup>th</sup> of July</p>
+              
+              {/* Closed section */}
+              <h4 className="font-semibold text-cafe-gold mt-3 mb-1">Closed:</h4>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">Sundays</p>
+                <p className="text-left">Thanksgiving</p>
+              </div>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">Easter</p>
+                <p className="text-left">Christmas Eve</p>
+              </div>
+              <div className="grid grid-cols-2 gap-x-4">
+                <p className="text-right">Labor Day</p>
+                <p className="text-left">4<sup>th</sup> of July</p>
               </div>
             </div>
           </div>
