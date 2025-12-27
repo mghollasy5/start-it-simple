@@ -73,6 +73,14 @@ const Footer = () => {
           
           <div className="flex flex-col items-center lg:items-end gap-3">
             <a 
+              href="https://visitor.r20.constantcontact.com/manage/optin?v=001AAPQafplpnLjmEJs03A5qvOnhyVja35KhZuEyeoNacFkcX4Kc3xHxUMwLT9FsQZaKC5fC0bie3ZW85qtZe8LDpX6EC7JfO7B" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-cafe-gold/10 backdrop-blur-sm hover:bg-cafe-gold/20 transition-all px-4 py-2 text-cafe-gold hover:scale-105 transform"
+            >
+              <span className="font-medium whitespace-nowrap">Join Our Newsletter</span>
+            </a>
+            <a 
               href="https://www.facebook.com/p/The-Caf%C3%A9-Renaissance-100063656138711/" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -81,14 +89,6 @@ const Footer = () => {
             >
               <Facebook size={18} className="text-cafe-gold" />
               <span className="font-medium">Follow us</span>
-            </a>
-            <a 
-              href="https://visitor.r20.constantcontact.com/manage/optin?v=001AAPQafplpnLjmEJs03A5qvOnhyVja35KhZuEyeoNacFkcX4Kc3xHxUMwLT9FsQZaKC5fC0bie3ZW85qtZe8LDpX6EC7JfO7B" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-cafe-gold/10 backdrop-blur-sm hover:bg-cafe-gold/20 transition-all px-4 py-2 text-cafe-gold hover:scale-105 transform"
-            >
-              <span className="font-medium whitespace-nowrap">Join Our Newsletter</span>
             </a>
           </div>
         </div>
