@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="flex flex-col items-center lg:items-end gap-3">
+          <div className="flex flex-col sm:flex-row items-center lg:items-end gap-3">
             <a 
               href="https://www.facebook.com/p/The-Caf%C3%A9-Renaissance-100063656138711/" 
               target="_blank" 
