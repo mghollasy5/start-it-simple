@@ -88,7 +88,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-cafe-gold/10 backdrop-blur-sm hover:bg-cafe-gold/20 transition-all px-4 py-2 text-cafe-gold hover:scale-105 transform"
             >
-              <span className="font-medium">Join Our Newsletter</span>
+              <span className="font-medium whitespace-nowrap">Join Our Newsletter</span>
             </a>
           </div>
         </div>
