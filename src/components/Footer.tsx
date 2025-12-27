@@ -61,11 +61,11 @@ const Footer = () => {
                 <p className="text-left">Thanksgiving</p>
               </div>
               <div className="grid grid-cols-2 gap-x-4">
-                <p className="text-right">Easter</p>
+                <p className="text-right">Labor Day</p>
                 <p className="text-left">Christmas Eve</p>
               </div>
               <div className="grid grid-cols-2 gap-x-4">
-                <p className="text-right">Labor Day</p>
+                <p className="text-right">Easter</p>
                 <p className="text-left">4<sup>th</sup> of July</p>
               </div>
             </div>
