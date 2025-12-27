@@ -43,7 +43,7 @@ const Footer = () => {
               <h4 className="font-semibold text-cafe-gold mb-1">Open:</h4>
               <div className="grid grid-cols-2 gap-x-4">
                 <p className="text-right">Monday-Saturday</p>
-                <p className="text-left">3 PM - 9 PM (last seating)</p>
+                <p className="text-left whitespace-nowrap">3 PM - 9 PM (last seating)</p>
               </div>
               <div className="grid grid-cols-2 gap-x-4">
                 <p className="text-right">New Year's Eve</p>
