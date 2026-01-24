@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Heart, Calendar, Clock, Phone } from "lucide-react";
+import { Heart, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ValentinesDay = () => {
@@ -56,48 +56,10 @@ const ValentinesDay = () => {
             </h2>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
               Join us for an unforgettable Valentine's Day dinner featuring our specially crafted 
-              romantic menu, candlelit ambiance, and the exceptional Italian cuisine you love.
+              romantic menu.
             </p>
           </div>
 
-          {/* Features Grid */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-rose-100 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calendar className="w-8 h-8 text-rose-600" />
-              </div>
-              <h3 className="text-xl font-playfair font-semibold text-rose-800 mb-2">
-                Special Date
-              </h3>
-              <p className="text-gray-600">
-                Friday, February 14th, 2026
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-rose-100 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-rose-600" />
-              </div>
-              <h3 className="text-xl font-playfair font-semibold text-rose-800 mb-2">
-                Dinner Hours
-              </h3>
-              <p className="text-gray-600">
-                4:00 PM - 10:00 PM
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-rose-100 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-rose-600" />
-              </div>
-              <h3 className="text-xl font-playfair font-semibold text-rose-800 mb-2">
-                Romantic Ambiance
-              </h3>
-              <p className="text-gray-600">
-                Candlelit tables & live music
-              </p>
-            </div>
-          </div>
 
           {/* Menu Preview */}
           <div className="bg-gradient-to-br from-rose-800 to-red-900 rounded-3xl p-8 md:p-12 text-white mb-16">
