@@ -67,7 +67,9 @@ const ValentinesDay = () => {
               Valentine's Day Special Menu
             </h2>
             <a 
-              href="/menu" 
+              href="/Valentines_Day_Menu.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-pink-200 hover:text-white underline text-lg transition-colors"
             >
               Click here to view the menu
