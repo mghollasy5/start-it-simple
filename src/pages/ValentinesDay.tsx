@@ -62,56 +62,16 @@ const ValentinesDay = () => {
 
 
           {/* Menu Preview */}
-          <div className="bg-gradient-to-br from-rose-800 to-red-900 rounded-3xl p-8 md:p-12 text-white mb-16">
-            <h2 className="text-3xl font-playfair font-bold text-center mb-8">
+          <div className="bg-gradient-to-br from-rose-800 to-red-900 rounded-3xl p-8 md:p-12 text-white mb-16 text-center">
+            <h2 className="text-3xl font-playfair font-bold mb-6">
               Valentine's Day Special Menu
             </h2>
-            
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-playfair font-semibold text-pink-200 mb-4 border-b border-pink-300/30 pb-2">
-                  Appetizers
-                </h3>
-                <ul className="space-y-3 text-pink-50">
-                  <li>Bruschetta al Pomodoro</li>
-                  <li>Caprese Salad with Fresh Mozzarella</li>
-                  <li>Stuffed Mushrooms</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-playfair font-semibold text-pink-200 mb-4 border-b border-pink-300/30 pb-2">
-                  Entrées
-                </h3>
-                <ul className="space-y-3 text-pink-50">
-                  <li>Lobster Ravioli in Champagne Sauce</li>
-                  <li>Filet Mignon with Truffle Risotto</li>
-                  <li>Chicken Marsala</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-playfair font-semibold text-pink-200 mb-4 border-b border-pink-300/30 pb-2">
-                  Desserts
-                </h3>
-                <ul className="space-y-3 text-pink-50">
-                  <li>Chocolate Lava Cake for Two</li>
-                  <li>Tiramisu with Raspberry Coulis</li>
-                  <li>Panna Cotta with Fresh Berries</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-playfair font-semibold text-pink-200 mb-4 border-b border-pink-300/30 pb-2">
-                  Wine Pairings
-                </h3>
-                <ul className="space-y-3 text-pink-50">
-                  <li>Champagne Selections</li>
-                  <li>Romantic Red Wine Flights</li>
-                  <li>Premium Italian Wines</li>
-                </ul>
-              </div>
-            </div>
+            <a 
+              href="/menu" 
+              className="text-pink-200 hover:text-white underline text-lg transition-colors"
+            >
+              Click here to view the menu
+            </a>
           </div>
 
           {/* Reservation CTA */}
