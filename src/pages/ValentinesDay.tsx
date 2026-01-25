@@ -85,7 +85,7 @@ const ValentinesDay = () => {
             <p className="text-2xl font-semibold text-rose-700 mb-4">
               320-253-9300
             </p>
-            <p className="text-gray-600">
+            <p className="text-2xl font-bold text-black">
               Valentine's Day hours: 3:00 PM – Last seating at 9:00 PM
             </p>
           </div>
