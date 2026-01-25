@@ -54,10 +54,6 @@ const ValentinesDay = () => {
             <h2 className="text-4xl font-playfair font-bold text-rose-800 mb-6">
               A Romantic Evening Awaits
             </h2>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
-              Join us for an unforgettable Valentine's Day dinner featuring our specially crafted 
-              romantic menu.
-            </p>
           </div>
 
 
