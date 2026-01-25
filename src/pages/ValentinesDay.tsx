@@ -63,9 +63,12 @@ const ValentinesDay = () => {
 
           {/* Menu Preview */}
           <div className="bg-gradient-to-br from-rose-800 to-red-900 rounded-3xl p-8 md:p-12 text-white mb-16 text-center">
-            <h2 className="text-3xl font-playfair font-bold mb-6">
+            <h2 className="text-3xl font-playfair font-bold mb-4">
               Valentine's Day Special Menu
             </h2>
+            <p className="text-pink-100 mb-6 max-w-2xl mx-auto">
+              Join us for a fabulous cuisine and let our staff suggest the perfect dining experience to celebrate Valentine's Day.
+            </p>
             <a 
               href="/Valentines_Day_Menu.pdf" 
               target="_blank"
