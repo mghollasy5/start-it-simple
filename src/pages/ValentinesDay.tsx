@@ -5,7 +5,17 @@ import { Button } from "@/components/ui/button";
 
 const ValentinesDay = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div 
+      className="min-h-screen relative"
+      style={{
+        backgroundImage: `url(/lovable-uploads/64115057-a0fd-4cee-87ca-02b9addebedf.png)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="relative z-10">
       <Navbar />
       
       {/* Hero Section */}
@@ -93,6 +103,7 @@ const ValentinesDay = () => {
       </section>
 
       <Footer />
+      </div>
     </div>
   );
 };
