@@ -66,14 +66,14 @@ const ValentinesDay = () => {
             <h2 className="text-3xl font-playfair font-bold mb-4">
               Valentine's Day Special Menu
             </h2>
-            <p className="text-pink-100 mb-6 max-w-2xl mx-auto">
+            <p className="text-2xl md:text-3xl text-pink-100 mb-6 max-w-2xl mx-auto">
               Join us for a fabulous cuisine and let our staff suggest the perfect dining experience to celebrate Valentine's Day.
             </p>
             <a 
               href="/Valentines_Day_Menu.pdf" 
               target="_blank"
               rel="noopener noreferrer"
-              className="text-pink-200 hover:text-white underline text-lg transition-colors"
+              className="text-pink-200 hover:text-white underline text-2xl md:text-3xl transition-colors"
             >
               Click here to view the menu
             </a>
