@@ -39,6 +39,7 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Menu", href: "/menu" },
     { name: "Drinks", href: "/drinks" },
+    { name: "Valentine's Day", href: "/valentines-day" },
     { name: "Reservations", href: "/reservations" },
     { name: "Reviews", href: "/reviews" },
     { name: "Gallery", href: "/gallery" },
@@ -80,7 +81,8 @@ const Navbar = () => {
                 onClick={() => handleNavigation(link.href)}
                 className={cn(
                   "text-white hover:text-cafe-gold transition-colors text-lg font-playfair font-medium tracking-wide uppercase hover:scale-105 transform transition-transform px-2 py-1 whitespace-nowrap",
-                  location.pathname === link.href && "text-cafe-gold font-semibold"
+                  location.pathname === link.href && "text-cafe-gold font-semibold",
+                  link.href === "/valentines-day" && "text-pink-300 text-xl font-semibold hover:text-pink-200"
                 )}
               >
                 {link.name}
@@ -118,7 +120,8 @@ const Navbar = () => {
                 onClick={() => handleNavigation(link.href)}
                 className={cn(
                   "text-white hover:text-cafe-gold py-2 transition-colors text-left text-lg font-playfair font-medium tracking-wide uppercase px-2",
-                  location.pathname === link.href && "text-cafe-gold font-semibold"
+                  location.pathname === link.href && "text-cafe-gold font-semibold",
+                  link.href === "/valentines-day" && "text-pink-300 text-xl font-semibold hover:text-pink-200"
                 )}
               >
                 {link.name}
