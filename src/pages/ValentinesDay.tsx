@@ -49,9 +49,9 @@ const ValentinesDay = () => {
           <p className="text-xl md:text-2xl text-pink-100 font-light tracking-wide">
             Celebrate Love at Café Renaissance
           </p>
-          <p className="text-2xl md:text-3xl text-pink-200 mt-2">
-            Friday, February 14th, 2026
-          </p>
+           <p className="text-2xl md:text-3xl text-pink-200 mt-2">
+             Saturday, February 14th, 2026
+           </p>
         </div>
       </section>
 
